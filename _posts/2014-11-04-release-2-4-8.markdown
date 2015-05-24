@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Version 2.4.8 Released"
+date:   2014-11-04 11:24:36
+categories: ilios release
+---
+We are pleased to announce the release of version 2.4.8, available now for download and installation.
+
+This point release includes a number of workflow enhancements to improve the Ilios experience:
+
+- A new option for populating user groups, allowing new top level groups to either be pre-populated or generated with no members;
+- Better color contrast for the icon denoting “scheduled” sessions in the course management pages
+- This release also corrects a bug introduced with 2.4.7, which disabled the ability to add new users via the administration console.
+
+The full changelist, along with the code download for install and/or upgrade, can be found here:
+
+https://github.com/ilios/ilios/releases/tag/v2.4.8
+
+Interested in the data model updates for the latest Ilios version? You can get the ERD [here](https://github.com/ilios/ilios/wiki/Database-ERD)!

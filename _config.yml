@@ -1,0 +1,10 @@
+# Site settings
+title: "Ilios"
+email: support@iliosproject.org
+description: >
+    Curriculum Management for the Health Professions
+baseurl: ""
+url: "https://ilios.github.io"
+github_username:  ilios
+# Build settings
+markdown: kramdown

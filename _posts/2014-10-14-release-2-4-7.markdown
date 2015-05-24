@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Version 2.4.7 Released"
+date:   2014-10-14 10:19:44
+categories: ilios release
+---
+We are pleased to announce the release of the latest upgrade to Ilios, version **2.4.7**.
+
+This update includes a number of bug fixes and code improvements focusing on calendar filtering and user account management. Also included are new features extending the time window of the calendar download and feeds to 6 months (3 months back and 3 months forward), as well as a new flag allowing the identification of former students such as graduates.
+
+Further information on these new features can be found in the [updated User Guide](http://bit.ly/1fJDBBs) (pp.7, 40), available online at [http://bit.ly/1fJDBBs](http://bit.ly/1fJDBBs).
+
+The download for the code distribution is here: [https://github.com/ilios/ilios/releases/tag/v2.4.7](https://github.com/ilios/ilios/releases/tag/v2.4.7), along with the full change list.
