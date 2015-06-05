@@ -1,7 +1,20 @@
-# ilios.github.io
-Ilios Project Website
+## About
 
-You can run this site locally:
+This is the code-base for the new Ilios Project Website. The site is currently under construction.
 
-- bundle install
-- bundle exec jekyll serve
+## Development
+
+`ruby`, `gem` and `bundler` are assumed to be installed.
+
+### Installation
+
+```bash
+bundle install
+```
+
+## Running the site locally 
+
+```
+bundle exec jekyll serve
+```
+
