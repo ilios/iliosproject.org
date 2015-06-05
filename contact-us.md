@@ -19,7 +19,3 @@ Or if you wish, you may call the UCSF School of Medicine Office of Technology En
 If you would like to be added to the Ilios monthly status updates and release notice distribution list, please [subscribe here](http://iliosproject.org/DadaMail/dada/mail.cgi/).
 
 If you are a current institutional Ilios user, and require assistance or advice regarding your installation, please email us at [support@iliosproject.org](mailto:support@iliosproject.org?subject=Support Request).
-
-<!---<br />
-If you would like to participate in our institutional survey, please <a href="http://www.surveymonkey.com/s/3FLK6RS" target="_survey">click here</a>: <a href="http://www.surveymonkey.com/s/3FLK6RS" target="_survey">http://www.surveymonkey.com/s/3FLK6RS</a><br />
---->
