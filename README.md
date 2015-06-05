@@ -12,7 +12,7 @@ This is the code-base for the new Ilios Project Website. The site is currently u
 bundle install
 ```
 
-## Running the site locally 
+### Running the site locally 
 
 ```
 bundle exec jekyll serve
