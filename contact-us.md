@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact US
+title: Contact Us
 permalink: /contact/
 topLevel: true
 ---
