@@ -9,6 +9,8 @@ layout: page
 - [Check out our Wiki](https://github.com/ilios/ilios/wiki)
 - [Read the FAQs](https://github.com/ilios/ilios/wiki/FAQS)
 - [Subscribe for Updates](http://iliosproject.org/DadaMail/dada/mail.cgi/)
+- [Demo Site Information](https://www.dropbox.com/s/pwqihqb9todkqw6/DemoSite.pdf?dl=0)
+- [Latest User Guide](https://www.dropbox.com/sh/3cfxfzdspzf10wp/KbaFS5LKkM)
 
 <h2>Latest News</h2>
 
