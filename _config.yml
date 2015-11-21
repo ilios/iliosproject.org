@@ -8,3 +8,4 @@ url: "https://ilios.github.io"
 github_username:  ilios
 # Build settings
 markdown: kramdown
+exclude: [Gemfile, Gemfile.lock, LICENSE]
