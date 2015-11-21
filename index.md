@@ -13,10 +13,10 @@ layout: page
 - [Demo Site Information](https://www.dropbox.com/s/pwqihqb9todkqw6/DemoSite.pdf?dl=0)
 - [Latest User Guide](https://www.dropbox.com/sh/3cfxfzdspzf10wp/KbaFS5LKkM)
 
-## Latest News
+## Latest News 
 
 <ul class="post-list">
-  {% for post in site.posts  limit:3 %}
+  {% for post in site.posts  limit:2 %}
     <li>
       <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -24,7 +24,7 @@ layout: page
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
       
-      {{post.content}}
+      {{post.excerpt}} <a href="{{ post.url | prepend: site.baseurl }}">...read more</a>
       
     </li>
   {% endfor %}
