@@ -6,6 +6,8 @@ layout: page
 {% assign content = post.content %}
 <h1>Ilios: Curriculum Management from UCSF</h1>
 
+<img src='media/biglogo.png' />
+
 - [Check out our Wiki](https://github.com/ilios/ilios/wiki)
 - [Read the FAQs](https://github.com/ilios/ilios/wiki/FAQS)
 - [Subscribe for Updates](http://iliosproject.org/DadaMail/dada/mail.cgi/)
