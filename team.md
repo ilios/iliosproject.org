@@ -6,17 +6,18 @@ topLevel: true
 ---
  **The Ilios Project Team**
 
-- Sascha Cohen, Director, Strategic Development
-- Jon Johnson, Lead Applications Programmer
-- Jason Hedrick, Applications Programmer
-- Dave Leonard, User Support
+- Sascha Cohen (@saschaben), Director, Strategic Development
+- Jon Johnson (@jrjohnson), Lead Applications Programmer
+- Stefan Topfstedt (@stopfstedt), Applications Programmer
+- Jason Hedrick (@thecoolestguy), Applications Programmer
+- Thomas Lee (@djvoa12), Applications Programmer
+- Jen Zweben (@jenzweben), Visual and User Experience Design
+- Carson Tam (@ctam), Contributor
+- Dave Leonard (@dartajaz), User Support
 
-- Stefan Topfstedt, Contributor
-- Carson Tam, Contributor
 
-- Want to be a part of the Ilios team, and help to create even better tools and features? Ilios is an [Open Source](http://opensource.org/), community-based software application. [Fork the code at GitHub](https://github.com/ilios), [contact us on the forums](https://www.iliosproject.org/forums), and get yourself started!
-
-&nbsp;  
+- Want to be a part of the Ilios team, and help to create even better tools and features? Ilios is an [Open Source](http://opensource.org/), community-based software application. [Fork the code at GitHub](https://github.com/ilios), and get yourself started!
+ 
 **Sponsors**
 
 - Tina Brock, Associate Dean for Teaching & Learning, UCSF School of Pharmacy
