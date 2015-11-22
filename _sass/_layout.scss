@@ -12,7 +12,15 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 }
-
+.site-header-tag {
+    float:right;
+    padding-top:33px;
+    color:white;
+    font-weight:bold;
+    font-size:12px;
+    align:right;
+    z-index:1;
+}
 .site-title {
     font-size: 26px;
     line-height: 56px;
@@ -30,6 +38,7 @@
  //   vertical-align: sub;
     float: right;
     line-height: 46px;
+    z-index:5;
 
     .menu-icon {
         display: none;
@@ -167,6 +176,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    z-index:4;
 }
 
 .page-heading {
