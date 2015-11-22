@@ -4,7 +4,7 @@ title:  "Ilios 3 is here!"
 date:   2015-11-20 11:00:00
 categories: ilios release
 ---
-The latest prerelease of the Ilios 3 code is now available for download and testing. Please use the download link to see this release and notes for the core code and API. 
+The latest prerelease of the Ilios 3 code is now available for download and testing. Please use this [download link](https://github.com/ilios/ilios/releases) to see the current release and notes for the core code and API. 
 
 This, as well as all pending release iterations, will be applied to the public ilios 3 demo site. For access to the demo (if you don't already have it), please contact us at [support@iliosproject.org](mailto:support@iliosproject.org).
 
