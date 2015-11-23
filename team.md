@@ -13,7 +13,7 @@ topLevel: true
 - Thomas Lee (@djvoa12), Applications Programmer
 - Jen Zweben (@jenzweben), Visual and User Experience Design
 - Carson Tam (@ctam), Contributor
-- Dave Leonard (@dartajaz), User Support
+- Dave Leonard (@dartajax), User Support
 
 
 - Want to be a part of the Ilios team, and help to create even better tools and features? Ilios is an [Open Source](http://opensource.org/), community-based software application. [Fork the code at GitHub](https://github.com/ilios), and get yourself started!
