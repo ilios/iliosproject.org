@@ -8,7 +8,7 @@ topLevel: true
 
 - Sascha Cohen (@saschaben), Director, Strategic Development
 - Jon Johnson (@jrjohnson), Lead Applications Programmer
-- Stefan Topfstedt (@stopfstedt), Applications Programmer
+- Stefan Topfstedt (@stopfstedt), Senior Applications Programmer
 - Jason Hedrick (@thecoolestguy), Applications Programmer
 - Thomas Lee (@djvoa12), Applications Programmer
 - Jen Zweben (@jenzweben), Visual and User Experience Design
