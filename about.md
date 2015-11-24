@@ -27,3 +27,25 @@ Ilios manages and tracks both learners and instructors and their relationships t
 Ilios leverages the power of existing online learning technologies supported at most health professions institutions. Built on open-source, loosely coupled components, Ilios is a modular system meant to integrate with external data sources and systems. For schools already using (or considering the implementation of) online learning systems such as Moodle, Blackboard or Sakai, Ilios provides a backbone of curricular information to make that deployment more robust and to complement the rich online tools, activities and materials already in use.
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/piMaieXPQ9CFoL" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/saschaben/intro-to-ilios" title="Intro to Ilios" target="_blank">Intro to Ilios</a> </strong> from <strong><a href="//www.slideshare.net/saschaben" target="_blank">Sascha Cohen</a></strong> </div>
+
+<div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+	<ul class="contact-list">
+    	  <li align="left"><img src="/media/UCSF_SOM_logo.png" width="163" border="0"></li>
+        </ul>
+      </div>
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+        &nbsp;
+        </ul>
+      </div>
+      <div class="footer-col  footer-col-3">
+	<ul class="contact-list">
+    	  <li align="right"><img src="/media/MEDBIQ-logo.png" width="163" border="0"></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
