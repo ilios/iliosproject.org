@@ -32,7 +32,7 @@ Ilios leverages the power of existing online learning technologies supported at 
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
 	<ul class="contact-list">
-    	  <li><img src="/media/UCSF_SOM_logo.png" width="163" border="0"></li>
+    	  <li align="left"><img src="/media/UCSF_SOM_logo.png" width="163" border="0"></li>
         </ul>
       </div>
       <div class="footer-col  footer-col-2">
@@ -42,9 +42,10 @@ Ilios leverages the power of existing online learning technologies supported at 
       </div>
       <div class="footer-col  footer-col-3">
 	<ul class="contact-list">
-    	  <li><img src="/media/MEDBIQ-logo.png" width="163" border="0"></li>
+    	  <li align="right"><img src="/media/MEDBIQ-logo.png" width="163" border="0"></li>
         </ul>
       </div>
     </div>
   </div>
+
 
