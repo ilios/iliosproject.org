@@ -16,7 +16,7 @@ topLevel: true
 - Dave Leonard (@dartajax), User Support
 
 
-- Want to be a part of the Ilios team, and help to create even better tools and features? Ilios is an [Open Source](http://opensource.org/), community-based software application. [Fork the code at GitHub](https://github.com/ilios), and get yourself started!
+- Want to be a part of the Ilios team, and help to create even better tools and features? Ilios is an [Open Source](http://opensource.org/){:target="_blank"}, community-based software application. [Fork the code at GitHub](https://github.com/ilios){:target="_blank"}, and get yourself started!
  
 **Sponsors**
 
