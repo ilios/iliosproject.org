@@ -13,6 +13,7 @@ topLevel: true
 - Thomas Lee (@djvoa12), Applications Programmer
 - Jen Zweben (@jenzweben), Visual and User Experience Design
 - Carson Tam (@ctam), Contributor
+- Victor Passapera (@vpassapera), Contributor
 - Dave Leonard (@dartajax), User Support
 
 
