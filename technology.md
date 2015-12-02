@@ -10,7 +10,7 @@ Current Recommended Minimum System Requirements for Ilios 3 Installation:
 Standard production-grade Linux or Windows server with at least 500GB of storage available (for learning materials storage):
 
 - Apache: at least 2.2.15
-- MySQL: at least 5.1.73 – with both the InnoDB backing engines
+- MySQL: at least 5.1.73 – with the InnoDB backing engines
 - PHP: at least 5.4.4 – must have support for mysqli (note mysqli, as opposed to mysql)
 
 Ilios has been successfully implemented as a WIMP (Windows 7/2008R2, IIS, MySQL, PHP) and WAMP (Windows&nbsp;7/2008R2, Apache, MySQL, PHP) stack for those running in a Windows environment. Documentation will be forthcoming for interested parties.
