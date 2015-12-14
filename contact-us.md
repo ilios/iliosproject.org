@@ -3,6 +3,8 @@ layout: page
 title: Contact Us
 permalink: /contact/
 topLevel: true
+redirect_from: '/contact-us/'
+
 ---
 For more information on Ilios please contact:
 
