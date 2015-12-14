@@ -3,6 +3,8 @@ layout: page
 title: Technology
 permalink: /technology/
 topLevel: true
+redirect_from: '/tech-specs/'
+
 ---
 
 Current Recommended Minimum System Requirements for Ilios 3 Installation:

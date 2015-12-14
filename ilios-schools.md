@@ -3,6 +3,7 @@ layout: page
 title: Ilios Schools
 permalink: /ilios-schools/
 topLevel: false
+redirect_from: '/home/join-the-lists/'
 ---
 
 - UCSF School of Medicine (project partner)
