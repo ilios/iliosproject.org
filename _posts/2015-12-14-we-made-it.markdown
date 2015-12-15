@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Official Release: We Made It!"
+date:   2015-12-14 20:00:00
+categories: ilios release
+---
+We are very pleased to announce that Ilios version 3.0.0 is now available for download. 
+
+Please use [this download link](https://github.com/ilios/ilios/releases/tag/v3.0.0){:target="_blank"} for download links, and to see the full release notes.
+
+Live API documentation is available here: [https://ilios3-demo.ucsf.edu/api/doc](https://ilios3-demo.ucsf.edu/api/doc){:target="_blank"}.
+
+If you have any questions regarding installation or upgrade for this first of the 3rd generation Ilios code, please contact us at [support@iliosproject.org](mailto:support@iliosproject.org).
