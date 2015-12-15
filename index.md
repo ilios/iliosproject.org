@@ -12,7 +12,7 @@ redirect_from: '/home/'
 - [Check out our Wiki](https://github.com/ilios/ilios/wiki){:target="_blank"}
 - [Read the FAQs](https://github.com/ilios/ilios/wiki/FAQS){:target="_blank"}
 - [Subscribe for Updates](http://iliosproject.org/DadaMail/dada/mail.cgi/){:target="_blank"}
-- [Demo Site Information](https://www.dropbox.com/s/pwqihqb9todkqw6/DemoSite.pdf?dl=0){:target="_blank"}
+- [Demo Site Information](/demo)
 - [Latest User Guide](https://www.dropbox.com/sh/3cfxfzdspzf10wp/KbaFS5LKkM){:target="_blank"}
 
 ## Latest News 
