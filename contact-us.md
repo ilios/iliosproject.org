@@ -43,7 +43,7 @@ If you are a current institutional Ilios user, and require assistance or advice 
 	<label for="mce-LNAME">Last Name </label>
 	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
 </div>
-<p><a href="http://us3.campaign-archive2.com/home/?u=845c4ebabb5b5ae7a6372c715&id=1493e3df18" title="View previous campaigns">View previous campaigns.</a></p>
+<!--- <p><a href="http://us3.campaign-archive2.com/home/?u=845c4ebabb5b5ae7a6372c715&id=1493e3df18" title="View previous campaigns">View previous campaigns.</a></p> --->
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
 		<div class="response" id="mce-success-response" style="display:none"></div>
