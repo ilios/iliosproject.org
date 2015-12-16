@@ -2,7 +2,7 @@
 layout: page
 title: Subscribe
 permalink: /subscribe/
-topLevel: true
+topLevel: false
 ---
 
 If you would like to be added to the Ilios monthly status updates and release notice distribution list, please add your name and email to our subscriber lists using the form below:
