@@ -11,11 +11,11 @@ redirect_from: '/home/'
 
 - [Check out our Wiki](https://github.com/ilios/ilios/wiki){:target="_blank"}
 - [Read the FAQs](https://github.com/ilios/ilios/wiki/FAQS){:target="_blank"}
-- [Subscribe for Updates](http://iliosproject.org/DadaMail/dada/mail.cgi/){:target="_blank"}
+- [Subscribe for Updates](/subscribe)
 - [Demo Site Information](/demo)
 - [Latest User Guide](https://www.dropbox.com/sh/3cfxfzdspzf10wp/KbaFS5LKkM){:target="_blank"}
 
-## Latest News 
+## Latest News
 
 <ul class="post-list">
   {% for post in site.posts  limit:2 %}
@@ -25,9 +25,9 @@ redirect_from: '/home/'
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
-      
+
       {{post.excerpt}} <a href="{{ post.url | prepend: site.baseurl }}">...read more</a>
-      
+
     </li>
   {% endfor %}
 </ul>
