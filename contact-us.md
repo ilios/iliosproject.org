@@ -30,7 +30,7 @@ If you are a current institutional Ilios user, and require assistance or advice 
 <div id="mc_embed_signup">
 <form action="//iliosproject.us3.list-manage.com/subscribe/post?u=845c4ebabb5b5ae7a6372c715&amp;id=1493e3df18" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Subscribe to our mailing lists!</h2>
+	<h2>Subscribe to Ilios Updates!</h2>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address </label>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
