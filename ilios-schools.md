@@ -24,7 +24,7 @@ redirect_from: '/home/join-the-lists/'
 - Oregon Health & Science University (OHSU)
 - Monash University School of Pharmacy (AU)
 - Monash University School of Dentistry (AU)
-- American University of the Carribbean
+- American University of the Caribbean
 
 As of 2015, nearly two dozen individual health professions schools are working with Ilios, and more are actively reviewing the application as their possible solution for curriculum management. 
 
