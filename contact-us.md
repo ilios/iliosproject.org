@@ -8,19 +8,18 @@ redirect_from: '/contact-us/'
 ---
 For more information on Ilios please contact:
 
-The Ilios Project  
-UCSF School of Medicine & Library  
-University of California, San Francisco  
-Box 0840  
+***The Ilios Project***  <br>
+UCSF School of Medicine & Library  <br>
+530 Parnassus Box 0840 <br>
 San Francisco, CA 94143
 
 [info@iliosproject.org](mailto:info@iliosproject.org)
 
-Or if you wish, you may call the UCSF School of Medicine Office of Technology Enhanced Learning at: (415) 502-2800.
+Or if you wish, you may call the UCSF School of Medicine Office of Technology Enhanced Education at: (415) 502-2800.
 
-If you would like to be added to the Ilios monthly status updates and release notice distribution list, please [subscribe here](http://iliosproject.org/DadaMail/dada/mail.cgi/).
+If you would like to be added to the Ilios monthly status updates and release notice distribution list, please subscribe using the form below.
 
-If you are a current institutional Ilios user, and require assistance or advice regarding your installation, please email us at [support@iliosproject.org](mailto:support@iliosproject.org?subject=Support Request).
+If you are a current institutional Ilios user, and require assistance or advice regarding your installation, please email us at [support@iliosproject.org](mailto:support@iliosproject.org?subject=SupportRequest).
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
