@@ -1,6 +1,7 @@
 ---
 layout: page
 redirect_from: '/home/'
+path: '/'
 
 ---
 
