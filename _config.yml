@@ -1,8 +1,7 @@
 # Site settings
 title: "Ilios"
 email: support@iliosproject.org
-description: >
-    Curriculum Management for the Health Professions
+description: Curriculum Management for the Health Professions
 baseurl: ""
 url: "https://ilios.github.io"
 github_username:  ilios
@@ -12,3 +11,6 @@ exclude: [Gemfile, Gemfile.lock, LICENSE]
 gems:
   - jekyll-mentions
   - jekyll-redirect-from
+links:
+  - title: Home
+    url: /
