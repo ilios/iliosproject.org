@@ -14,7 +14,8 @@ path: '/'
 - [Read the FAQs](https://github.com/ilios/ilios/wiki/FAQS){:target="_blank"}
 - [Subscribe for Updates](/subscribe)
 - [Demo Site Information](/demo)
-- [Latest User Guide](https://www.dropbox.com/sh/3cfxfzdspzf10wp/KbaFS5LKkM){:target="_blank"}
+- [Latest User Guide](https://www.gitbook.com/@iliosproject/){:target="_blank"} *(new!)*
+- [Looking for the User Guide for 2.4.8? It's here!](https://www.dropbox.com/sh/3cfxfzdspzf10wp/KbaFS5LKkM){:target="_blank"}
 
 ## Latest News
 
