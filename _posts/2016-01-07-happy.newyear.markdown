@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Happy New Year"
+date:   2016-01-07 16:00:00
+categories: news
+---
+Happy New Year! The Ilios team is busy smoothing out the wrinkles in the newborn version 3.0, and are excited to be starting off 2016 with a ton of great initiatives to make Ilios better.
+
+We've also been doing some housecleaning in our communications -- this new website, the online user guides, and a new system for getting out your updates and alerts -- which I hope will improve our ability to communicate and share information among the community quickly and seamlessly. Please let us know if you have further suggestions or feedback!
