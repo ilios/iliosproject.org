@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "3.1.0 Now Available"
+date:   2016-01-12 15:00:00
+categories: news
+---
+We are please to announce the first update release to Ilios 3: version 3.1.0.
+
+This release includes a number of fixes, corrections, enhancements and updates to the 3.0 release; the full change list and code download is available [here](https://github.com/ilios/ilios/releases/tag/v3.1.0){:target="_blank"}: [https://github.com/ilios/ilios/releases/tag/v3.1.0](https://github.com/ilios/ilios/releases/tag/v3.1.0){:target="_blank"}:
+
+Please let us know if you have any questions or feedback, and we look forward to providing you with more fixes and enhancements over the coming months!
