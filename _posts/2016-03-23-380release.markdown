@@ -5,7 +5,7 @@ date:   2016-03-23 15:00:00
 categories: news
 ---
 
-We are pleased to announce the release of *version 3.8*. This release launches our new expanded tagging vocabularies, which allow for custom topics and related tags to be created. These tags can be structured in categories with internal hierarchies of parent and child tags, to allow for very rich data mapping.
+We are pleased to announce the release of **version 3.8**. This release launches our new expanded tagging vocabularies, which allow for custom topics and related tags to be created. These tags can be structured in categories with internal hierarchies of parent and child tags, to allow for very rich data mapping.
 
 What is also available via the vocabularies is the Medbiquitous list of instructional resources, for addition to courses and sessions as desired. These are input as a single vocabulary set via script, and will be mapped to the Curriculum Inventory tools in time for upload this year if desired.
 
