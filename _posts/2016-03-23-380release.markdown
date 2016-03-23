@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Version 3.8 is now available"
+date:   2016-03-23 15:00:00
+categories: news
+---
+
+We are pleased to announce the release of *version 3.8*. This update has some significant changes and improvements.
+
+First, this release launches our new expanded tagging vocabularies, which allow for custom topics and related tags to be created. These tags can be structured in categories with internal hierarchies of parent and child tags, to allow for very rich data mapping.
+
+What this means: Since the previous model for Topics has now been subsumed into vocabularies, any internal structural links to existing topics need to be remapped. The majority of this is done automatically with the update, but be aware that any current reports that users have built using the "MyReports" tool which draw on Topics will no longer be available; additionally, filtering the calendar on Topics view the dashboard is temporarily unavailable as well. We will be re-adding in more robust reporting and filtering via vocabularies in the coming weeks, and hope that this is not a major inconvenience for administrative users, and that the additional power of multiple and manageable sets of tagging vocabularies will more than offset any temporary shifts in feature presentation. 
+
+What is also available via the vocabularies is the Medbiquitous list of instructional resources, for addition to courses and sessions as desired. These are input as a single vocabulary set via script, and will be mapped to the Curriculum Inventory tools in time for upload this year if desired.
+
+We've also provided a bunch of UI improvements, bug fixes, and under the hood improvements. If you have questions, let us know!
+
+In our next update, you can expect to see another big batch of improvements: an extended time window which is sent to external calendars via the calendar feed, so users syncing up to google calendar or iPhones will now get a full six months of schedule information (4 months back, 2 moths forward). A dashboard agenda list with double the view forward, for a full 60-day view ahead of scheduled events. And a ton of visual, management and administrative additions to boot.
+
+The newly released code, as well as the complete changelog, is available here:
+[https://github.com/ilios/ilios/releases/tag/v3.8.0](https://github.com/ilios/ilios/releases/latest){:target="_blank"}:
