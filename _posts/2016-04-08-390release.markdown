@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Version 3.9 is live"
+date:   2016-04-08 15:00:00
+categories: news
+---
+
+This week, we are pleased to announce the release of __version 3.9__. This update includes some minor modifications and additions to the API, as well as a raft of important additions and updates to the associated frontend code.
+
+There will be an additional bunch of great frontend followup updates next week as well (but no backend updates). If you have questions about the current code deployment model of backend vs frontend, or any questions regarding deployment, please give us a shout at [support@iliosproject.org](mailto:support@iliosproject.org) and we'll be happy to get you sorted out!
+
+we have added a number of filters and refinements to the API endpoints and backend code, allowing faster and more effective retrieval of data.
+In the associated frontend code release, we now have a major expansion of user management tools, for addition and editing of users, as well as management tools for the new tagging vocabularies.
+
+We also, along the way:
+
+- corrected a bunch of bugs
+- added some UI enhancements
+
+  For more information, and download links, check out  [the latest release announcement here](http://us3.campaign-archive2.com/?u=845c4ebabb5b5ae7a6372c715&id=b2b291e1ca){:target="_blank"}
