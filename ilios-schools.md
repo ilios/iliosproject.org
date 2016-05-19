@@ -25,8 +25,10 @@ redirect_from: '/home/join-the-lists/'
 - Monash University School of Pharmacy (AU)
 - Monash University School of Dentistry (AU)
 - American University of the Caribbean
+- Wayne State University School of Medicine
+- Vanderbilt University Medicine School
 
-As of 2015, nearly two dozen individual health professions schools are working with Ilios, and more are actively reviewing the application as their possible solution for curriculum management. 
+As of Spring 2016, nearly two dozen individual health professions schools are working with Ilios, and more are actively reviewing the application as their possible solution for curriculum management.
 
 If you are using Ilios in any way, and would like to have your school listed here, please [email](mailto:info@iliosproject.org) us with the request at [info@iliosproject.org](mailto:info@iliosproject.org).
 

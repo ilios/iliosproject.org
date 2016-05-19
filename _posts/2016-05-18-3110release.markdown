@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "May Updates and v3.11"
+date:   2016-05-18 15:00:00
+categories: news
+---
+
+Hi all! We are pleased to announce the release of version __3.11__. This update includes API performance improvements and upgrades, and a number of frontend improvements and cleanups. Please feel free to contact us at [support@iliosproject.org](mailto:support@iliosproject.org) if you have any questions about this or any other release. You can see the full details of this release in  [the latest release announcement here](http://us3.campaign-archive2.com/?u=845c4ebabb5b5ae7a6372c715&id=b86c241490){:target="_blank"}.
+
+Just as an aside, as I write this update, we are busy in our monthly Ilios Codejam at a top-secret, undisclosed offsite location  (a.k.a. any spot nearby with decent wireless, somewhere the group can work together, and proximity to food). But if you'd ever like to be a part of our codejams, just let us know, and we will link you in, either in person or virtually: the more contributors we have, the better the system becomes!
