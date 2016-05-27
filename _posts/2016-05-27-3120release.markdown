@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "You Want Sticky Filters? You Got Sticky Filters!"
+date:   2016-05-27 15:00:00
+categories: news
+---
+
+You want streamlined Learner Group management? You _got_ streamlined learner group management. Better course sorting? You betcha. And an updated API and API documentation? Oh yeah. It's Ilios __v3.12__!
+
+As always, please feel free to contact us at [support@iliosproject.org](mailto:support@iliosproject.org) if you have any questions about this or any other release. You can see the full details of this release in  [the latest release announcement here](http://us3.campaign-archive2.com/home/?u=845c4ebabb5b5ae7a6372c715&id=1493e3df18){:target="_blank"}.
