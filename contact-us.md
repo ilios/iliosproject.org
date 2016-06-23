@@ -15,11 +15,14 @@ San Francisco, CA 94143
 
 [info@iliosproject.org](mailto:info@iliosproject.org)
 
+***NEW***: You can now contact us on Slack! Join the channel here: [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_blank"}
+
 Or if you wish, you may call the UCSF School of Medicine Office of Technology Enhanced Education at: (415) 502-2800.
 
 If you would like to be added to the Ilios monthly status updates and release notice distribution list, please subscribe using the form below.
 
 If you are a current institutional Ilios user, and require assistance or advice regarding your installation, please email us at [support@iliosproject.org](mailto:support@iliosproject.org?subject=SupportRequest).
+
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
