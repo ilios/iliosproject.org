@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Updates! Updates! Get yer fresh hot updates here!"
+date:   2016-06-13 15:00:00
+categories: news
+---
+
+Ilios __v3.13__ is now launched and available in the wild. Lots of housecleaning and feature improvement in this point update, as well as the (non-breaking) move to API v1.5, to prepare the way for next month's curriculum inventory report tools release.
+
+As always, please feel free to contact us at [support@iliosproject.org](mailto:support@iliosproject.org) if you have any questions about this or any other release. You can see the full details of this release in  [the latest release announcement here](http://us3.campaign-archive2.com/home/?u=845c4ebabb5b5ae7a6372c715&id=1493e3df18){:target="_blank"}.
