@@ -5,6 +5,8 @@ permalink: /subscribe/
 topLevel: false
 ---
 
+***NEW***: You can now contact us on Slack! Join the channel here: [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_blank"}
+
 If you would like to be added to the Ilios monthly status updates and release notice distribution list, please add your name and email to our subscriber lists using the form below:
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
