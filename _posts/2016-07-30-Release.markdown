@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "v3.16.0 is now available"
+date:   2016-06-13 15:00:00
+categories: release
+---
+
+We are very happy to announce the latest updates to Ilios, which include an update to __v3.16.0__, and a host of great updates to the interface. Among the newly introduced features:
+
+- CAS authentication is now available
+- Completely refactored offering management tool, with streamlined scheduling and group selection
+- Ability to copy any session into another course (or duplicate in the same course)
+- An updated, clearer copyright attestation for learning materials
+- A whole bunch of bug fixes, UI cleanup, and housekeeping.
+
+__SCHEMA CHANGE__: Please note that we have added a field to the `term` data table. The new value is `term`.`active` -- providing a boolean to identify if a term is actively available for selection (true) or if it has been retired (false). If you run reports directly against this data table, please update any queries to address this change if necessary. Be aware that this field will _not_ be active at present --- we are just prepping for when we do implement this feature (more on that in the coming weeks).
+
+ Additionally (and importantly), we are requesting input from all technical owners and users at all Ilios schools regarding an important change to the default limits for API data. The proposal is to remove the default limit for returned data from all endpoints, requiring an explicit limit to be set if one is desired. We'd very much like to know if this is a pro or a con for you, and whether this will break/help/cause mayhem for any external connections you currently have with the API, or any which you are planning to implement.
+
+_Please: take a moment to review the RFC proposal and comments at https://github.com/ilios/ilios/issues/1531._ If you have any thoughts in either direction, please add your comments (or send them to us out of band if you are not a github user).
