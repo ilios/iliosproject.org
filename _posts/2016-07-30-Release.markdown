@@ -17,4 +17,4 @@ __SCHEMA CHANGE__: Please note that we have added a field to the `term` data tab
 
  Additionally (and importantly), we are requesting input from all technical owners and users at all Ilios schools regarding an important change to the default limits for API data. The proposal is to remove the default limit for returned data from all endpoints, requiring an explicit limit to be set if one is desired. We'd very much like to know if this is a pro or a con for you, and whether this will break/help/cause mayhem for any external connections you currently have with the API, or any which you are planning to implement.
 
-_Please: take a moment to review the RFC proposal and comments at https://github.com/ilios/ilios/issues/1531._ If you have any thoughts in either direction, please add your comments (or send them to us out of band if you are not a github user).
+_**Please**: take a moment to review the RFC proposal and comments at https://github.com/ilios/ilios/issues/1531._ If you have any thoughts in either direction, please add your comments (or send them to us out of band if you are not a github user).
