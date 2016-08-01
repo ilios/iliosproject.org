@@ -7,7 +7,7 @@ redirect_from: '/tech-specs/'
 
 ---
 
-Current Recommended Minimum System Requirements for Ilios 3 Installation:
+__Current Recommended Minimum System Requirements for Ilios 3 Installation:__
 
 Standard production-grade Linux or Windows server with at least 500GB of storage available (for learning materials storage):
 
