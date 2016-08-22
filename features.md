@@ -74,12 +74,13 @@ Ilios allows for the control and development of complex curricula organized by i
 
 **Data Tracking and Reporting**
 
-- Full relational data reporting capacity via SQL
+- Full relational data reporting capacity via API
 - Teaching hours tracking and management by instructor, department, educational method
 - Content hours tracking and management
 - Curriculum mapping
 - Trend reporting
 - Full archiving
 - AAMC Curriculum Inventory Export Tool suite included
+- Numerous in-line work aid reports available in the Dashboard (overview [available here](/myreports.html))
 
 <!--EndFragment-->

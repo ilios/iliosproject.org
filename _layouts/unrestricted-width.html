@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+
+      <header class="page-header">
+        <h1 class="page-title" style="padding-top:1em;">{{ page.heading }}</h1>
+      </header>
+
+      <article class="page-tabla">
+        {{ content }}
+      </article>
+
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

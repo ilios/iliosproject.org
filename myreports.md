@@ -1,5 +1,11 @@
-<html>
- <head>
+---
+layout: unrestricted-width
+title: My Reports
+permalink: /myreports.html
+topLevel: false
+---
+
+
   <title>Ilios My Reports Grid</title>
   <style type="text/css">
    ol{margin:0;padding:0}
@@ -32,7 +38,7 @@
    .c26{margin-left:36pt}
    .c28{vertical-align:top;width:391.5pt;border-style:solid;border-color:#ffffff;border-width:1pt;padding:5pt 5pt 5pt 5pt}
    .title{padding-top:24pt;line-height:1.15;text-align:left;color:#000000;font-size:36pt;font-family:"Arial";font-weight:bold;padding-bottom:6pt}
-   .subtitle{padding-top:18pt;line-height:1.15;text-align:left;color:#666666;font-style:italic;font-size:24pt;font-family:"Georgia";padding-bottom:4pt}
+   .subtitle{padding-top:18pt;line-height:1.15;color:#666666;font-style:italic;font-size:24pt;font-family:"Arial", "helvetica","san-serif";padding-bottom:0.75em;}
    p{color:#000000;font-size:11pt;margin:0;font-family:"Arial"}
    h1{padding-top:24pt;line-height:1.15;text-align:left;color:#000000;font-size:24pt;font-family:"Arial";font-weight:bold;padding-bottom:6pt}
    h2{padding-top:18pt;line-height:1.15;text-align:left;color:#000000;font-size:18pt;font-family:"Arial";font-weight:bold;padding-bottom:4pt}
@@ -41,18 +47,19 @@
    h5{padding-top:11pt;line-height:1.15;text-align:left;color:#000000;font-size:11pt;font-family:"Arial";font-weight:bold;padding-bottom:2pt}
    h6{padding-top:10pt;line-height:1.15;text-align:left;color:#000000;font-size:10pt;font-family:"Arial";font-weight:bold;padding-bottom:2pt}
    </style>
- </head>
 
-<body class="c17 c27">
+
+
  <p class="c6 c9">
+
   <span class="c1"></span>
  </p><a href="#" name="71619b3b69cc506a5e38b4fbb8c4104ee8834b2a"></a><a href="#" name="0"></a>
-
-<table cellpadding="0" cellspacing="0" class="c12">
+<div style="text-align:center;"><span class="subtitle">Ilios Dashboard 'My Reports' Grid</span></div>
+<table cellpadding="0" cellspacing="0" class="c12" style="align:left; margin-left:0em; z-index:1;">
  <tbody>
   <tr>
    <td class="c8 c22">
-    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;HAVING</span><img height="28" src="media/image01.png" width="96"><br /><span class="c1">GET ALL &nbsp; </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;HAVING</span><img height="28" src="/media/image01.png" width="96"><br /><span class="c1">GET ALL &nbsp; </span></p>
    </td>
   <td class="c3 c8"><p class="c0 c14"><span class="c11 c15">Course</span></p></td>
   <td class="c3 c8"><p class="c0 c14"><span class="c11 c15">Session</span></p></td>
@@ -94,7 +101,7 @@
   <td class="c3"><p class="c0"><span class="c1">all sessions where the selected vocabulary term is attached (S)</span></p></td><td class="c3"><p class="c0"><span class="c1">all sessions where the mesh term selected is assigned to the &nbsp;session, its objectives, or its attached learning material (S)</span></p></td>
   <td class="c3"><p class="c0"><span class="c1">all sessions where the session type selected is assigned to the session. (S)</span></p></td>
   <td class="c3 c5"><p class="c0"><span class="c1">all sessions where the selected learner group is assigned to the session. (S)</span></p></td>
-  <td class="c2"><p class="c0"><span class="c1">all sessions where the session type selected is assigned to the session. (S)</span></p></td></tr>
+  <td class="c3 c5"><p class="c0"><span class="c1">all sessions where the selected objective is assigned to the session. (S)</span></p></td></tr>
   <tr>
   <td class="c7"><p class="c0"><span class="c11 c15">Program</span></p><p class="c0 c6"><span class="c11 c1"></span></p><p class="c0"><span class="c11 c1">[Returns &lsquo;All Programs&rsquo; List]</span></p></td>
   <td class="c3"><p class="c0"><span class="c1">all programs associated with the selected course</span></p></td>
@@ -245,7 +252,7 @@
  <td class="c3 c5"><p class="c0"><span class="c1">all Learner Groups associated to the selected vocabulary term</span></p></td>
  <td class="c3 c5"><p class="c0"><span class="c1">All Learner Groups associated to the selected MeSH term</span></p></td>
  <td class="c3 c5"><p class="c0"><span class="c1">all Learner Groups associated to the selected session type</span></p></td>
- <td class="c2"><p class="c0"><span class="c1">all Learner Groups associated to the selected learner group</span></p></td>
+ <td class="c2"><p class="c0"><span class="c1"></span></p></td>
  <td class="c3 c5"><p class="c0"><span class="c1">all Learner Groups associated to the selected objective</span></p></td>
  </tr>
  <tr>
@@ -262,7 +269,7 @@
 <td class="c3 c5"><p class="c0"><span class="c1">ll objectives associated to the selected MeSH term</span></p></td>
 <td class="c3 c5"><p class="c0"><span class="c1">all objectives associated to the selected session type</span></p></td>
 <td class="c3 c5"><p class="c0"><span class="c1">all objectives associated to the selected learner group</span></p></td>
-<td class="c2"><p class="c0"><span class="c1"></span></p></td>
+<td class="c3 c5"><p class="c0"><span class="c1">all <em>other</em> objectives mapped to the selected objective</span></p></td>
 </tr>
 </tbody>
 </table>
@@ -271,7 +278,7 @@
   <table cellpadding="0" cellspacing="0" class="c12">
    <tbody>
     <tr>
-     <td class="c13"><p class="c0"><img height="113" src="media/image00.png" width="298"></p></td>
+     <td class="c13"><p class="c0"><img height="113" src="/media/image00.png" width="298"></p></td>
      <td class="c25"><p class="c6 c9"><span class="c1"></span></p>
       <p class="c9"><span class="c11 c1">(C)</span><span class="c1">&nbsp; &nbsp; &nbsp; = Course Only</span></p>
       <p class="c9"><span class="c11 c1">(S)</span><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp;= Session Only</span></p>
@@ -283,9 +290,9 @@
       <p class="c21 c9"><span class="c4">-62 under review.</span></p>
       <p class="c21 c9"><span class="c4">-42 options out of scope technically or logically.</span></p>
       <p class="c21 c9"><span class="c4">-4 options not implemented, seen as low value.</span></p>
+      <p class="c21 c9"><span class="c4">-For more information, please visit the <a href="https://www.github.com/ilios/ilios/wiki/" target="_wikipage">Ilios Wiki</a>.</span></p>
       <p class="c21 c9"><span class="c4"></span></p><p class="c6 c9 c21"><span class="c1"></span></p></td>
      </tr>
     </tbody>
    </table>
-
-  <p class="c6 c9"><span class="c1"></span></p><p class="c6 c9"><span class="c1"></span></p><p class="c6 c9 c26"><span class="c1"></span></p><p class="c6 c9"><span class="c1"></span></p><p class="c6 c9"><span class="c1"></span></p><p class="c6 c9 c10"><span class="c4"></span></p></body></html>
+  <p class="c6 c9"><span class="c1"></span></p><p class="c6 c9"><span class="c1"></span></p><p class="c6 c9 c26"><span class="c1"></span></p><p class="c6 c9"><span class="c1"></span></p><p class="c6 c9"><span class="c1"></span></p><p class="c6 c9 c10"><span class="c4"></span></p>
