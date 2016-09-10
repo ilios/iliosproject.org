@@ -1,0 +1,26 @@
+---
+layout: post
+title:  v3.18.2 now available - Security Update
+date:   2016-09-09 21:00:00
+categories: release
+---
+
+This week we are releasing an update to address a number of backend security issues and vulnerabilities. The items address in this release, __v3.18.1__,  are listed below.
+
+We are also releasing a number of important frontend updates to enhance usability, which will be available to your system automatically once you have updated to the latest version.
+
+__Security & vulnerability updates:__
+
+- We have identified a vulnerability in the system whereby an authenticated user may in certain situations obtain access to the deletion of locked and/or archived course material inappropriately; this has now been addressed. We strongly encourage all schools to update to the current version to eliminate this security issue (#1577)
+Other updates:
+- We have identified a bug in the synchronized calendar feeds from Ilios which affects a user's abliity to access learning material digital files. This bug is only extant in v3.18.0. Please note: this only impacts digital files (not weblinks) and their access from the ics calendar feeds. It does not affect links in the calendar or elsewhere in Ilios. This has been corrected in the current release, and we encourage you to upgrade as soon as possible from v3.18.0 to eliminate this issue for your students. ( #1575)
+- Archived items no longer display inappropriately in active course and program year lists. (#2067)
+- Menu no longer obscures left side of content page when in large screen mode. ( #2064)
+- Fixed cohort assignment in Admin Console #2063
+- Add userId to exported audit log #1571
+- Adjust expected end week #1569
+- Don't set the session if we are unsetting the ILM session #1566
+- Detect if a session exists before attempting to destroy it #1565
+- Remove EXTRA_LAZY annotations #1573
+
+As always, please feel free to contact us at [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/) (if you have not yet joined our slack channel, you can get started by clicking [here](https://ilios-slack.herokuapp.com/). if you have any questions about this or any other release. You can see the full details of this release in  [the latest release announcement here](http://us3.campaign-archive2.com/home/?u=845c4ebabb5b5ae7a6372c715&id=1493e3df18){:target="_blank"}.
