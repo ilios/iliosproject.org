@@ -1,0 +1,19 @@
+---
+layout: post
+title:  This Week In Ilios
+date:   2016-09-23 15:00:00
+categories: status
+---
+
+This week there is no version upgrade to the Ilios code / API, but if you are on the latest release (__v3.19.0__) we have added some nice updates to the frontend.
+
+- Ability to lock/unlock courses directly from the course list (for users with permission)
+- Cleaned up navigation in the admin console
+- Cleaned up the process for copying/cloning sessions from one course to another
+- Cleaned up the new user creation tools 
+- Fixed a bug that was allowing objectives and descriptions to be saved as blank values
+
+If you are on the latest release, users should see these updates automatically when they next log in.
+It's coming up on the end of September, and that means that time is running out to upload your CI reports to the AAMC; if you need any help with getting your report in order, please let us know if we can be of assistance!
+
+As always, please feel free to contact us at [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/) (if you have not yet joined our slack channel, you can get started by clicking [here](https://ilios-slack.herokuapp.com/). if you have any questions about this or any other release. You can see the full details of this release in  [the latest release announcement here](http://us3.campaign-archive2.com/home/?u=845c4ebabb5b5ae7a6372c715&id=1493e3df18){:target="_blank"}.
