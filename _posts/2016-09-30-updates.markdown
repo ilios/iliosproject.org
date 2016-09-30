@@ -1,0 +1,27 @@
+---
+layout: post
+title:  Version 3.20.0 is here. Hello, October!
+date:   2016-09-30 15:00:00
+categories: releases
+---
+
+This week we are pleased to announce the release of __v3.20.0__. This release includes a number of great updates and enhancements to both front and backend, including:
+
+- Extension of the "external course ID" field (ie "short title") to 255 characters;
+- improved the method for timestamping updates to the system;
+- simplified the process for deleting learner groups (subgroups no longer need to be removed individually prior to deleting a parent group);
+- added the display of "special attire/equipment required" flags in the event detail page where it was missing;
+- corrected a bug which defaulted the academic year in the course list to the wrong year;
+- improved the display of the checkbox listings for student - to cohort assignment in the admin console;
+- corrected a bug which caused the "draft" icon to display for courses where the "scheduled" icon should appear instead;
+- corrected a bug for multi-school users which defaulted their initial schools selection to something other than their primary school;
+- a whole raft of other housekeeping and under-the-hood bug fixes, code enhancements, and improvements.
+
+The latest code, along with the full changelog, is available for download [here](https://github.com/ilios/ilios/releases/latest){:target="_blank"}
+
+With the close of September, your CI reports are hopefully now uploaded to the AAMC, or in the process of getting there; all schools reporting back to us so far have completed and verified their reports, so we are glad that the system is working to satisfaction!
+
+Please remember: after December 31, 2016 all versions of Ilios 2 will be reaching end of life, and we will no longer be able to provide further support for those running the old system. This includes the CI tools in 2.4. We strongly encourage you to upgrade to the latest release of Ilios in order to be able to receive assistance, bug fixes, and continue to deliver your annual upload to the AAMC.
+
+
+As always, please feel free to contact us at [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/) (if you have not yet joined our slack channel, you can get started by clicking [here](https://ilios-slack.herokuapp.com/). if you have any questions about this or any other release. You can see the full details of this release in  [the latest release announcement here](http://us3.campaign-archive2.com/home/?u=845c4ebabb5b5ae7a6372c715&id=1493e3df18){:target="_blank"}.
