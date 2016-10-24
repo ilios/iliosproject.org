@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  Turn off your babycam, turn on your Ilios __v3.21__
-date:   2016-10-29 15:00:00
+title:  Turn off your babycam, turn on your Ilios v3.21
+date:   2016-10-29 00:00:00
 categories: releases
 ---
 
@@ -15,8 +15,6 @@ Like much of the country we were severely impacted by the massive DDoS attack on
 - a whole new raft of other housekeeping and under-the-hood bug fixes, code enhancements, and improvements to reduce navigation errors and improve performance and usability.
 
 __AMAZON TIME__: If you are interested in hosting your Ilios instance on AWS, we now have a Ansible-deployed AWS-ready implementation of the Ilios code. Please [contact us](mailto:support@iliosproject.org?subject=AWS%20deployment%20inquiry){:target="_blank"} for more info.
-
-__STUDENT SURVEYS__: Student use surveys were recently completed at both UFL and UCSF, and although I was hoping to share some of the results with you this week, I am still awaiting the finalized data from the UC survey. But I can tell you that generally speaking, the results are both positive and enlightening. With any luck we will have that for you next week.
 
 __TRAINING__: Are you interested in getting a focused training for your power Ilios users and managers in your school or institution? We can do that for you: 1.5 - 2 days of focused training on the most effective ways to leverage Ilios as power users, and deliver information to your students and faculty in the best way possible, custom-tailored for your needs and methodologies. Please [contact us](mailto:support@iliosproject.org?subject=training%20inquiry){:target="_blank"} if you are interested.
 
