@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Turn off your babycam, turn on your Ilios v3.21
-date:   2016-10-29 00:00:00
+date:   2016-10-28 15:00:00
 categories: releases
 ---
 
@@ -13,6 +13,13 @@ Like much of the country we were severely impacted by the massive DDoS attack on
 - the ability to clone Curriculum Inventory Reports from year to year;
 - improvements and bug fixes for the CI toolset;
 - a whole new raft of other housekeeping and under-the-hood bug fixes, code enhancements, and improvements to reduce navigation errors and improve performance and usability.
+
+__API Changes:__
+
+- Added `learnerSessions` filter to users endpoint;
+- Added `usermaterials` endpoint;
+
+*Please note* that with this version update, we have deprecated the `cohort` endpoint for the API. The creation and modification of cohorts will now occur internally with the `ProgramYear` management process. This does not impact the management of learner groups or user-to-cohort assignment.
 
 __AMAZON TIME__: If you are interested in hosting your Ilios instance on AWS, we now have a Ansible-deployed AWS-ready implementation of the Ilios code. Please [contact us](mailto:support@iliosproject.org?subject=AWS%20deployment%20inquiry){:target="_blank"} for more info.
 
