@@ -1,0 +1,27 @@
+---
+layout: post
+title:  How Do I Get The Latest Greatest?
+date:   2016-11-09 15:00:00
+categories: updates
+---
+
+Q: __*How Do I Update My Ilios Frontend?*__:
+
+A: The Ilios frontend is always up-to-date on our content-delivery servers at Amazon S3, but you will need to regularly run a console command on your backend instance in order ensure that your users are seeing the latest version and that they are getting all the latest features and bugfixes. To make sure you users are receiving the latest frontend code at all times, just follow these steps:
+
+-- Log in to your Ilios API (backend) server and go to the root folder of your Ilios application (`/web/ilios`; for this example):
+
+`$ cd /web/ilios3`
+
+-- Then run the `ilios:maintenance:update-frontend` console command, in the context of the user that runs your webservices (eg. 'apache'):
+
+`$ sudo -u apache bin/console ilios:maintenance:update-frontend --env=prod`
+
+-- When it is done, you will then see the message:
+
+`Frontend updated successfully!`
+
+-- and that's it!`
+
+It is a good idea to run this command often (in a cron job, perhaps!) and after any backend update as well, of course!
+ 
