@@ -1,0 +1,17 @@
+---
+layout: post
+title:  What's New?
+date:   2016-11-21 15:00:00
+categories: updates
+---
+
+Q: __*Can I Access All My Learning Materials?*__:
+
+A: Beginning with our latest release, __v3.22.0__, you can. Along with the new course-based Learning Materials Summary page (accessible by course administrators from every course management page starting with __v3.21.0__), every user now has access to their entire history of digital assets from Ilios, available from the
+"My Materials" link in the identity/login dropdown at the upper right of the Ilios window.
+
+<img src="/assets/LMPage.png">
+
+This page allows for sorting (by date, title, course, session), filtering (by course, course title, session title, or material title), and is specific to each user, so that learners have access to all assigned materials over their entire history.
+
+We look forward to feedback from the community on this much-requested feature, and hope to be able to refine it and make it even better in the coming months.
