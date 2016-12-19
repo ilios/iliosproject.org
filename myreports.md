@@ -84,7 +84,7 @@ topLevel: false
   <td class="c3"><p class="c0"><span class="c1">all courses where the selected instructor group &nbsp;is attached to at least one of the course&rsquo;s session offerings</span></p></td>
   <td class="c3"><p class="c0"><span class="c1">all courses where the learning material selected is attached at either course or session level</span></p></td>
   <td class="c3"><p class="c0"><span class="c1">all courses where the selected competency is derived from parentage in the competency tree from course objectives</span></p></td>
-  <td class="c3"><p class="c0"><span class="c1">all courses where the selected vocabulary term is attached to the course or to a session in the course (C+S)</span></p></td>
+  <td class="c3 c5"><p class="c0"><span class="c1">all courses where the selected vocabulary term is attached to the course or to a session in the course (C+S)</span></p></td>
   <td class="c3"><p class="c0"><span class="c1">all courses where the selected mesh term is assigned to course, session, course / session objective, or learning material. (C+S)</span></p></td>
   <td class="c3"><p class="c0"><span class="c1">all courses where the selected session type is attached to the course or to a session in the course (C+S)</span></p></td>
   <td class="c3 c5"><p class="c0"><span class="c1">all courses where the selected learner group is attached to a session in the course (C+S)</span></p></td>
@@ -98,7 +98,7 @@ topLevel: false
   <td class="c3"><p class="c0"><span class="c1">all sessions where the selected instructor is attached to at least one offering</span></p></td>
   <td class="c3"><p class="c0"><span class="c1">all sessions where the selected instructor group &nbsp;is attached to at least one of the &nbsp;session offerings</span></p></td>
   <td class="c3"><p class="c0"><span class="c1">all sessions where the learning material selected is attached to the session</span></p></td><td class="c3"><p class="c0"><span class="c1">all sessions where the selected competency is derived from parentage in the competency tree from session objective&rsquo;s parent course objectives</span></p></td>
-  <td class="c3"><p class="c0"><span class="c1">all sessions where the selected vocabulary term is attached (S)</span></p></td><td class="c3"><p class="c0"><span class="c1">all sessions where the mesh term selected is assigned to the &nbsp;session, its objectives, or its attached learning material (S)</span></p></td>
+  <td class="c3 c5"><p class="c0"><span class="c1">all sessions where the selected vocabulary term is attached (S)</span></p></td><td class="c3"><p class="c0"><span class="c1">all sessions where the mesh term selected is assigned to the &nbsp;session, its objectives, or its attached learning material (S)</span></p></td>
   <td class="c3"><p class="c0"><span class="c1">all sessions where the session type selected is assigned to the session. (S)</span></p></td>
   <td class="c3 c5"><p class="c0"><span class="c1">all sessions where the selected learner group is assigned to the session. (S)</span></p></td>
   <td class="c3 c5"><p class="c0"><span class="c1">all sessions where the selected objective is assigned to the session. (S)</span></p></td></tr>
@@ -112,7 +112,7 @@ topLevel: false
   <td class="c3 c5"><p class="c0"><span class="c1">all programs where the selected instructor group is attached to at least one session of one course associated with a cohort of the program</span></p></td>
   <td class="c3 c5"><p class="c0"><span class="c1">all programs where the selected learning material is attached to at least one session of a course, or one course, &nbsp;associated with a cohort of the program (C+S)</span></p></td>
   <td class="c3 c24"><p class="c0"><strong>NOT IMPLEMENTED: LOW VALUE</strong><br /><span class="c1">all programs which include at least one program year which has the selected competency as an attribute.</span></p></td>
-  <td class="c3"><p class="c0"><span class="c1">all programs where the selected vocabulary term is attached to a program year within the program.</span></p></td>
+  <td class="c3 c5"><p class="c0"><span class="c1">all programs where the selected vocabulary term is attached to a program year within the program.</span></p></td>
   <td class="c3 c5"><p class="c0"><span class="c1">all programs which include a course, course objective, session, session objective, course learning material or session learning material tagged with the selected MeSH term (C+S)</span></p></td>
   <td class="c3 c5"><p class="c0"><span class="c1">all programs which include a course, course objective, session, session objective, course learning material or session learning material tagged with the selected MeSH term (C+S)</span></p></td>
   <td class="c2"><p class="c0"><span class="c1"></span></p></td>
@@ -127,7 +127,7 @@ topLevel: false
   <td class="c3 c5"><p class="c0"><span class="c1">all program years where the selected instructor group is attached to at least one session of one course associated with the cohort</span></p></td>
   <td class="c3 c5"><p class="c0"><span class="c1">all program years where the selected learning material is attached to at least one session or one course associated with the cohort </span></p></td>
   <td class="c3 c24"><p class="c0"><strong>NOT IMPLEMENTED: LOW VALUE</strong><br /><span class="c1">all program years which have the selected competency as an attribute.</span></p></td>
-  <td class="c3"><p class="c0"><span class="c1">all program years with the selected vocabulary term attached</span></p></td>
+  <td class="c3 c5"><p class="c0"><span class="c1">all program years with the selected vocabulary term attached</span></p></td>
   <td class="c3 c5"><p class="c0"><span class="c1">all program years associated with a course that &nbsp;include a course objective, session, session objective, course learning material or session learning material tagged with the selected MeSH term (C+S)</span></p></td>
   <td class="c2 c5"><p class="c0"><span class="c1"></span></p></td>
   <td class="c3 c5"><p class="c0"><span class="c1">all program years associated with a course that includes selected objective at course or session level (C+S)</span></p></td>
@@ -142,7 +142,7 @@ topLevel: false
   <td class="c3"><p class="c0"><span class="c1">all instructors attached to the selected instructor group</span></p></td>
   <td class="c3"><p class="c0"><span class="c1">all instructors attached to a session where the selected learning material is attached. (S)</span></p></td>
   <td class="c3 c5"><p class="c0"><span class="c1">all instructors attached to a session where the selected competency is associated via inheritance from the session objective. (S)</span></p></td>
-  <td class="c3"><p class="c0"><span class="c1">all instructors attached to a session offering where the session has the selected vocabulary term attached (S)</span></p></td>
+  <td class="c3 c5"><p class="c0"><span class="c1">all instructors attached to a session offering where the session has the selected vocabulary term attached (S)</span></p></td>
   <td class="c3 c5"><p class="c0"><span class="c1">all instructors attached to a session where the selected MeSH term is attached to a session objective, learning material, or the session itself. (S)</span></p></td>
   <td class="c3"><p class="c0"><span class="c1">all instructors attached to a session where the session type selected is assigned to the session. (S)</span></p></td>
   <td class="c2"><p class="c0"><span class="c1"></span></p></td>
@@ -156,7 +156,7 @@ topLevel: false
   <td class="c2"><p class="c0 c6"><span class="c1"></span></p></td>
   <td class="c3"><p class="c0"><span class="c1">all instructor groups attached to a session where the selected learning material is attached (S)</span></p></td>
   <td class="c3 c5"><p class="c0"><span class="c1">all instructor groups attached to a session where the selected competency is associated via inheritance from the session objective (S)</span></p></td>
-  <td class="c3"><p class="c0"><span class="c1">all instructor groups attached to a session offering where the session has the selected vocabulary term attached (S)</span></p></td>
+  <td class="c3 c5"><p class="c0"><span class="c1">all instructor groups attached to a session offering where the session has the selected vocabulary term attached (S)</span></p></td>
   <td class="c3 c5"><p class="c0"><span class="c1">all instructor groups attached to a session where the selected MeSH term is attached to a session objective, learning material, or the session itself (S)</span></p></td>
   <td class="c3"><p class="c0"><span class="c1">all instructors groups attached to a session where the session type selected is assigned to the session. (S)</span></p></td>
   <td class="c2"><p class="c0"><span class="c1"></span></p></td>
@@ -194,16 +194,16 @@ topLevel: false
   </tr>
   <tr>
   <td class="c7"><p class="c0"><span class="c11 c15">vocabulary term</span></p><p class="c0 c6"><span class="c11 c1"></span></p><p class="c0"><span class="c11 c1">[Returns &lsquo;All vocabulary terms&rsquo; List]</span></p></td>
-  <td class="c3"><p class="c0"><span class="c1">all vocabulary terms attached to the selected course (and any session of that course) (C+S)</span></p></td><td class="c3"><p class="c0"><span class="c1">all vocabulary terms attached to the selected session (S)</span></p></td>
-  <td class="c3"><p class="c0"><span class="c1">all vocabulary terms attached to any program year of the selected program (P)</span></p></td>
-  <td class="c3"><p class="c0"><span class="c1">all vocabulary terms attached to the selected program year (P)</span></p></td>
-  <td class="c3"><p class="c0"><span class="c1">all vocabulary terms attached to any session where the selected instructor is attached to at least one offering (S)</span></p></td>
-  <td class="c3"><p class="c0"><span class="c1">all vocabulary terms attached to any session where the selected instructor group is attached to at least one offering (S)</span></p></td>
-  <td class="c3"><p class="c0"><span class="c1">all vocabulary terms attached to a session or course where the selected learning material is attached (C+S)</span></p></td>
-  <td class="c3"><p class="c0"><span class="c1">all vocabulary terms attached to a session or course where the selected competency is inherited via objective tree (C+S)</span></p></td>
+  <td class="c3 c5"><p class="c0"><span class="c1">all vocabulary terms attached to the selected course (and any session of that course) (C+S)</span></p></td><td class="c3"><p class="c0"><span class="c1">all vocabulary terms attached to the selected session (S)</span></p></td>
+  <td class="c3 c5"><p class="c0"><span class="c1">all vocabulary terms attached to any program year of the selected program (P)</span></p></td>
+  <td class="c3 c5"><p class="c0"><span class="c1">all vocabulary terms attached to the selected program year (P)</span></p></td>
+  <td class="c3 c5"><p class="c0"><span class="c1">all vocabulary terms attached to any session where the selected instructor is attached to at least one offering (S)</span></p></td>
+  <td class="c3 c5"><p class="c0"><span class="c1">all vocabulary terms attached to any session where the selected instructor group is attached to at least one offering (S)</span></p></td>
+  <td class="c3 c5"><p class="c0"><span class="c1">all vocabulary terms attached to a session or course where the selected learning material is attached (C+S)</span></p></td>
+  <td class="c3 c5"><p class="c0"><span class="c1">all vocabulary terms attached to a session or course where the selected competency is inherited via objective tree (C+S)</span></p></td>
   <td class="c2"><p class="c0 c6"><span class="c1"></span></p></td>
   <td class="c2"><p class="c0"><span class="c1">all vocabulary terms attached to a session or course where where that course or session or an associated objective or learning material is tagged with the selected mesh term. (C+S)</span></p></td>
-  <td class="c3"><p class="c0"><span class="c1">all the vocabulary terms associated with a session with the selected session type</span></p></td>
+  <td class="c3 c5"><p class="c0"><span class="c1">all the vocabulary terms associated with a session with the selected session type</span></p></td>
   <td class="c3 c5"><p class="c0"><span class="c1">all vocabulary terms  where the selected learner group is attached to the course or to a session in the course (C+S)</span></p></td>
   <td class="c3 c5"><p class="c0"><span class="c1">all vocabulary terms associated with the selected objective</span></p></td>
 </tr>
@@ -233,7 +233,7 @@ topLevel: false
   <td class="c3"><p class="c0"><span class="c1">all session types associated to the selected instructor group</span></p></td>
   <td class="c3"><p class="c0"><span class="c1">all session types associated to the selected learning material</span></p></td>
   <td class="c3"><p class="c0"><span class="c1">all session types associated to the selected competency</span></p></td>
-  <td class="c3"><p class="c0"><span class="c1">all session types associated to the selected vocabulary term</span></p></td>
+  <td class="c3 c5"><p class="c0"><span class="c1">all session types associated to the selected vocabulary term</span></p></td>
   <td class="c3"><p class="c0"><span class="c1">all session types associated to the selected mesh term</span></p></td>
   <td class="c2"><p class="c0"><span class="c1"></span></p></td>
   <td class="c3 c5"><p class="c0"><span class="c1">all session types associated to the selected learner group</span></p></td>
