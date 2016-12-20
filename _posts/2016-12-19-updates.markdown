@@ -1,0 +1,30 @@
+---
+layout: post
+title:  End of Year Updates
+date:   2016-12-19 08:00:00
+categories: updates
+---
+
+*Winter Is Coming*.  Oh, and __v3.23.0__.
+
+As we approach year's end for 2016, we have made a *lot* of progress with Ilios. To list just a few of this year's achievements and enhancements that we have been able to push out for you between our original launch and our most recent __v3.23.0__ version update:
+
+- New displays for access to Learning Materials for students
+- Improvements to the Curriculum Inventory tools
+- Powerful self-managed vocabularies for schools
+- Ability to clone individual sessions
+- Significant performance improvements
+- Automated AWS deployments available
+- Better group management tools and displays
+- Better user management via access to user Profile pages
+- Simple and direct cohort assigment and management
+- Better calendar displays
+- Improved "print view" course summary
+- Enhanced manageability of competencies
+- Ability to add and track Leadership roles for Schools
+- Initial builds for enhanced roles and permissions
+- Addition of ability to implement Google Analytics
+
+We here at team Ilios want to thank everyone in the Ilios community, and every school, department, and program that has found value in the tools we provide. We continue to strive to be the best curriculum management solution on the face of the planet, and it is only through your input and feedback that we will get there (plus a little help from strong coffee).
+
+On that note, we wish you a happy and healthy holiday season, and will be back in January with a brand new slew of updates features, and expansions for Ilios!
