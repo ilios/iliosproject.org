@@ -7,4 +7,20 @@ categories: updates
 
 Happy 2017!
 
-We are pleased to announce our latest update, v3.23.2.
+We are pleased to announce our latest update, __v3.24.1__. As our inaugural 2017 code update, as well as our first Friday the 13th update, we are delighted to be able to provide a few behind the scenes bugfixes and dependency updates, including an important security update (*see below*).
+
+if you have questions please don't hesitate to send us a note at support@iliosproject.org.
+
+Highlights in this release:
+
+ __API Changes__: None
+
+ __Schema Changes__: None
+
+ __Other Changes__: corrected a bug introduced by the new calendar year which made rolling a course into the current academic year unavailable.
+
+ __SECURITY UPDATE__: This update includes a critical update to the mail transport, closing an exploit which could potentially allow the execution of arbitrary code on the server by an outside source. Complete information is available [here](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10074){:target="_blank"}.  [https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10074](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-10074). Although it is extremely unlikely that this issue could be exploited through Ilios, we nevertheless strongly encourage you to update your system at the earliest opportunity in order to implement this fix.
+
+On a final code note: As of January 1 2017, PHP 5.6 has reached end of life, and will no longer be actively supported. Security support will also end after 2018. For this reason, we *strongly* encourage you to begin migrating to either of the current supported PHP versions, 7.0 or 7.1. Ilios will continue to actively support PHP 5.6 until July 1, 2017, after which our active support will be for v.7.0 and above.
+
+Keep your eyes open for a bunch more updates coming in the next few weeks, including updates to MyReports, new school-configurable values, and much more!
