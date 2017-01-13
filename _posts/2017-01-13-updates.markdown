@@ -1,0 +1,10 @@
+---
+layout: post
+title:  New Year Updates
+date:   2017-01-13 08:00:00
+categories: updates
+---
+
+Happy 2017!
+
+We are pleased to announce our latest update, v3.23.2.
