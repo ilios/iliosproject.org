@@ -1,0 +1,15 @@
+---
+layout: post
+title:  Mo Betta' - No Beta!
+date:   2017-01-27 08:00:00
+categories: updates
+---
+
+
+The world may seem a cold place right now, but warm your hearts with the news that our latest update, __v3.25.0__, is now available for download.
+
+Among the various updates included in this release, The API has been updated (to v1.13) to incorporate updates to `terms` filters to allow extension of MyReports models. Also, with the long-awaited completion of test suites and systems updates for Curriculum Inventory, we are able to remove the "Beta" tag from the CI, and continue into the coming year with full CI test coverage and code integrity.
+
+if you have questions please don't hesitate to send us a note at support@iliosproject.org.
+
+Note: As of January 1 2017, PHP 5.6 has reached end of life, and will no longer be actively supported. Security support will also end after 2018. For this reason, we *strongly* encourage you to begin migrating to either of the current supported PHP versions, 7.0 or 7.1. Ilios will continue to actively support PHP 5.6 until July 1, 2017, after which our active support will be for v.7.0 and above.
