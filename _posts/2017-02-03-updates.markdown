@@ -6,4 +6,4 @@ categories: updates
 ---
 Today we've updated to __v3.26.0__, which implements reports for all vocabulary terms in the MyReports tool. to find out just what reports are available, please visit [our reports grid](https://www.iliosproject.org/myreports.html).
 
-We've also added a Docker version of the Ilios deployment ([contact us](mailto:support@iliosproject.org?subject=docker) for more info), and pushed out a bunch of great updates to the system, and would love to hear back from you about what you think! Write us at [support@iliosproject.org](mailto:support@iliosproject.org?subject=feedback)!
+We've also added a Docker version of the Ilios deployment ([contact us](mailto:support@iliosproject.org?subject=docker) for more info), and pushed out a bunch of great updates to the system. Let us know what you think! Write us at [support@iliosproject.org](mailto:support@iliosproject.org?subject=feedback)!
