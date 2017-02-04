@@ -1,0 +1,9 @@
+---
+layout: post
+title:  Terms of Reporting
+date:   2017-02-03 08:00:00
+categories: updates
+---
+Today we've implemented reports for all vocabulary terms in the MyReports tool. to find out just what reports are available, please visit [https://www.iliosproject.org/myreports.html](https://www.iliosproject.org/myreports.html).
+
+We've also pushed out a bunch of great updates to the system, and would love to hear back from you about what you think! Write us at [support@iliosproject.org](mailto:support@iliosproject.org?subject=feedback)!
