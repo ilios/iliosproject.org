@@ -1,0 +1,9 @@
+---
+layout: post
+title:  What's Up
+date:   2017-02-23 08:00:00
+categories: updates
+---
+So, where are we with progress on Ilios, you might ask? Well, let me tell you! Things are going great. Today we've released the update __v3.28.0__, with the ability to sort the display order of learning materials, improved upstream code libraries, and much more.
+
+Additionally, we have begun development on data visualizations in Ilios, and expect to have some really fantastic things to show you in upcoming releases between now and June. If you are curious to hear more, or want to contribute to the project as an individual or institution, please let us know!
