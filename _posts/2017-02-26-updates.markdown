@@ -1,0 +1,7 @@
+---
+layout: post
+title:  I Need Answers!
+date:   2017-02-26 08:00:00
+categories: updates
+---
+Wondering what's possible with Ilios? Have questions whether you can do what you want with your course information? A good place to start looking for answers is in our [FAQs page of the wiki](https://github.com/ilios/ilios/wiki/FAQS) ([https://github.com/ilios/ilios/wiki/FAQS](https://github.com/ilios/ilios/wiki/FAQS)). The FAQs -- and the whole wiki -- contain tons of information about what is possible, what is available, and simply what things mean in Ilios. We encourage you to take a look, and if you have questions, don't hesitate to [drop us a line](mailto:support@iliosproject.org) at [suppor@iliosproject.org](mailto:support@iliosproject.org) and let us know!
