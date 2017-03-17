@@ -21,4 +21,4 @@ It's St. Patrick's Day, and in honor of this auspiciously green day, we provide 
 
 It's all in today's update to __v3.29.0__.
 
-Write us at [support@iliosproject.org](mailto:support@iliosproject.org?subject=feedback)!
+Let us know what you think:  [support@iliosproject.org](mailto:support@iliosproject.org?subject=feedback)!
