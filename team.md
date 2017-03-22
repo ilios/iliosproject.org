@@ -10,6 +10,7 @@ topLevel: true
 - Jon Johnson (@jrjohnson), Lead Applications Programmer
 - Stefan Topfstedt (@stopfstedt), Senior Applications Programmer
 - Jason Hedrick (@thecoolestguy), Applications Programmer
+- Gaby Campagna (@gabycampagna), Data Visualization Programmer
 - Thomas Lee (@djvoa12), Applications Programmer
 - Jen Zweben (@jenzweben), Visual and User Experience Design
 - Carson Tam (@ctam), Contributor
@@ -18,7 +19,7 @@ topLevel: true
 
 
 - Want to be a part of the Ilios team, and help to create even better tools and features? Ilios is an [Open Source](http://opensource.org/){:target="_blank"}, community-based software application. [Fork the code at GitHub](https://github.com/ilios){:target="_blank"}, and get yourself started!
- 
+
 **Sponsors**
 
 - Tina Brock, Associate Dean for Teaching & Learning, UCSF School of Pharmacy
