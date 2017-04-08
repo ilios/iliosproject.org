@@ -1,0 +1,16 @@
+---
+layout: post
+title:  At A Glance
+date:   2017-04-07 12:00:00
+categories: updates
+---
+
+We are extremely pleased to announce today's update to __v3.30.0__.
+
+Along with some critical code updates, significant bugfixes, and some nice feature adds, we have introduced our new "Week at a Glance" view for the dashboard. This provides a week-by-week consolidated view of activities for each learner, along with the Activities, Materials, and Calendar views previously available.
+
+More information is available [here](http://eepurl.com/cKiL1r): [http://eepurl.com/cKiL1r](http://eepurl.com/cKiL1r)
+
+We think you will like it.
+
+Let us know at:  [support@iliosproject.org](mailto:support@iliosproject.org?subject=feedback)!
