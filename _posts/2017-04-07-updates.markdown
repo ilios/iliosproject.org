@@ -1,7 +1,7 @@
 ---
-layout: post 
-title: At a Glance 
-date: 2017-04-07  12:00:00 
+layout: post
+title: At a Glance
+date: 2017-04-07  12:00:00
 categories: updates 
 ---
 
