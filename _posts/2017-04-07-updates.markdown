@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  At A Glance
-date:   2017-04-07 12:00:00
+title: At a Glance
+date: 2017-04-07  12:00:00
 categories: updates
 ---
 
@@ -14,4 +14,3 @@ More information is available [here](http://eepurl.com/cKiL1r): [http://eepurl.c
 We think you will like it.
 
 Let us know at:  [support@iliosproject.org](mailto:support@iliosproject.org?subject=feedback)!
-
