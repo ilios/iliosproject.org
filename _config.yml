@@ -3,7 +3,7 @@ title: "Ilios"
 email: support@iliosproject.org
 description: Curriculum Management for the Health Professions
 baseurl: ""
-url: "https://ilios.github.io"
+url: "https:/iliosproject.org"
 github_username:  ilios
 # Build settings
 markdown: kramdown
