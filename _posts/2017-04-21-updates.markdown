@@ -1,0 +1,13 @@
+---
+layout: post
+title: What Have You Done For Me Lately?
+date: 2017-04-21  12:00:00
+categories: updates
+---
+
+We are extremely pleased to announce today's update to __v3.31.0__.
+
+This update includes a bunch of improvements, including updates to the Week at a Glance feature, additions to the My Materials view, a ton of minor adjustments, cleanups, and enhancements that will make the Ilios experience for all users that much better.
+
+
+Let us know at:  [support@iliosproject.org](mailto:support@iliosproject.org?subject=feedback)!
