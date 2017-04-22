@@ -4,7 +4,7 @@ title: Team
 permalink: /team/
 topLevel: true
 ---
- **The Ilios Project Team**
+ **The Ilios Project Core Team & Contributors**
 
 - Sascha Cohen (@saschaben), Director, Strategic Development
 - Jon Johnson (@jrjohnson), Lead Applications Programmer
@@ -18,13 +18,14 @@ topLevel: true
 - Dave Leonard (@dartajax), User Support
 
 
-- Want to be a part of the Ilios team, and help to create even better tools and features? Ilios is an [Open Source](http://opensource.org/){:target="_blank"}, community-based software application. [Fork the code at GitHub](https://github.com/ilios){:target="_blank"}, and get yourself started!
+Want to be a part of the Ilios team, and help to create even better tools and features? Ilios is an [Open Source](http://opensource.org/){:target="_blank"}, community-based software application. [Fork the code at GitHub](https://github.com/ilios){:target="_blank"}, and get yourself started!
 
 **Sponsors**
 
-- Tina Brock, Associate Dean for Teaching & Learning, UCSF School of Pharmacy
-- Karen Butter, UCSF University Librarian
-- Chandler Mayfield, Executive Director, Technology Enhanced Learning, UCSF School of Medicine
-- Kevin H. Souza, Associate Dean, Medical Education, UCSF School of Medicine
-- Rich Trott, Director, Academic Information Systems, UCSF Library and Center for Knowledge Management
-- Warren Wiechmann, Associate Dean, Instructional Technologies, UC Irvine School of Medicine
+The Ilios Project is indebted to the continuing support and sponsorship from the Deans and leadership of the following institutions:
+
+- **_UCSF_** _School of Medicine_
+- **_UCSF_** _University Library_
+- **_UCSF_** _School of Pharmacy_
+- **_UCSF_** _School of Dentistry_
+- **_UC Irvine_** _School of Medicine_
