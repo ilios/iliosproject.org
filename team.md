@@ -11,8 +11,8 @@ topLevel: true
 - Stefan Topfstedt (@stopfstedt), Senior Applications Programmer
 - Jason Hedrick (@thecoolestguy), Applications Programmer
 - Gaby Campagna (@gabycampagna), Data Visualization Programmer
-- Thomas Lee (@djvoa12), Applications Programmer
-- Jen Zweben (@jenzweben), Visual and User Experience Design
+- Thomas Lee (@djvoa12), Contributor
+- Jen Zweben (@jenzweben), Contributor (UX/UI)
 - Carson Tam (@ctam), Contributor
 - Victor Passapera (@vpassapera), Contributor
 - Dave Leonard (@dartajax), User Support
