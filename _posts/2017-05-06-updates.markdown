@@ -1,0 +1,13 @@
+---
+layout: post
+title: In Colors Everywhere
+date: 2017-05-06  12:00:00
+categories: updates
+---
+
+We are extremely pleased to announce the release of Ilios __v3.32.0__, available for immediate download and deployment.
+
+Along with a number of data improvements and bugfixes, this release includes the new ability to manage session types and their associated calendar colors directly in the UI, via the school administration page; and the first pilot introduction of native Ilios Course Data Visualizations -- this one showing the weighted instructional time value of a course's objectives.
+
+
+Let us know what you think at:  [support@iliosproject.org](mailto:support@iliosproject.org?subject=feedback)!
