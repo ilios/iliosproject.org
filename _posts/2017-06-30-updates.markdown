@@ -1,0 +1,11 @@
+---
+layout: post
+title: Buttons
+date: 2017-06-30  01:00:00
+categories: updates
+---
+
+We are pleased to announce the launch of __v3.34.0__, which includes a nice revamp of our dashboard calendar tools look&feel, along with a number of other enhancements. We also are thrilled to announce the launch of our new LTI component, allowing the ilios dashboard calendar, week at a glance, and activities/materials agendas to be plugged in directly to your LMS pages. To get the LTI, [please contact us](mailto:support@iliosproject.org?subject=LTIinfo) for instructions and a key to securely authenticate your systems at [support@iliosproject.org](mailto:support@iliosproject.org?subject=feedback).
+
+
+Let us know what you think at:  [support@iliosproject.org](mailto:support@iliosproject.org?subject=feedback)!
