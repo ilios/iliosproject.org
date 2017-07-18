@@ -1,0 +1,26 @@
+---
+layout: post
+title: Tips & Tricks
+date: 2017-06-29  01:00:00
+categories: updates
+---
+
+Did you know you can...
+* Customize the header, colors, and logos for your Ilios installation?
+* Copy teaching sessions from one course to another?
+* View another user's calendar? (if you have admin privileges)
+*  See the weighted value of course objectives by time spent?
+
+Well -- you can!
+
+**_How to Customize the Ilios UI_**: [https://github.com/ilios/ilios/wiki/FAQS#q-can-the-ilios-ui-be-customized](https://github.com/ilios/ilios/wiki/FAQS#q-can-the-ilios-ui-be-customized)
+
+**_How to Copy a Teaching Session_**: [https://iliosproject.gitbooks.io/ilios-user-guide/content/pages/sessions/copy_session.html](https://iliosproject.gitbooks.io/ilios-user-guide/content/pages/sessions/copy_session.html)
+
+**_How to View a User's Calendar_**: (If you have Admin privileges) Using the Admin Menu option, search for and select the user whose calendar you wish to review. On their profile page scroll to the section on the lower left of the screen to the "ICS Feed" panel. Click the "Web Link" button to copy the ICS address for the user. Using your preferred calendar tool (Google, Outlook, Apple, etc), follow the instructions for _"adding a calendar via url"_, using the copied link. Once done -- the user's calendar will be shown in your selected calendar application. _(N.B.: To greatly simplify this process, we will be adding a user calendar quick view to the UI in the coming weeks. Keep an eye out for updates!)_
+
+**_See the Weighted Value of Course Objectives_**: In any course page, click the donut chart icon in either the summary detail section or in the course objectives section, and you will be taken to the visualizations page showing the course objective weightings.
+
+Want to know more? Check out some of our FAQs at  [https://github.com/ilios/ilios/wiki/FAQS](https://github.com/ilios/ilios/wiki/FAQS), and our user guide at [https://iliosproject.gitbooks.io/ilios-user-guide/content](https://iliosproject.gitbooks.io/ilios-user-guide/content).
+
+Questions? Comments? Feedback? Please let us know at support@iliosproject.org or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/) (if you have not yet joined our slack channel, you can get started here: [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/)).
