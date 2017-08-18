@@ -1,0 +1,12 @@
+---
+layout: post
+title: v3.36.1 Released
+date: 2017-08-18  01:00:00
+categories: updates
+---
+
+We a pleased to announce the immediate release of Ilios **v3.36.1**. This minor point release provides a number of bugfixes and enhancements, notably the addition of the ability to view PDF materials either inline or as a download, and the inclusion of user calendars on every profile page.
+
+The new Profile Calendar allows administrative users with proper privileges to review at a glance the actual live week by week calendar for any of their users. Just go to the Admin page (from the Ilios menu), search for the user you wish to review, and scroll down to the calendar. It will reflect exactly what the user is receiving in their personalized calendar experience in Ilios.
+
+Please [download the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest updates!
