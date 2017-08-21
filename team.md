@@ -11,7 +11,7 @@ topLevel: true
 - Stefan Topfstedt (@stopfstedt), Senior Applications Programmer
 - Jason Hedrick (@thecoolestguy), Applications Programmer
 - Geoffrey Boushey (@boushey), Applications Programmer
-- Gaby Campagna (@gabycampagna), Contributor (Data Visualization)
+- Gaby Campagna (@gabycampagna), Contributor (Data Visualization Programmer)
 - Thomas Lee (@djvoa12), Contributor
 - Jen Zweben (@jenzweben), Contributor (UX/UI)
 - Carson Tam (@ctam), Contributor
@@ -30,4 +30,5 @@ The Ilios Project is indebted to the continuing support and sponsorship from the
 - **_UCSF_** _University Library_
 - **_UCSF_** _School of Pharmacy_
 - **_UCSF_** _School of Dentistry_
+- **_UCSF_** _Institute of Global Health Sciences_
 - **_UC Irvine_** _School of Medicine_
