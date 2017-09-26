@@ -1,0 +1,16 @@
+---
+layout: post
+title: v3.38.0 Now Available (for a limited time only!)
+date: 2017-09-25  01:00:00
+categories: updates
+---
+
+We are pleased to announce the immediate release of Ilios **v3.38.0**. This release provides two key new features:
+
+1. A completely renovated and updated MeSH importer, allowing easy command-line updating of your compendium of available MeSH terms to the very latest vocabulary released by NLM;
+
+2. Timed release of Learning Materials, along with an updated interface for LM management. Now materials can be released at a specified future time, made available for a limited time only, or pulled back from release after a desired window.
+
+Questions? Comments? Feedback? Please let us know at [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/) (if you have not yet joined our slack channel, you can get started here: [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/)).
+
+Please [download the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest updates!
