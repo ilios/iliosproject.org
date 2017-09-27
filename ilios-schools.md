@@ -10,6 +10,7 @@ redirect_from: '/home/join-the-lists/'
 - UC Irvine School of Medicine (project partner)
 - UCSF School of Pharmacy (project supporting school)
 - UCSF School of Dentistry (project supporting school)
+- UCSF Institute for Global Health Sciences (supporting program)
 - SUNY Downstate College of Medicine
 - Stanford University School of Medicine
 - Karolinska Institutet University (SE)
