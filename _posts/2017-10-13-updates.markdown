@@ -5,11 +5,11 @@ date: 2017-10-13  15:00:00
 categories: updates
 ---
 
-Did you know you can copy / clone any learner group, along with all it's members? Well, you can!
+Did you know you can copy / clone any learner group, along with all its members? Well, you can!
 
 ![group-clone-image](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/863f7ebb-7e53-4cf2-9a40-58e72cf96742.png)
 
-If you are running v3.38.0 (or later), and have updated your frontend to the most recent version, it's easy. Just pick your group and select the "copy" icon, and you will be able to create a complete copy of everything in that group, either with or without the students populating it: all it's subgroups and sub-subgroups, all names and structures.
+If you are running v3.38.0 (or later), and have updated your frontend to the most recent version, it's easy. Just pick your group and select the "copy" icon, and you will be able to create a complete copy of everything in that group, either with or without the students populating it: all its subgroups and sub-subgroups, all names and structures.
 
 If you select the option to copy the population of the group as well, then all the students will be copied into the new clone exactly as they are in the original.
 
