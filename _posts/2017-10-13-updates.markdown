@@ -5,7 +5,7 @@ date: 2017-10-13  15:00:00
 categories: updates
 ---
 
-Did you know you can copy / clone any learner group, along with all its members? Well, you can!
+Did you know you can copy / clone any learner group, along with all of its members? Well, you can!
 
 ![group-clone-image](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/863f7ebb-7e53-4cf2-9a40-58e72cf96742.png)
 
@@ -15,4 +15,4 @@ If you select the option to copy the population of the group as well, then all t
 
 Questions? Comments? Feedback? Please let us know at [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/) (if you have not yet joined our slack channel, you can get started here: [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/)).
 
-Please [download the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest updates!
+Please [download the most recent release](https://www.github.com/ilios/ilios/releases/latest) and update your frontend to take advantage of all the latest updates!
