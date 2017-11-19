@@ -1,0 +1,14 @@
+---
+layout: post
+title: Latest updates!
+date: 2017-11-17  15:00:00
+categories: updates
+---
+
+Ilios __v3.40.0__ has just been released, with a ton of bugfixes, performance enhancements, and improvements to the mobile experience. We're still keeping a low profile in order to focus on the new permissions work, and do housekeeping as we move into the holiday season. Also, please check out the latest [weekly update](https://us3.campaign-archive.com/?u=845c4ebabb5b5ae7a6372c715&id=9b443157d6) for information regarding our new policy around PHP version support.
+
+If you haven't yet had a chance to update your systems to the latest release, now is a great time to do so!
+
+Questions? Comments? Feedback? Please let us know at [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/) (if you have not yet joined our slack channel, you can get started here: [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/)).
+
+Please [download the most recent release](https://www.github.com/ilios/ilios/releases/latest) and update your frontend to take advantage of all the latest updates!
