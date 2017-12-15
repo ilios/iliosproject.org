@@ -5,8 +5,8 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     padding-left: 7em;
-    min-height: 56px;
-    max-height: 56px;
+    min-height: 68px;
+    max-height: 68px;
     background-color: rgb(216,91,0);
 
     // Positioning context for the mobile navigation icon
@@ -15,7 +15,7 @@
     //adding this for the header tagline
 .site-header-tag {
     float: right;
-    padding-top: 33px;
+    padding-top: 45px;
     padding-left: 12px;
     margin-left: 8px;
     color: #ffffff;
@@ -30,8 +30,8 @@
     letter-spacing: -1px;
     float: left;
     img {
-     height: 50px;
-     width: 101px;
+     height: 60px;
+     width: 120px;
      padding-bottom: 7px;
          }
 
@@ -44,7 +44,7 @@
 .site-nav {
  //   vertical-align: sub;
     float: right;
-    line-height: 46px;
+    line-height: 68px;
     z-index:5;
 
     .menu-icon {
