@@ -20,16 +20,15 @@
        </a>
 
        <div class="trigger">
-
            {% if page.title %}
-             <a class="page-link home-link" href="/">Home</a>
+             <span class="page-link space-link">&nbsp;</span><a class="page-link home-link" href="/">Home</a>
            {% endif %}
            {% for page in site.pages %}
              {% if page.title and page.topLevel %}
-               &nbsp;<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+               <span class="page-link space-link">&nbsp;</span><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
              {% endif %}
-           {% endfor %}
-         &nbsp;<a class="page-link" href="http://us3.campaign-archive2.com/home/?u=845c4ebabb5b5ae7a6372c715&id=1493e3df18" target="_blank">Status&nbsp;Reports</a>
+            {% endfor %}
+            <span class="page-link space-link">&nbsp;</span><a class="page-link" href="http://us3.campaign-archive2.com/home/?u=845c4ebabb5b5ae7a6372c715&id=1493e3df18" target="_blank">Status&nbsp;Reports</a>
 
        </div>
     </nav>

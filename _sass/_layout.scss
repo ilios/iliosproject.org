@@ -57,11 +57,18 @@
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
-            margin-left: 20px;
+            margin-left: 12px;
         }
 
         &.home-link {
           color:#c66;
+        }
+
+        &.space-link {
+          line-height:0.5em;
+          &:first-child {
+            padding-top: 0.5em;
+          }
         }
     }
 
