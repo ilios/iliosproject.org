@@ -59,6 +59,10 @@
         &:not(:first-child) {
             margin-left: 20px;
         }
+
+        &.home-link {
+          color:#c66;
+        }
     }
 
     @include media-query($on-palm) {
