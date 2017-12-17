@@ -19,22 +19,22 @@
           </svg>
        </a>
 
-      <div class="trigger">
+       <div class="trigger">
 
-          {% if page.title %}
-            <a class="page-link" href="/">Home</a>
-          {% endif %}
+           {% if page.title %}
+             <a class="page-link" style="color:#c66;" href="/">Home</a>
+           {% endif %}
 
-          {% for page in site.pages %}
-            {% if page.title and page.topLevel %}
-              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-            {% endif %}
+           {% for page in site.pages %}
+             {% if page.title and page.topLevel %}
+               &nbsp; <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+             {% endif %}
 
-          {% endfor %}
-        <a class="page-link" href="http://us3.campaign-archive2.com/home/?u=845c4ebabb5b5ae7a6372c715&id=1493e3df18" target="_blank">Status&nbsp;Reports</a>
-        <br clear=all>
+           {% endfor %}
+         <a class="page-link" href="http://us3.campaign-archive2.com/home/?u=845c4ebabb5b5ae7a6372c715&id=1493e3df18" target="_blank">Status&nbsp;Reports</a>
+         <br clear=all>
 
-      </div>
+       </div>
     </nav>
 
   </div>
