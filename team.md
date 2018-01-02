@@ -12,16 +12,16 @@ topLevel: true
 - Jason Hedrick (@thecoolestguy), Applications Programmer
 - Geoffrey Boushey (@boushey), Applications Programmer
 - Dave Leonard (@dartajax), User Support
+- Rich Trott (@Trott), Contributor
 
-### Emeritus
-
-- Loki der Quaeler (@quaeler), Lead Applications Programmer
-- Rolf Mortensen (@rolfsf), Contributor (UX/UI)
 - Gaby Campagna (@gabycampagna), Contributor (Data Visualization Programmer)
 - Thomas Lee (@djvoa12), Contributor
 - Jen Zweben (@jenzweben), Contributor (UX/UI)
 - Carson Tam (@ctam), Contributor
 - Victor Passapera (@vpassapera), Contributor
+
+- Loki der Quaeler (@quaeler), Lead Developer (_emeritus_)
+- Rolf Mortensen (@rolfsf), Usability Designer (_emeritus_)
 
 Want to be a part of the Ilios team, and help to create even better tools and features? Ilios is an [Open Source](http://opensource.org/){:target="_blank"}, community-based software application. [Fork the code at GitHub](https://github.com/ilios){:target="_blank"}, and get yourself started!
 
