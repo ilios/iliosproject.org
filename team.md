@@ -4,7 +4,7 @@ title: Team
 permalink: /team/
 topLevel: true
 ---
- **The Ilios Project Core Team & Contributors**
+## The Ilios Project Core Team & Contributors
 
 - Sascha Cohen (@saschaben), Director, Strategic Development
 - Jon Johnson (@jrjohnson), Lead Applications Programmer
@@ -13,6 +13,10 @@ topLevel: true
 - Geoffrey Boushey (@boushey), Applications Programmer
 - Dave Leonard (@dartajax), User Support
 
+### Emeritus
+
+- Loki der Quaeler (@quaeler), Lead Applications Programmer
+- Rolf Mortensen (@rolfsf), Contributor (UX/UI)
 - Gaby Campagna (@gabycampagna), Contributor (Data Visualization Programmer)
 - Thomas Lee (@djvoa12), Contributor
 - Jen Zweben (@jenzweben), Contributor (UX/UI)
@@ -21,7 +25,7 @@ topLevel: true
 
 Want to be a part of the Ilios team, and help to create even better tools and features? Ilios is an [Open Source](http://opensource.org/){:target="_blank"}, community-based software application. [Fork the code at GitHub](https://github.com/ilios){:target="_blank"}, and get yourself started!
 
-**Sponsors**
+## Sponsors
 
 The Ilios Project is indebted to the continuing support and sponsorship from the Deans and leadership of the following institutions:
 
