@@ -5,7 +5,7 @@ date: 2018-01-23  15:00:00
 categories: updates
 ---
 
-We of the Ilios team welcome you to the new year, and the first release of 2018, __v3.42.0__, which adds further permissions improvements, additional data to downloaded reports, and a calendar view for learner groups -- aloing with a bunch of other improvements to start off the year right.
+The Ilios team welcomes you to the new year, and the first release of 2018, __v3.42.0__, which adds further permissions improvements, enhanced data for your downloaded reports, a calendar view for learner groups, and bunch of other improvements to start the year off right.
 
 We are looking forward to another extremely active and productive year in the Ilios community and development team, and we hope that you will continue to find increasing value in the platform for your students, faculty, and administration.
 
