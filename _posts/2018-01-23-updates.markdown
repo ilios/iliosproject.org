@@ -1,0 +1,16 @@
+---
+layout: post
+title: Happy New Year, From Team ilios!
+date: 2018-01-23  15:00:00
+categories: updates
+---
+
+We of the Ilios team welcome you to the new year, and the first release of 2018, __v3.42.0__, which adds further permissions improvements, additional data to downloaded reports, and a calendar view for learner groups -- aloing with a bunch of other improvements to start off the year right.
+
+We are looking forward to another extremely active and productive year in the Ilios community and development team, and we hope that you will continue to find increasing value in the platform for your students, faculty, and administration.
+
+If you haven't yet had a chance to update your systems to the latest release, now is a great time to do so!
+
+Questions? Comments? Feedback? Please let us know at [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/) (if you have not yet joined our slack channel, you can get started here: [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/)).
+
+Please [download the most recent release](https://www.github.com/ilios/ilios/releases/latest) and update your frontend to take advantage of all the latest updates!
