@@ -11,6 +11,6 @@ We are looking forward to another extremely active and productive year in the Il
 
 If you haven't yet had a chance to update your systems to the latest release, now is a great time to do so!
 
-Questions? Comments? Feedback? Please let us know at [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/) (if you have not yet joined our slack channel, you can get started here: [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/)).
+Questions? Comments? Feedback? Please let us know at [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/).  (If you have not yet joined our slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/).)
 
 Please [download the most recent release](https://www.github.com/ilios/ilios/releases/latest) and update your frontend to take advantage of all the latest updates!
