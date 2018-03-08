@@ -1,0 +1,22 @@
+---
+layout: post
+title: It's all in the delivery
+date: 2018-01-23  15:00:00
+categories: updates
+---
+__STATUS__:
+- current version: __3.45.0__
+- next scheduled release: __3/16/2018__
+
+__RECENT HIGHLIGHTS__:
+- Improved rollover
+- "True" mobile display
+- Extended (multiple) objective/competency parentage
+- 2018 _MeSH_ now available
+
+__DETAILS__:
+- [http://bit.ly/IliosWeeklyUpdates](http://bit.ly/IliosWeeklyUpdates){:target="updates"}
+
+Questions? Comments? Feedback? Please let us know at [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please [download the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest updates!
