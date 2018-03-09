@@ -5,7 +5,7 @@ date: 2018-01-23  15:00:00
 categories: updates
 ---
 __STATUS__:
-- current version: __3.45.0__
+- current version: __3.45.1__
 - next scheduled release: __3/16/2018__
 
 __RECENT HIGHLIGHTS__:
