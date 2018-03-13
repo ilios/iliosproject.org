@@ -1,11 +1,11 @@
 ---
 layout: post
 title: It's all in the delivery
-date: 2018-01-23  15:00:00
+date: 2018-03-11  15:00:00
 categories: updates
 ---
 __STATUS__:
-- current version: __3.45.2__
+- current version: __3.45.3__
 - next scheduled release: __3/16/2018__
 
 __RECENT HIGHLIGHTS__:
