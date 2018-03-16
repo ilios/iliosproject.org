@@ -10,13 +10,13 @@ topLevel: true
 - Jon Johnson (@jrjohnson), Lead Applications Programmer
 - Stefan Topfstedt (@stopfstedt), Senior Applications Programmer
 - Jason Hedrick (@thecoolestguy), Applications Programmer
-- Geoffrey Boushey (@boushey), Applications Programmer
 - Dave Leonard (@dartajax), User Support
 - Rich Trott (@Trott), Contributor
 
 - Gaby Campagna (@gabycampagna), Contributor (Data Visualization Programmer)
 - Thomas Lee (@djvoa12), Contributor
 - Jen Zweben (@jenzweben), Contributor (UX/UI)
+- Geoffrey Boushey (@boushey), Contributor
 - Carson Tam (@ctam), Contributor
 - Victor Passapera (@vpassapera), Contributor
 
