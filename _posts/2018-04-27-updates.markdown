@@ -1,0 +1,26 @@
+---
+layout: post
+title: New Permissions"
+date: 2018-05-01  15:00:00
+categories: updates
+---
+__STATUS__:
+- current version: __3.48.0__
+- next scheduled release: __5/11/2018__
+
+__HIGHLIGHTS__:
+- New Permissions Model released.
+- Granular administrative access now compiled by user association to the curriculum.
+- A matrix of current roles and their associated administrative core permissions is available for review [here](https://www.dropbox.com/s/431sdj2bfoi3v1f/Ilios%20New%20Default%20Permissions%20Matrix.pdf?dl=0){:target="pmatrix"}:
+
+__COMING SOON__:
+- Linked Sessions
+- Curriculum Inventory improvements
+- Selectives modeling
+
+__MORE DETAILS__:
+- [http://bit.ly/IliosWeeklyUpdates](http://bit.ly/IliosWeeklyUpdates){:target="updates"}
+
+Questions? Comments? Feedback? Please let us know at [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please [download the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest updates!
