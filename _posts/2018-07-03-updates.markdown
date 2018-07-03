@@ -1,0 +1,24 @@
+---
+layout: post
+title: Independence Day Is On The Way
+date: 2018-07-03  08:00:00
+categories: updates
+---
+__STATUS__:
+- current version: __3.50.0__
+- next scheduled release: __7/13/2018__
+
+__HIGHLIGHTS__:
+- competency-objective mapping view added to Program Year
+- bugfixes and performance improvements
+
+__COMING SOON__:
+- Linked Sessions
+- Selectives modeling
+
+__MORE DETAILS__:
+- [http://bit.ly/IliosWeeklyUpdates](http://bit.ly/IliosWeeklyUpdates){:target="updates"}
+
+Questions? Comments? Feedback? Please let us know at [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please [download the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest updates!
