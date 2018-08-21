@@ -1,0 +1,26 @@
+---
+layout: post
+title: Summer Speed and Super Leaps
+date: 2018-08-01  13:00:00
+categories: updates
+---
+__STATUS__:
+- current version: __3.53.1__
+- next scheduled release: __8/30/2018__
+
+__HIGHLIGHTS__:
+- CI bugfixes
+- New view for .ics calendar feed
+- New updated session list for course management
+
+__COMING SOON__:
+- Linked Sessions
+- Updated view for ILMs in the calendar and Week at a Glance
+- Selectives modeling
+
+__MORE DETAILS__:
+- [http://bit.ly/IliosWeeklyUpdates](http://bit.ly/IliosWeeklyUpdates){:target="updates"}
+
+Questions? Comments? Feedback? Please let us know at [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please [download the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest updates!
