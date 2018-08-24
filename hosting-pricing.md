@@ -8,7 +8,7 @@ topLevel: false
 [<-- Back](/hosting)
 # __We Can Host You__
 
-Our hosting service begins for as little as **$1,000.00 per month**, per school.
+Our hosting service begins for as little as **$1,000 per month**, per school.
 
 Implementation, customization, and deployment fees are separate and not included.
 
