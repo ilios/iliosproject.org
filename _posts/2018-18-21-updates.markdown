@@ -1,0 +1,27 @@
+---
+layout: post
+title: Velocity
+date: 2018-09-18  13:00:00
+categories: updates
+---
+__STATUS__:
+- current version: __3.55.0__
+- next scheduled release: __10/05/2018__
+
+![HappyHolidays](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/726cc1c3-a446-40c1-a495-24a1a36ccd94.jpg) We've been moving at a very rapid clip this summer, and as we enter into the Autumn season we look forward to another round of significant Ilios improvements for our community. If you have thoughts on how to add to the Ilios experience, please let us know!
+
+__HIGHLIGHTS__:
+- Bugfixes and structural improvements, including new icons for improved accessibility.
+
+__COMING SOON__:
+- Linked Sessions: assign pre- and post-work by linking sessions to one another.
+- Updated view for ILMs in the calendar and Week at a Glance
+- Selectives modeling
+- LTI component for Course management
+
+__MORE DETAILS__:
+- [http://bit.ly/IliosWeeklyUpdates](http://bit.ly/IliosWeeklyUpdates){:target="updates"}
+
+Questions? Comments? Feedback? Please let us know at [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please [download the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest updates!
