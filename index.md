@@ -10,13 +10,14 @@ path: '/'
 
 # Ilios: Curriculum Management from UCSF
 
-- [Check out our Wiki](https://github.com/ilios/ilios/wiki){:target="_blank"}
+- [Ilios Hosting](/hosting) *(new!)*
 - [Read the FAQs](https://github.com/ilios/ilios/wiki/FAQS){:target="_blank"}
 - [Subscribe for Updates](/subscribe)
 - [Demo Site Information](/demo)
-- [Latest User Guide](https://iliosproject.gitbooks.io/ilios-user-guide/content/){:target="_blank"} *(new!)*
-- [Looking for the User Guide for 2.4.8? It's here!](https://www.dropbox\.com/sh/3cfxfzdspzf10wp/KbaFS5LKkM){:target="_blank"}
-- [Ilios Hosting](/hosting) *(new!)*
+- [Latest User Guide](https://iliosproject.gitbooks.io/ilios-user-guide/content/){:target="_blank"} *(always up to date!)*
+   -  ([Looking for the User Guide for 2.4.8? It's here!](https://www.dropbox\.com/sh/3cfxfzdspzf10wp/KbaFS5LKkM){:target="_blank"})
+- [Check out our Wiki](https://github.com/ilios/ilios/wiki){:target="_blank"}
+
 
 ## Latest News
 
