@@ -1,0 +1,45 @@
+---
+layout: post
+title: Happy Holidays
+date: 2018-12-11  13:00:00
+categories: updates
+---
+
+ ![IliosClaus](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/44600be9-5f1f-464a-88b1-52d2a4efe443.jpg)
+
+            From the Ilios Team!          
+
+*What we filled your stockings with for 2018:*
+
+__22__ Backend (version) releases
+
+__36__ Frontend (feature/user interface) releases
+
+__581__ closed tickets / additions merged into code
+
+Along with....
+   
+- Launch of Hosted Ilios Services
+- Small Group Assignment tool launched
+- Allow for active/inactive tags on vocabulary items (to retire old terms)
+- Added cohort assignment to rollover, providing for auto-linkage to program objectives and competencies
+- Improved links to resources
+- True Mobile display for smaller devices
+- Addition of 2018 MeSH (and simple command line control for all MeSH updates in future)
+- Course Visualizations for objectives, instructional hours, vocabulary terms, and instructional methods, and activity by instructor
+- Addition of “Leadership” sections for all areas of curriculum
+- New permissions model allowing granular control of access and read-only permission for the entire curriculum
+- Improvements to accessibility compliance
+- Updated Curriculum Inventory tools
+- Competency-Objective mapping display provided in Program Year
+- Competency Map download available for all cohorts
+- LTI components added for Moodle and Canvas
+- Completely refactored Session List display
+- Updated Course Summary View
+- Instructional Notes added to sessions
+- Massive Performance improvement for page loading time
+- Implemented opt-in global error tracking
+
+__STATUS__:
+- current version: __3.57.0__
+- next scheduled release: __12/20/2018__ _(tent.)_
