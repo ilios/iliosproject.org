@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Happy Holidays
-date: 2018-12-11  13:00:00
+title: Happy Holidays - updated
+date: 2018-12-21  13:00:00
 categories: updates
 ---
 
@@ -11,14 +11,14 @@ categories: updates
 
 *What we filled your stockings with for 2018:*
 
-__22__ Backend (version) releases
+__23__ Backend (version) releases
 
-__36__ Frontend (feature/user interface) releases
+__37__ Frontend (feature/user interface) releases
 
-__581__ closed tickets / additions merged into code
+__595__ closed tickets / additions merged into code
 
 Along with....
-   
+
 - Launch of Hosted Ilios Services
 - Small Group Assignment tool launched
 - Allow for active/inactive tags on vocabulary items (to retire old terms)
@@ -39,7 +39,8 @@ Along with....
 - Instructional Notes added to sessions
 - Massive Performance improvement for page loading time
 - Implemented opt-in global error tracking
+- Added 2019 MeSH data
 
 __STATUS__:
-- current version: __3.57.0__
-- next scheduled release: __12/20/2018__ _(tent.)_
+- current version: __3.59.0__
+- next scheduled release: __01/10/2019__ _(tent.)_
