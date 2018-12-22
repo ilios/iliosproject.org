@@ -10,7 +10,7 @@ topLevel: true
 - [Ilios Schools](/ilios-schools)
 - [Features](/features)
 
-The Ilios Curriculum Management System addresses the needs of the Health Professions educational community by providing a user-friendly, flexible, and robust web application to collect, manage, analyze and deliver curricular information.
+Ilios is a curriculum management system for the Health Professions educational community. It is a user-friendly, flexible, and robust web application. Ilios collects, manages, analyzes, and delivers curricular information.
 
 Built by and for the health professions, Ilios supports the sharing of curriculum outcomes and materials among programs, departments, schools and institutions, while maintaining the flexibility to accommodate the unique practices within our diverse health professions community.
 - **ROBUST**: Ilios provides a flexible yet structured model for mapping your curriculum across all years of training.
