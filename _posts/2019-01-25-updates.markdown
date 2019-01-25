@@ -10,15 +10,17 @@ __STATUS__:
 
 Welcome to a new year, a new release, and a new set of development goals for the Ilios Project in the coming year! Among the key features identified as target milestones for our 2019-20 roadmap we are happy to note:
 
-SEARCH: We have begun a year-long initiative to begin the incorporation of deep search to the Ilios platform. We hope to be able to include search across the entire curriculum and its content  - from learning objectives to learning materials - and will keep you all apprised of progress in this area.
+*SEARCH*: We have begun a year-long initiative to begin the incorporation of deep search to the Ilios platform. We hope to be able to include search across the entire curriculum and its content  - from learning objectives to learning materials - and will keep you all apprised of progress in this area.
 
-Session Linking: Beginning with the next release, the session linking tools will be available for Ilios.
+*Session Linking*: Beginning with the next release, the session linking tools will be available for Ilios.
 
-Configurable options: We expect to be providing the ability to modify an array of different school level attributes, including the time-window for calendar integrations and dashboard displays, naming conventions, and more.
+*Configurable options*: We expect to be providing the ability to modify an array of different school level attributes, including the time-window for calendar integrations and dashboard displays, naming conventions, and more.
 
-Selectives: The abilty to tag and group sessions as selectives within the curriculum.
+*Selectives*: The ability to tag and group sessions as selectives within the curriculum.
 
-Improved and extended rollover: allowing the rollover of entire group trees, selective choice of attributes for rollover in a course, and better publishing control.
+*Improved and extended rollover*: allowing the rollover of entire group trees, selective choice of attributes for rollover in a course, and better publishing control.
+
+*Improved Curriculum Inventory tools*: better, more flexible tools to represent your curriculum to the AAMC Curriculum Inventory.
 
 Further information on the roadmap is available in our Github repository.
 
