@@ -10,7 +10,7 @@ __STATUS__:
 
 Welcome to a new year, a new release, and a new set of development goals for the Ilios Project in the coming year! Key features identified as target milestones for our 2019-20 roadmap include:
 
-*SEARCH*: We have begun a year-long initiative to begin the incorporation of deep search to the Ilios platform. We hope to be able to include search across the entire curriculum and its content  - from learning objectives to learning materials - and will keep you all apprised of progress in this area.
+*SEARCH*: We have begun a year-long initiative to begin the incorporation of deep search. We expect to include search across the entire curriculum and its content.
 
 *Session Linking*: Session linking tools will be available in the next release.
 
