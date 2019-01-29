@@ -18,7 +18,7 @@ Welcome to a new year, a new release, and a new set of development goals for the
 
 *Selectives*: The ability to tag and group sessions as selectives within the curriculum.
 
-*Improved and extended rollover*: allowing the rollover of entire group trees, selective choice of attributes for rollover in a course, and better publishing control.
+*Improved and extended rollover*: This will allow the rollover of entire group trees. There will also be selective choice of attributes for rollover in a course. Finally, this will include better publishing control.
 
 *Improved Curriculum Inventory tools*: better, more flexible tools to represent your curriculum to the AAMC Curriculum Inventory.
 
