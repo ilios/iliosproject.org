@@ -8,7 +8,7 @@ __STATUS__:
 - current version: __3.60.0__
 - next scheduled release: __2/13/2019__
 
-Welcome to a new year, a new release, and a new set of development goals for the Ilios Project in the coming year! Among the key features identified as target milestones for our 2019-20 roadmap we are happy to note:
+Welcome to a new year, a new release, and a new set of development goals for the Ilios Project in the coming year! Key features identified as target milestones for our 2019-20 roadmap include:
 
 *SEARCH*: We have begun a year-long initiative to begin the incorporation of deep search to the Ilios platform. We hope to be able to include search across the entire curriculum and its content  - from learning objectives to learning materials - and will keep you all apprised of progress in this area.
 
