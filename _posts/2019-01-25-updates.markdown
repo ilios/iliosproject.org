@@ -12,7 +12,7 @@ Welcome to a new year, a new release, and a new set of development goals for the
 
 *SEARCH*: We have begun a year-long initiative to begin the incorporation of deep search to the Ilios platform. We hope to be able to include search across the entire curriculum and its content  - from learning objectives to learning materials - and will keep you all apprised of progress in this area.
 
-*Session Linking*: Beginning with the next release, the session linking tools will be available for Ilios.
+*Session Linking*: Session linking tools will be available in the next release.
 
 *Configurable options*: We expect to be providing the ability to modify an array of different school level attributes, including the time-window for calendar integrations and dashboard displays, naming conventions, and more.
 
