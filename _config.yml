@@ -8,7 +8,7 @@ github_username:  ilios
 # Build settings
 markdown: kramdown
 exclude: [Gemfile, Gemfile.lock, LICENSE]
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-redirect-from
 links:
