@@ -1,6 +1,8 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/763a879f-87cd-4030-a9b0-2306aa729088/deploy-status)](https://app.netlify.com/sites/iliosproject/deploys)
+
 ## About
 
-This is the code-base for the new Ilios Project Website. The site is currently under construction.
+This is the code-base for the new Ilios Project Website.
 
 ## Development
 
