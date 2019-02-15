@@ -1,0 +1,18 @@
+---
+layout: post
+title: At Last Lots Links
+date: 2019-02-15  08:00:00
+categories: updates
+---
+![lancelotlink](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/1f854374-779d-4ba4-97ee-9f8fafd298a3.jpg)
+
+__STATUS__:
+- current version: __3.61.0__
+- next scheduled release: __2/21/2019__
+
+ As promised, our Session Linking tools are now live and available for all users who are up to date with Ilios __v3.61.0__. Information on how to use this new feature can be found [here in the user guide](https://iliosproject.gitbook.io/ilios-user-guide/courses-and-sessions/sessions/independent-learning-module-ilm){:target="guide1"}, with further information about display and calendar info [here](https://iliosproject.gitbook.io/ilios-user-guide/dashboard/week-at-a-glance){:target="guide2"}, [here](https://iliosproject.gitbook.io/ilios-user-guide/dashboard/event-detail-view){:target="guide3"}, and [here](https://iliosproject.gitbook.io/ilios-user-guide/dashboard/calendar-view#pre-work-multiday-events){:target="guide4"}. And of course, as always if you have further questions don't hesitate to [let us know](mailto:support@iliosproject.org)!
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
