@@ -1,0 +1,18 @@
+---
+layout: post
+title: Sharing is Caring
+date: 2019-04-05  08:00:00
+categories: updates
+---
+
+__STATUS__:
+- current version: __3.64.2__
+- API Updates: deprecation of program and program year `publish` attributes
+- Notable new features and improvements: improved learning material search/filtering; improved competency/program objective linkage display; improved naming conventions and labeling; improved offerings editor form.
+- next scheduled release: __4/18/2019__
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
