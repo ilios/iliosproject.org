@@ -1,0 +1,20 @@
+---
+layout: post
+title: It's May
+date: 2019-05-10  08:00:00
+categories: updates
+---
+"It's May, it's May, the lusty month of May..."
+
+and everything in Ilios is happily _not_ going astray. Work continues on development of broader search tools and personalization preferences, along with lots of usability updates in the interface.
+
+__STATUS__:
+- current version: __3.64.5__
+- Highlights in this release: Better persistent page scrolling, improved text editing, translation improvements.
+- next scheduled release: __5/17/2019__
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
