@@ -6,13 +6,13 @@ categories: updates
 ---
 ![Ilios-Man-Punches-MrCoffeeMan](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/f681ccb3-e9e8-4980-94de-50d83aab773a.png)
 
-We're hammering out search and it is blasting ahead. Look for more news on this soon!
+We're hammering out search and it is blasting ahead. Look for more news on this soon! We've tidied up the interface as always, and added a few nice touches like timestamps, better page continuity, and the usual round of bugfixes.
 
 In the meantime...Curious about [Ilios hosting](/hosting){:target="_hosting_cust"}? check it out, and [contact us](mailto:support@iliosproject.org)! Curious about LTIs? We've got 'em for the Dashboard and Calendar, and for Course Management! [Contact us](mailto:support@iliosproject.org) to find out more!
 
 __STATUS__:
 - current version: __3.66.0__
-- next scheduled release: __6/06/2019__
+- next scheduled release: __6/14/2019__
 
 
 Questions? Comments? Feedback? Find us at
