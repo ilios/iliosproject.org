@@ -1,0 +1,20 @@
+---
+layout: post
+title: Sneak Peak
+date: 2019-06-17  08:00:00
+categories: updates
+---
+![experimental_search_interface](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/1d222aca-ddfc-4782-bed3-e026cc879129.gif)
+
+While search is still a few months away from release, we wanted to give you a taste of what to expect. We will have more updates for you as we progress in the development of this feature.
+
+<br><br>
+
+__STATUS__:
+- current version: __3.66.1__
+- next scheduled release: __6/28/2019__
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
