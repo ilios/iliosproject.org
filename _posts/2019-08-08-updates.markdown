@@ -1,0 +1,46 @@
+---
+layout: post
+title: So...Where're We At?
+date: 2019-08-08  08:00:00
+categories: updates
+---
+
+Glad you asked!
+
+Our latest release, **v3.67.2**, includes small but significant improvements to the Curriculum Inventory tools, and a ton of minor updates, bugfixes, and enhancements.
+
+Between now and our next scheduled release we intend to launch our new search tools for our hosted schools, and open up availability for adoption for other interested institutions.
+
+And for those who may have missed it: Ilios has a *lot* of great features now, that can help to improve the experience for your learners and your instructors:
+
+
+**My Materials / Course Materials**: Did you know your students have easy access to a searchable, sortable list of all their available learning materials in Ilios? If they need to find a document, link or deck for review -- whether for general study, prep for a high stakes exam, or any other reason -- they can do so using their "My Materials" link. Similarly, for faculty and administrators, the Course Materials link in each course management page provides the same searchable, sortable view of all the learning materials associated with a given course. Just click on the file box icon in Course Details.
+
+[https://iliosproject.gitbook.io/ilios-user-guide/dashboard/my-materials](https://iliosproject.gitbook.io/ilios-user-guide/dashboard/my-materials)
+
+[https://iliosproject.gitbook.io/ilios-user-guide/courses-and-sessions/courses/learning-materials-summary](https://iliosproject.gitbook.io/ilios-user-guide/courses-and-sessions/courses/learning-materials-summary)
+
+**Timed Release of Learning Materials**: Need to expose an asset to students for a limited window -- or hold back access until a specific time? You can do that with any learning material in Ilios, using the Timed Release tools.
+
+[https://iliosproject.gitbook.io/ilios-user-guide/courses-and-sessions/courses/attach-learning-materials#field-descriptions](https://iliosproject.gitbook.io/ilios-user-guide/courses-and-sessions/courses/attach-learning-materials#field-descriptions)
+
+**Linking Sessions**: Want to assign an activity to be due (or requisite) prior to another activity in a course? Use the linking tools to create linked sessions and Pre-Work activities.
+
+[https://iliosproject.gitbook.io/ilios-user-guide/courses-and-sessions/courses/attach-learning-materials#field-descriptions](https://iliosproject.gitbook.io/ilios-user-guide/courses-and-sessions/courses/attach-learning-materials#field-descriptions)
+
+**Visualizations**: Wondering just what the breakdown is of teaching activity in a course? Investigate with the Course Visualization tools to see breakdowns of objectives, vocabulary tagging, instructional modalities, and teaching time.
+
+[https://iliosproject.gitbook.io/ilios-user-guide/courses-and-sessions/courses/visualizations](https://iliosproject.gitbook.io/ilios-user-guide/courses-and-sessions/courses/visualizations)
+
+
+In the meantime...Curious about [Ilios hosting](/hosting){:target="_hosting_cust"}? check it out, and [contact us](mailto:support@iliosproject.org)! Curious about LTIs? We've got 'em for the Dashboard and Calendar, and for Course Management! [Contact us](mailto:support@iliosproject.org) to find out more!
+
+__STATUS__:
+- current version: __3.67.2__
+- next scheduled release: __8/23/2019__
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
