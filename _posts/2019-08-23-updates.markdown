@@ -9,6 +9,10 @@ categories: updates
 
 With the release on August 23 2019 of **v3.68.1**, the new search tools for Ilios are fully operational. If you are hosted with us, you should be seeing the new search in the header per the screenshot above these words.
 
+Search provides auto-suggest based on your input and your curricular content, and returns weighted responses tagged by content area.
+
+![new_search_results](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/a7f8f07d-7364-40bd-b416-d22382d8a681.png)
+
 If your school is self-hosted, and you are interested in activating search in your Ilios implemetnation, please [contact us](mailto:support@iliosproject.org), or better yet, consider [hosting with us](/hosting){:target="_hosting_cust"} and be guaranteed to always stay up to date with new features and improvements.
 
 
