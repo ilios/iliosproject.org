@@ -1,0 +1,26 @@
+---
+layout: post
+title: Search Has Landed
+date: 2019-08-24  08:00:00
+categories: updates
+---
+
+![new_search_header](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/deb7b585-03ad-4bba-babb-59075ff753f9.png)
+
+With the release on August 23 2019 of **v3.68.1**, the new search tools for Ilios are fully operational. If you are hosted with us, you should be seeing the new search in the header per the screenshot above these words.
+
+If your school is self-hosted, and you are interested in activating search in your Ilios implemetnation, please [contact us](mailto:support@iliosproject.org), or better yet, consider [hosting with us](/hosting){:target="_hosting_cust"} and be guaranteed to always stay up to date with new features and improvements.
+
+
+In the meantime...Curious about LTIs? We've got 'em for the Dashboard and Calendar, and for Course Management! [Contact us](mailto:support@iliosproject.org) to find out more!
+
+
+__STATUS__:
+- current version: __3.68.1__
+- next scheduled release: __8/30/2019__
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
