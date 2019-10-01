@@ -9,7 +9,7 @@ categories: updates
 
 On September 30, 2019, **v3.69.2** was released, with updates to the Curriculum Inventory, search indexing, and a number of bugfixes to school management. Most notably, the Curriculum Inventory tools now include a verification report preview, allowing you to review your data in the primary tables from the AAMC verification report.
 
-Additionally, we are happy to note major progress in our efforts to make Ilios fully accessible according to the WCAG standards. The student-facing platform systems now score a 70%+, with AA compliance.
+Additionally, we are happy to note major progress in our efforts to make Ilios fully accessible according to the WCAG standards. While already achieving a reasonably high rating (66%), our expectation is that by the end of this month, student-facing platform systems will be achieving a score of 75%+, with full AA compliance.
 
 We continue to improve the new search tools, and would love to hear your feedback on their use. If you are a self-hosted school interested in activation search, please [contact us](mailto:support@iliosproject.org), or better yet, consider [hosting with us](/hosting){:target="_hosting_cust"} and be guaranteed to always stay up to date with new features and improvements.
 
