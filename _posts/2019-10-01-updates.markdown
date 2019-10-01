@@ -1,0 +1,28 @@
+---
+layout: post
+title: October Surprises
+date: 2019-10-01  08:00:00
+categories: updates
+---
+
+![CIR_verification_tables](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/3d4dd2b9-be03-4511-b0c8-95e5fd60be07.png)
+
+On September 30, 2019, **v3.69.2** was released, with updates to the Curriculum Inventory, search indexing, and a number of bugfixes to school management. Most notably, the Curriculum Inventory tools now include a verification report preview, allowing you to review your data in the primary tables from the AAMC verification report.
+
+Additionally, we are happy to note major progress in our efforts to make Ilios fully accessible according to the WCAG standards. The student-facing platform systems now score a 70%+, with AA compliance.
+
+We continue to improve the new search tools, and would love to hear your feedback on their use. If you are a self-hosted school interested in activation search, please [contact us](mailto:support@iliosproject.org), or better yet, consider [hosting with us](/hosting){:target="_hosting_cust"} and be guaranteed to always stay up to date with new features and improvements.
+
+
+In the meantime...Curious about LTIs? We've got 'em for the Dashboard and Calendar, and for Course Management! [Contact us](mailto:support@iliosproject.org) to find out more!
+
+
+__STATUS__:
+- current version: __3.69.2__
+- next scheduled release: __10/15/2019__
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
