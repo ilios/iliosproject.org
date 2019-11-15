@@ -1,0 +1,27 @@
+---
+layout: post
+title: November Delights
+date: 2019-11-15  08:00:00
+categories: updates
+---
+
+![a turkey](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/4fbabf8c-8d9e-48eb-9c39-a2c088e110ba.jpg)
+>“After a good dinner one can forgive anybody, even one's own relations.”
+― Oscar Wilde
+
+
+An early Holiday greeting to you from Ilios!
+
+We continue our work with search, improvements to offering management, permissions, and other key features. The latest security update release **v3.70.1**, is currently available for immediate use.
+
+Please [contact us](mailto:support@iliosproject.org), with any questions or interests.
+
+__STATUS__:
+- current version: __3.70.1__
+- next scheduled release: __11/22/2019__
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
