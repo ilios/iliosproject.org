@@ -1,0 +1,44 @@
+---
+layout: post
+title: Happy Holidays
+date: 2019-12-20  01:00:00
+categories: updates
+---
+
+![IliosClaus](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/44600be9-5f1f-464a-88b1-52d2a4efe443.jpg)
+
+           From the Ilios Team!          
+
+*What we filled your stockings with for 2019:*
+
+  **28** Backend code releases
+
+  **45**  Frontend code releases
+
+  **52** Common code releases
+
+  **5** Dashboard LTI Component releases
+
+  Along with...
+
+- Linked Sessions (pre-work)
+- Global Search
+- Improved VPAT® and WCAG Web Accessibility ratings ("A- AA")
+- Better access to learning materials
+- Preferred name and email added to support diversity and
+personalization
+- CI improvements including addition of local “verification report” tables
+- Better audit trail transparency for Sessions / Courses
+- Course Management LTI
+- Inline Session editing and review
+- enhanced performance and capacity improvements
+
+__CURRENT STATUS__:
+- current version: __3.70.3__
+- next scheduled release: __01/16/2020__
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
