@@ -1,0 +1,37 @@
+---
+layout: post
+title: New Year New News
+date: 2020-01-01  08:00:00
+categories: updates
+---
+
+![Add Lede Image](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/4fbabf8c-8d9e-48eb-9c39-a2c088e110ba.jpg)
+>“Lede Quote.”
+― Author Name
+
+
+A Happy New Year to you from Ilios and the Ilios Project!
+
+In this month's first core team Codejam of the year, which was held on Thursday, January 23rd, we have allocated some priorities to our proposed roadmap for the first half of the 2020 calendar. Included among the critical features we will be addressing (or at least targeting) between now and the end of June:
+
+- Better event filters for calendaring and scheduling;
+- Better site management tools for multiple campuses and clinical locations;
+- Continued improvements to visualizations and reporting;
+- Improved search and search results;
+- Better tagging for Objectives
+- Enhanced permissions models for mixed roles and student assistant roles;
+- improved interaction with relevant evaluation tracking
+- further improvements to performance
+
+
+Please [contact us](mailto:support@iliosproject.org), with any questions or interests.
+
+__STATUS__:
+- current version: __3.73.0__
+- next scheduled release: __02/01/2020__
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
