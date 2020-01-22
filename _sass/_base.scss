@@ -212,7 +212,3 @@ article.post-content {
   @include css3-prefix('column-rule-style', "solid");
   @include css3-prefix('column-rule-color', $grey-color-light);
 }
-
-.logo-medbiquitous {
-  padding-left: 5.75em
-}
