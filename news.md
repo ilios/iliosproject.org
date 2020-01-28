@@ -5,6 +5,9 @@ permalink: /news/
 topLevel: true
 ---
 
+<div class="subscribe-for-updates">
+  <a href="/subscribe">Subscribe for Updates</a>
+</div>
 <ul class="post-list">
   {% for post in site.posts %}
     <li>
