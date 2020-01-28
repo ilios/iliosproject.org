@@ -1,0 +1,34 @@
+---
+layout: post
+title: New Year New News
+date: 2020-01-28  08:00:00
+categories: updates
+---
+
+![Add Lede Image](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/21ebb36d-2da3-4b46-9294-1e962088a666.png)
+
+A Happy New Year to you from Ilios and the Ilios Project!
+
+In this month's first core team Codejam of the year, which was held on Thursday, January 23rd, we have allocated some priorities to our proposed roadmap for the first half of the 2020 calendar. Included among the critical features we will be addressing (or at least targeting) between now and the end of June:
+
+- *__Accessibility Improvements__*: The student user experience in Ilios is now at a WCAG "AA" level, with an accessibility score of 78.3%. Our goal is to be at "AAA" and over 90% by early Spring of 2020.
+- *__Offering Manager Improvements__*: We are planning a full update and rewrite of the interface for Offering Management. Some of the items to be addressed are better group and user assignment, easier scheduling, bulk actions, and simplified workflows.
+- *__Calendar Filter Updates and Improvements__*: The calendar filters will be updated to be much more user-friendly and easier to access, providing better and more rapid return of desired calendar information and threads.
+- *__Site/Location Management__*: The ability to configure at the School level multiple locations (for clinical & clerkship sites, tracking multiple campuses, etc) including time zone and metadata assignment.
+- *__Extended Tagging of Learning Objectives__*: The ability to tag objectives directly with terms from your vocabularies, as well as MeSH.
+- *__New Roles and Permissions__ (TA, Peer Tutors, Observers)*: We will be adding a number of new ways for users to interact with the curriculum, to allow for the tracking and management of these types of roles.
+- *__Error Tracking__*: Our DevOps team will be adding a number of new monitoring tools to allow for the better tracking and management of issues on the servers.
+
+We look forward to sharing these updates with the community, and hearing your feedback as we progress.
+
+Please [contact us](mailto:support@iliosproject.org), with any questions or interests.
+
+__STATUS__:
+- current version: __3.71.0__
+- next scheduled release: __01/29/2020__
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
