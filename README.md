@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/763a879f-87cd-4030-a9b0-2306aa729088/deploy-status)](https://app.netlify.com/sites/iliosproject/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c57a716e-4f40-4d77-8496-747a6eb50470/deploy-status)](https://app.netlify.com/sites/iliosproject/deploys)
 
 ## About
 
@@ -19,4 +19,3 @@ bundle install
 ```
 bundle exec jekyll serve
 ```
-
