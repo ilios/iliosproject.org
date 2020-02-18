@@ -8,8 +8,8 @@ path: '/'
 {% assign post = site.posts.first %}
 {% assign content = post.content %}
 
-# Ilios: Curriculum Management *from UCSF*
-#### - Providing the premier open source curriculum management platform for the Health Professions -
+# Ilios: Curriculum Management *from* UCSF
+#### - The premier open source curriculum management platform for schools around the globe -
 
 - [Ilios Hosting - **Get Hosted!**](/hosting)
 - [Ilios In House - **Get The Code!**](https://www.github.com/ilios/ilios/releases/latest/){:target="_blank"}
