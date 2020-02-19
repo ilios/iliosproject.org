@@ -8,15 +8,18 @@ path: '/'
 {% assign post = site.posts.first %}
 {% assign content = post.content %}
 
-# Ilios: Curriculum Management from UCSF
+# Ilios: Curriculum Management *from* UCSF
+#### - The premier open source curriculum management platform for schools around the globe -
 
-- [Ilios Hosting](/hosting) *(new!)*
-- [Read the FAQs](https://github.com/ilios/ilios/wiki/FAQS){:target="_blank"}
-- [Subscribe for Updates](/subscribe)
+- [Ilios Hosting - **Get Hosted!**](/hosting)
+- [Ilios In House - **Get The Code!**](https://www.github.com/ilios/ilios/releases/latest/){:target="_blank"}
+- [Join The Ilios Community - *Subscribe for Updates*](/subscribe)
+
 - [Demo Site Information](/demo)
 - [Latest User Guide](https://iliosproject.gitbooks.io/ilios-user-guide/content/){:target="_blank"} *(always up to date!)*
-   -  ([Looking for the User Guide for 2.4.8? It's here!](https://www.dropbox.com/sh/3cfxfzdspzf10wp/KbaFS5LKkM){:target="_blank"})
-- [Check out our Wiki](https://github.com/ilios/ilios/wiki){:target="_blank"}
+    -  ([Looking for the User Guide for 2.4.8? It's here!](https://www.dropbox.com/sh/3cfxfzdspzf10wp/KbaFS5LKkM){:target="_blank"})
+  - [Read the FAQs](https://github.com/ilios/ilios/wiki/FAQS){:target="_blank"}
+  - [Check out our Wiki](https://github.com/ilios/ilios/wiki){:target="_blank"}
 
 
 ## Latest News

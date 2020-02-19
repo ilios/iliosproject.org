@@ -280,7 +280,9 @@
 
     h4 {
         font-size: 20px;
-
+        margin: 0;
+        padding-top: 0;
+        padding-bottom: 0;
         @include media-query($on-laptop) {
             font-size: 18px;
         }
