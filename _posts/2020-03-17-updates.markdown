@@ -9,7 +9,7 @@ categories: updates
 
 With the current global health crisis, our thoughts go out to all our colleagues and friends around the world: we hope that you are staying well, and safe.
 
-Here at our base is San Francisco, the Ilios project is continuing our work. While we are also, as a part of the UCSF community, doing our part to support the needs of our community our educational programs and our health services, we continue to move ahead with our development roadmap.
+Here at our base is San Francisco, the Ilios project is continuing our work and development roadmap. At the same time, as a part of the UCSF community, we are doing our part to support the needs of our community, educational programs, and health services.
 
 While none of us can foresee quite what the next few months have in store for us all, at the very least we are hoping that we can provide some great positive notes amid the home isolations, EM and ICU reports, and the challenges of finding a roll of toilet paper at the local store.
 
