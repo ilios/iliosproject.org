@@ -19,7 +19,7 @@ Please [contact us](mailto:support@iliosproject.org), with any questions or inte
 
 __STATUS__:
 - current version: __3.73.0__
-- next scheduled release: __03/20/2020__
+- next scheduled release: __03/27/2020__
 
 
 Questions? Comments? Feedback? Find us at
