@@ -1,0 +1,28 @@
+---
+layout: post
+title: COVID-19 Days
+date: 2020-03-17  08:00:00
+categories: updates
+---
+
+![starburst Image](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/e1f0e196-2298-434d-ba15-8f94a0fa12c8.png)
+
+With the current global health crisis, our thoughts go out to all our colleagues and friends around the world: we hope that you are staying well, and safe.
+
+Here at our base is San Francisco, the Ilios project is continuing our work and development roadmap. At the same time, as a part of the UCSF community, we are doing our part to support the needs of our community, educational programs, and health services.
+
+While none of us can foresee quite what the next few months have in store for us all, at the very least we are hoping that we can provide some great positive notes amid the home isolations, EM and ICU reports, and the challenges of finding a roll of toilet paper at the local store.
+
+The features will continue to roll out, the fixes will continue to improve the experience, and Ilios will continue to provide a world-class framework for managing your curricula.
+
+Please [contact us](mailto:support@iliosproject.org), with any questions or interests.
+
+__STATUS__:
+- current version: __3.73.0__
+- next scheduled release: __03/27/2020__
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
