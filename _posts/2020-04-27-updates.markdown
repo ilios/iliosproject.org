@@ -1,0 +1,26 @@
+---
+layout: post
+title: Gimme Shelter-(in-place)
+date: 2020-04-27  08:00:00
+categories: updates
+---
+
+
+We may all be working from home, but we're still working hard. Since March, we have pushed a number of updates, improving usability, updating code, and fixing bugs. We also have pressed forward with our efforts to refactor the objectives system to allow for the tagging of objectives with vocabulary terms, the expansion of the offerings manager to include better tools, including the ability to attach individual learners and site management, and much more. Our accessibility score has been improved to a notable 98.7%, and we look forward to continuing these improvements through the rest of the year.
+
+In the meantime, please feel free to redeem this coupon
+![free_beer_coupon](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/5bc4ad0b-4d7c-4f83-81c4-23bd79bd3d43.png)
+the next time you are able to come visit us - once visiting is a thing again!~
+
+
+Please [contact us](mailto:support@iliosproject.org), with any questions or interests.
+
+__STATUS__:
+- current version: __3.74.3__
+- next scheduled release: __05/08/2020__
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
