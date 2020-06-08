@@ -1,0 +1,23 @@
+---
+layout: post
+title: Upending the World
+date: 2020-06-08  08:00:00
+categories: updates
+---
+
+We have a couple notable updates: first, we've launched (with v3.75.1) the ability to tag unique objectives across the curriculum with your vocabulary terms, not just MeSH. Additionally, we are well on the way to completing our conversion to our new version of the Ilios API. We will be running both versions in parallel until the end of the 2020 calendar year, but we encourage you to follow our updates, and be ready to reconfigure any integrations or analytics which rely on the v1 API or on the current data schema of objective tables.
+
+We will be publishing further information and guidelines on how to update your integrations and reporting to assist you in this migration, and we look forward to being able to provide a better, more functional and easy to use API for your educational ecosystem needs.
+
+
+Please [contact us](mailto:support@iliosproject.org), with any questions or interests.
+
+__STATUS__:
+- current version: __3.76.0__
+- next scheduled release: __06/19/2020__
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
