@@ -7,7 +7,7 @@ categories: updates
 
 ![starburst Image](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/e1f0e196-2298-434d-ba15-8f94a0fa12c8.png)
 
-We have a couple notable updates: first, we've launched (with v3.75.1) the ability to tag unique objectives across the curriculum with your vocabulary terms, not just MeSH. Additionally, we are well on the way to completing our conversion to our new version of the Ilios API. We will be running both versions in parallel until the end of the 2020 calendar year, but we encourage you to follow our updates, and be ready to reconfigure any integrations or analytics which rely on the v1 API or on the current data schema of objective tables.
+We have a couple notable updates: first, we've launched (as of __v3.75.1__) the ability to tag unique objectives across the curriculum with your vocabulary terms, not just MeSH. Additionally, we are well on the way to completing our conversion to our new version of the Ilios API. We will be running both versions in parallel until the end of the 2020 calendar year, but we encourage you to follow our updates, and be ready to reconfigure any integrations or analytics which rely on the _v1_ API or on the current data schema of objective tables.
 
 We will be publishing further information and guidelines on how to update your integrations and reporting to assist you in this migration, and we look forward to being able to provide a better, more functional and easy to use API for your educational ecosystem needs.
 
