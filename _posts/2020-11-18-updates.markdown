@@ -1,0 +1,26 @@
+---
+layout: post
+title: Still Here And Moving Along
+date: 2020-11-18  08:00:00
+categories: updates
+---
+
+![coffee sipping Image](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/b6af0ee0-ff24-42bd-9018-9c46bda5aed7.jpg)
+
+It's been some time since I've been able to update this log on the site, but rest assured we have been busy over at Ilios!
+
+Since our last post, the pandemic has continued to sweep across all we do, and we have responded by providing Ilios with a more robust set of features to address the scheduling and management of online learning sessions; we've also revamped our offerings manager, improved calendar display and delivery, and of course launched our newly updated API version. And yes -- Ilios is now faster, and more responsive than ever.
+
+ [follow our updates](https://www.iliosproject.org/subscribe/){:target="_subscribenow"}, to be sure not to miss any major announcements or updates.
+
+Please [contact us](mailto:support@iliosproject.org), with any questions or interests.
+
+__STATUS__:
+- current version: __3.83.1__
+- next scheduled release: __11/20/2020__
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
