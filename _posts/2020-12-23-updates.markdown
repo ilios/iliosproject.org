@@ -1,35 +1,24 @@
 ---
 layout: post
-title: Happy Holidays
-date: 2020-12-23  08:00:00
+title: Happy New Year
+date: 2021-02-03  08:00:00
 categories: updates
 ---
 
-![IliosClaus](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/7a0c2048-102f-4f96-aacb-08186f1bbb82.png)
+![IliosMan](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/f681ccb3-e9e8-4980-94de-50d83aab773a.png)
 
-           From the Ilios Team!          
+    ILIOS:
+    Still knocking it out of the park!          
 
-*What we filled your stockings with for 2021:*
+At the end of **January 2021**, we completed the deprecation and EOL of our v1 API, and now all external connections to Ilios - beginning with Ilios **v3.86.0** - require calls to the current *v3 API*. This has been detailed in the User Guide, and in the newsletters from July 2020 onward. But if you have any questions, please reach out to us.
 
-  **32** Backend code releases
+In addition, 2021 is looking to be yet another tremendous year for Ilios development and growth; we have lots in store in way of improvements and expansions, and you should be seeing these in the coming months.
 
-  **45**  Frontend code releases
 
-  **59** Common code releases
-
-  **5**  LTI Component releases
-
-  Along with...
-
-- New API version
-- Improved Offerings Management
-- Online / Remote Learning support tools
-- Improved user account Management
-- Literally hundreds of performance and capacity improvements
 
 __CURRENT STATUS__:
-- current version: __3.84.2__
-- next scheduled release: __01/08/2021__
+- current version: __3.86.0__
+- next scheduled release: __02//2021__
 
 
 Questions? Comments? Feedback? Find us at
