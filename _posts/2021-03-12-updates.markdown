@@ -1,0 +1,24 @@
+---
+layout: post
+title: Spring Is Springing
+date: 2021-02-03  08:00:00
+categories: updates
+---
+
+![IliosInSpringImg](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/247c565d-8edb-4b0d-ba97-77d4953f0ab7.jpg)
+
+
+Since the release of the most recent version of the API in 2020, there has been a burst of effort from the development team to update the platform code to conform with constantly evolving requirements in our native technology stack and with upstream dependencies. This is, in the open source world, more of a steady state than a single effort, but for Ilios it is important to note the impressive achievement this focus has been over the past year, and just how it is now paying off.
+
+With exponential improvements in speed and responsiveness for many areas of the system, including bulk data management, we hope these changes improve the experience for your learners, your administrators, and your entire Ilios community.
+
+
+__CURRENT STATUS__:
+- current version: __3.87.1__
+- next scheduled release: __03/26/2021__
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
