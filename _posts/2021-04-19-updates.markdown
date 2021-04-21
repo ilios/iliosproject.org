@@ -1,0 +1,21 @@
+---
+layout: post
+title: April Is The...'Coolest' Month
+date: 2021-04-19  08:00:00
+categories: updates
+---
+
+![IliosInSpringImg](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/e1f0e196-2298-434d-ba15-8f94a0fa12c8.png)
+
+
+CONTENT
+
+__CURRENT STATUS__:
+- current version: __3.87.2__
+- next scheduled release: __05/07/2021__
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
