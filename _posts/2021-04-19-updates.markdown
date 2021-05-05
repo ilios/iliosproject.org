@@ -8,7 +8,7 @@ categories: updates
 ![IliosInSpringImg](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/e1f0e196-2298-434d-ba15-8f94a0fa12c8.png)
 
 
- A new season, a new month, and here at Ilios we are rolling ahead into May with plans to continue our current development efforts, as we work on identifying areas for improvement in reporting and display, including a look at ways to provide an interactive "checklist" for activities and materials so learners can track their efforts. You can expect a number of updates in these areas in the coming months, so keep eyes open for better reporting, improved visualization, and increased interactive tools!
+A new season, a new month, and here at Ilios, we are rolling ahead into May with plans to continue our current development efforts, as we work on identifying areas for improvement in reporting and display, including a look at ways to provide an interactive "checklist" for activities and materials so learners can track their efforts. You can expect several updates in these areas in the coming months, so keep your eyes open for better reporting, improved visualization, and increased interactive tools!
 
 __CURRENT STATUS__:
 - current version: __3.87.2__
