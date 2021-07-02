@@ -1,14 +1,16 @@
 ---
 layout: post
-title: Jewel Eye Ate
+title: Jewel Eye
 date: 2021-07-02  08:00:00
 categories: updates
 ---
 
-![IliosInSpringImg](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/e1f0e196-2298-434d-ba15-8f94a0fa12c8.png)
+![IliosInSpringImg](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/b6af0ee0-ff24-42bd-9018-9c46bda5aed7.jpg)
 
 
-As work continues on checklists and reporting, as well as security and performance improvements, we are moving along with the latest version releases, which now have moved us on to PHP 8, and are ready to face the future! And that future includes this year's upload cycle for the AAMC Curriculum Inventory.
+Summer is here, and work continues on checklists and reporting, as well as security and performance improvements. With the current release of __v3.88.0__ Ilios has moved on to require PHP 8, so please be sure that your servers are up to date prior to migrating to this or future versions of Ilios!
+
+In short, we are here for you, and ready to face the future! And that future includes this year's upload cycle for the AAMC Curriculum Inventory: if you need assistance, please don't hesitate to let us know.
 
 
 __CURRENT STATUS__:
