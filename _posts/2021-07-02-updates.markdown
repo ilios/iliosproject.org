@@ -1,0 +1,24 @@
+---
+layout: post
+title: Jewel Eye
+date: 2021-07-02  08:00:00
+categories: updates
+---
+
+![IliosInSpringImg](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/b6af0ee0-ff24-42bd-9018-9c46bda5aed7.jpg)
+
+
+Summer is here, and work continues on checklists and reporting, as well as security and performance improvements. With the current release of __v3.88.0__ Ilios has moved on to require PHP 8, so please be sure that your servers are up to date prior to migrating to this or future versions of Ilios!
+
+In short, we are here for you, and ready to face the future! And that future includes this year's upload cycle for the AAMC Curriculum Inventory: if you need assistance, please don't hesitate to let us know.
+
+
+__CURRENT STATUS__:
+- current version: __3.88.0__
+- next scheduled release: __07/16/2021__
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
