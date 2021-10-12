@@ -1,0 +1,22 @@
+---
+layout: post
+title: Autumn Updates
+date: 2021-10-12  08:00:00
+categories: updates
+---
+
+![IliosInAutumnImg](https://media1.giphy.com/media/fUNGRnehJqGqI/giphy.gif?cid=f17b4fcd78d3f051de73a79b25add3cad02f63e55f1a2b5b&rid=giphy.gif&ct=g)
+
+Welcome to pumpkin season here at Ilios! We have now released **v3.90.3**, which includes notable improvements for both instructor and learner views, as well as a bunch of under-the-hood code updates to make Ilios better. With 9 core releases since the beginning of June 2021 (and an additional 14 other UI and frontend releases), we have kept on a fairly aggressive release schedule for updates and enhancements despite the vagaries of pandemic times. We hope you and your users have appreciated the continued dedication of the Ilios team.
+
+The AAMC Curriculum Inventory upload window is coming to a close, so if you participate, please remember to get your report into the portal prior to the 21st of October. There will be no extensions this year!
+
+__CURRENT STATUS__:
+- current version: __3.90.3__
+- next scheduled release: __10/22/2021__
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
