@@ -1,0 +1,27 @@
+---
+layout: post
+title: Winter Words
+date: 2021-12-03  08:00:00
+categories: updates
+---
+
+![IliosInWinterImg](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/c64df7e3-1109-cf02-f181-d8d945740b65.png)
+
+Winter is indeed upon us, as we enter Year Three of the pandemically New Normal, and here at Ilios we have been busy at work. The current release of **v3.93.2**, continues with our code improvements and corrections, as well as significant improvements to web accessibility, bringing all student-facing areas to compliance with AAA level accessibility, and all others with AA/A.
+
+Keep your eyes on your inbox for our regular end of year status review, covering activity for the last 12 months, and expectations for the next 6 motns. Expect it out in early January for your reading pleasure.
+
+As we head into the holiday season slowdown, we will continue to work on the platform, but the team will be spending a little bit more time on home & family, recharging for another burst of activity on reporting and presentation improvements in 2022.
+
+
+
+
+__CURRENT STATUS__:
+- current version: __3.93.2__
+- next scheduled release: __1/21/2021__
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
