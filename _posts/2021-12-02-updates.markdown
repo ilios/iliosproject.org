@@ -9,7 +9,7 @@ categories: updates
 
 Winter is indeed upon us, as we enter Year Three of the pandemically New Normal, and here at Ilios we have been busy at work. The current release of **v3.93.2**, continues with our code improvements and corrections, as well as significant improvements to web accessibility, bringing all student-facing areas to compliance with AAA level accessibility, and all others with AA/A.
 
-Keep your eyes on your inbox for our regular end of year status review, covering activity for the last 12 months, and expectations for the next 6 motns. Expect it out in early January for your reading pleasure.
+Keep your eyes on your inbox for our regular end of year status review, covering activity for the last 12 months, and expectations for the next 6 months. Expect it out in early January for your reading pleasure.
 
 As we head into the holiday season slowdown, we will continue to work on the platform, but the team will be spending a little bit more time on home & family, recharging for another burst of activity on reporting and presentation improvements in 2022.
 
@@ -18,7 +18,7 @@ As we head into the holiday season slowdown, we will continue to work on the pla
 
 __CURRENT STATUS__:
 - current version: __3.93.2__
-- next scheduled release: __1/21/2021__
+- next scheduled release: __1/21/2022__
 
 
 Questions? Comments? Feedback? Find us at
