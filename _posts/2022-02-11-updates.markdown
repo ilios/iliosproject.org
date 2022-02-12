@@ -1,0 +1,44 @@
+---
+layout: post
+title: What It Takes
+date: 2022-02-11  08:00:00
+categories: updates
+---
+
+
+| __CURRENT STATUS__:
+|Current Version: **v3.96.3**
+|Next Scheduled Release: *25 February 2022*
+|
+
+**What does it take to maintain an Open Source Software platform like Ilios?**
+
+When working in the world of Open Source, you have to accept that you are not only producing a product, but you are joining a broad community - a community of communities, if you will - of which your work will be a part. You will be receiving input from others, providing input to others, and generally depending on one another as you craft and nurture your own specific project. It is a huge, global collective built on skill, trust, respect, and a spirit of openness.
+
+So what does that mean in real terms?
+
+While you have ultimate control over what goes in (or doesn't) to your own product, you will be relying on many, many other projects which make up the infrastructure of your software world (and that of the global public as well). Keeping up with these, making sure that your versions match your needs, and that you are aligned with them, is a large part of the Open Source effort. So a lot of time and energy can go into maintaining the community presence and network: not something your end users ever really see, but something which definitely can impact their ability to receive cool new features rapidly.
+
+With Ilios, to give you just an idea of what this means here are some numbers:
+
+ - More than **39** direct dependencies and more than **153** transitive (indirect) dependencies for PHP (core code);
+ - More than **88** direct and more than **7,668** transitive dependencies for Javascript (presentation layer)
+
+Each of these dependencies is a whole project in itself, with multiple areas of concern for us to track and address on a regular basis.
+
+(for source, and a more detailed discussion on this, see [https://www.jrjohnson.dev/slides/2019-06-always-be-updating/index.html#12](https://www.jrjohnson.dev/slides/2019-06-always-be-updating/index.html#12))
+
+We try to balance all this as best we can for our users each cycle; making sure to address the structural maintenance and update needs of the system, identifying and addressing upstream security issues before they can impact us; and still keeping our cadence with the delivery of user-facing features and updates, whether those are specific requests from a school or user group, part of the larger development roadmap plan, or simply cleaning up the interface for a better experience overall.
+
+For the last quarter, we have been deeply invested in the first part of this equation: the work of upstream and infrastructure housekeeping, updating, and alignment. This has been a heavy lift for the team, as there has been a lot of action upstream from us that impacts our ability to keep moving forward with development! I'm happy to report that we are closing in on the end of this push though, and some of the things we've been able to include along the way include:
+
+ - major improvements to web accessibility across Ilios (now nearing a score of almost 98%);
+ - significant performance, stability, and security improvements;
+ - numerous minor bugfixes for search, icon representations, and learner group management;
+ - all necessary updates to the Curriculum Inventory Report system in order to meet the new requirements and guidelines of the AAMC for 2022.
+
+We are looking forward to returning our focus to more user-facing feature updates in the coming months, and keeping Ilios up to date, secure, and ready for your institutions to use to the fullest of your interests.
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/). (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/))
