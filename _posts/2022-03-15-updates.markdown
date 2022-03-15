@@ -1,0 +1,24 @@
+---
+layout: post
+title: And The Beat Goes On
+date: 2022-03-15  08:00:00
+categories: updates
+---
+
+
+| __CURRENT STATUS__:
+|Current Version: **v3.97.0**
+|Next Scheduled Release: *25 March 2022*
+|
+|__CURRENT RELEASE HIGHLIGHTS__:
+| - My Materials consolidation and improvements
+| - Massive performance enhancements
+|
+|
+|
+
+*DevOps Geek Note*: We are expecting to be moving the Ilios application to Ember 4 in late Spring 2022, which will provide more performance improvements, greater code stability, and some solid future-proofing for the application. More [here]([https://blog.emberjs.com/ember-4-0-released/]): [https://blog.emberjs.com/ember-4-0-released/](https://blog.emberjs.com/ember-4-0-released/)
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/). (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/))
