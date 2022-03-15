@@ -32,6 +32,4 @@ The Ilios Project is indebted to the continuing support and sponsorship from the
 - **_UCSF_** _School of Medicine_
 - **_UCSF_** _University Library_
 - **_UCSF_** _School of Pharmacy_
-- **_UCSF_** _School of Dentistry_
-- **_UCSF_** _Institute of Global Health Sciences_
 - **_UC Irvine_** _School of Medicine_
