@@ -18,7 +18,8 @@ topLevel: true
 
 >**_2020_** - **_2022_** : Full (AA/AAA) accessibility; improved performance; personalization and preferences; site management; extended objective tagging; extended analytics
 
-&nbsp;
+>(_2023_ - _2025_ : _Community engagement; next-generation planning and preparation; enhanced preferences and analytics_)
+
 
 Since we began the Ilios Project in 2009, we have journeyed through multiple phases of growth and development. Beginning in 2015, we moved into the next critical phase of growth. During the expected 7-year lifecycle of version 3 (2016-2023), we will continue to extend and improve the application platform for mobility, interoperability and visibility of data across the spectrum of the educational ecosystem.
 

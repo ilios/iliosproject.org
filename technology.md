@@ -15,15 +15,15 @@ Chrome || Firefox ESR || Edge || Safari || Safari iOS |
 Latest ✔ || Latest ✔ || Latest ✔ || Latest ✔ || Latest ✔ |
 
 
-__Current (as of 1/2020) Recommended Minimum System Requirements for Ilios 3 Installation:__
+__Current (as of 3/2022) Recommended Minimum System Requirements for Ilios 3 Installation:__
 
 Standard production-grade Linux or Windows server with at least 500GB of storage available (for learning materials storage):
 
 Ilios 3 uses a Symfony (PHP/SQL) backend to serve its API, so these tools and their required dependencies need to be installed before you can install the application itself. Here at the Ilios Project, we currently run and recommend running Ilios 3 using a "LAMP" (Linux Apache MySQL PHP) technology stack with - the following software packages and versions:
 
 - CentOS 7 - Any modern Linux should work, but we recommend Redhat (RHEL, CentOS, or Fedora) or Ubuntu
-- MySQL using the InnoDB database engine (*v5.5 or later required*, 5.6+ recommended)
-- PHP *v7.3+ REQUIRED* - In order to ensure the best security and performance of the application overall, we have adopted a policy of requiring the latest version of PHP for running Ilios. (see [PHP Version Policy](https://github.com/ilios/ilios/blob/master/docs/ilios_php_version_policy.md))
+- MySQL using the InnoDB database engine (*v5.5 or later required*, 5.7+ recommended)
+- PHP *v8.0+ REQUIRED* - In order to ensure the best security and performance of the application overall, we have adopted a policy of requiring the latest version of PHP for running Ilios. (see [PHP Version Policy](https://github.com/ilios/ilios/blob/master/docs/ilios_php_version_policy.md))
 
 PHP should configured with a 'memory_limit' setting of at least 386MB and have the following required packages/modules/extensions enabled:
 
