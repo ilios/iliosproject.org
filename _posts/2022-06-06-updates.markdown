@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Summer Surges
-date: 2022-06-03  08:00:00
+date: 2022-06-07  08:00:00
 categories: updates
 ---
 
@@ -19,7 +19,7 @@ categories: updates
 EMBER 4 Status: As of v3.98.1, Ilios has moved to Ember 4, providing massive performance improvements (and room for more!). In coming releases, we'll see continued improvements including a shift in our caching strategy.
 
  More [here]([https://blog.emberjs.com/ember-4-0-released/]): [https://blog.emberjs.com/ember-4-0-released/](https://blog.emberjs.com/ember-4-0-released/)
- 
+
 ACCESSIBILITY: Our latest web accessibility score is a whopping 98.9%, providing broad and consistent accessibility to Ilios and curricular content across the platform.
 
 ![graph of Ilios Web accessibility score of 98.9%](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/ab193e0f-a1a7-7a4d-e7f6-d62aa6b58a75.png)
@@ -27,7 +27,7 @@ ACCESSIBILITY: Our latest web accessibility score is a whopping 98.9%, providing
 
 
 Our next release will be our *100th point release* for the 3rd version of the Ilios Curriculum Management tool. While this may seem a bit random, and non-important, it shows few critical successes:
- - **First:** The platform in it's v3 rendition has sustained and maintained its successful use and capability for 100 major cycles of development (and many hundreds of minor ones) since its launch in late 2015. This is a laudable lifecycle success.
+ - **First:** The platform in its v3 rendition has sustained and maintained its successful use and capability for 100 major cycles of development (and many hundreds of minor ones) since its launch in late 2015. This is a laudable lifecycle success.
  - **Second:** Ilios continues to grow and adapt without the need (yet) for a major rewrite. While all software needs eventual overhaul, it is another major success that we have yet to hit our point of a required development of a v4 for the platform. In our seventh year, we continue to thrive.
  - **Third:** *Continuity of Practice.* The core team has maintained its coherence and continuity of effort, and has extended the community in practice year over year - a badge of successful team effort, engagement, and management.
 
