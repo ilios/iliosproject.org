@@ -1,0 +1,22 @@
+---
+layout: post
+title: Sometimes It Happens to the Best of Us
+date: 2022-07-01  08:00:00
+categories: updates
+---
+
+
+| __CURRENT STATUS__:
+| Current Version: **v3.101.0**
+| Next Scheduled Release: *14 July 2022*
+|
+| __CURRENT RELEASE HIGHLIGHTS__: **SECURITY UPDATE**
+|
+|A bug was recently reported in Ilios which would allow an authenticated user to bypass some of the security controls and read data which they otherwise should not have been able to access. This was introduced in **v3.75.1**.
+
+While this would not have allowed access from a member of the public or any unauthenticated user, it could have allowed a student to access data about other students including their email address and schedule. This could occur as a result of the accidental sharing of a non-public URL.
+
+While much of the data in Ilios is directory data and available from other sources students schedules, including participation in remedial or individual educational programs may be more sensitive. As such we are encouraging all campuses to upgrade to the latest version of Ilios (**v3.101.0**) as soon as possible.
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/). (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/))
