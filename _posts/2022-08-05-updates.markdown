@@ -5,6 +5,7 @@ date: 2022-08-05  08:00:00
 categories: updates
 ---
 
+![PersonAtChalkboardIcon](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/0f8f9105-af2e-0ae6-60c4-c4edc9d05234.png)
 
 | __CURRENT STATUS__:
 | Current Version: **v3.102.0**
