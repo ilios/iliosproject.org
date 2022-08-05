@@ -1,0 +1,34 @@
+---
+layout: post
+title: moving forward
+date: 2022-08-05  08:00:00
+categories: updates
+---
+
+
+| __CURRENT STATUS__:
+| Current Version: **v3.102.0**
+| Next Scheduled Release: *19 August 2022*
+|
+| __CURRENT RELEASE HIGHLIGHTS__:
+|
+|We have just released the latest update to the code, **v3.102.0**, which is now available for download and installation. Along with some great new features for learners, this update includes major enhancements to the course visualization tools, another round of significant performance improvements, and a number of minor bugfixes, security and usability enhancements, and we recommend updating your systems at your earliest convenience.
+
+__VISUALIZATIONS__
+This update includes major revisions and improvements to the course visualizations, improving the accuracy of aggregate counts, cleaning up the presentation, and generally making them more useful to you.
+
+__NEW FEATURES:__ Presentation of linked ILMs ("Pre-work")
+Also included in the latest round of updates is a significant change (and we hope improvement!) to the way linked prerequisite ILM work (or "pre-work") is presented to learners. While no changes have been made to the management, workflows, or mapping, we have greatly simplified the way learners see and consume these materials.
+
+_THE WAY IT WAS:_ Until this update, "Pre-work" - essentially asynchronous (ILM) sessions that were expected to be completed prior to the engagement of another activity - were presented to students as a separate category of learning material or activity, and listed in their own table, separate from other material listings, and external to the calendar. It would appear above the Week At A Glance listings (as well as in-line with other LM listings in WaaG), called out as links at the top of event detail pages (separate from session learning materials), and also shown in a table below the calendar grid display. Since these pre-work activities have a listing of "due prior to [the linked activity]" rather than a due date, they are not calendar-friendly, and these approaches were used to facilitate their placement and access.
+
+With the impact of the pandemic, and the increase in various formats of online learning, these presentation choices became increasingly less intuitive and clear for students. So with the latest release of Ilios, we have simplified it.
+
+_THE WAY IT IS NOW:_ Asynchronous learning modules that are linked to upcoming sessions are now presented as modular learning activity materials for that target session; they are presented and linked so that while remaining distinct, they are clearly part of the "required reading". They are also presented to encourage students to review them in context, so as not to lose the frame of their particular objectives, mapping, and curricular frame. The separate table listing below the calendar has been removed, and they are no longer called out separately as "pre-work".
+These modules are identified with the new icon and can be found in the event detail pages of each activity, as well as in-line in the Week at a Glance listings and the All Weeks searchable list.
+
+With the removal of redundant listing and display, and the placement of work in its logical linear location with other LMs, we hope this update provides a much clearer path to learners in order to assist them in traversing their curriculum.
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/). (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/))
