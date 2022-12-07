@@ -34,7 +34,7 @@ Built by and for the health professions, Ilios supports the sharing of curriculu
 - **MULTI-DISCIPLINARY**: Ilios allows for the creation and development of curricular material structured across any number of disciplines and programs.
 - **INTER-PROFESSIONAL**: Ilios is designed explicitly to provide IPE support across the health professions
 - **STANDARDS COMPLIANT**: Ilios is built to meet the MedBiquitous and AAMC specifications for Health Professions Curriculum standards.
-- **OPEN SOURCE**: Ilios is the only open source curriculum management application that adheres to the Medbiquitous curriculum inventory standard and provides full support for the AAMC Curriculum Inventory report process.
+- **OPEN SOURCE**: Ilios is the only open source curriculum management application that adheres to the Medbiquitous curriculum inventory standard and was an early and continuous supporter for the 2011 - 2022 AAMC Curriculum Inventory report process.
 
 *Mapping and Managing:* Ilios creates a comprehensive view of curricula by tracking events, learning content and activities over time. The system facilitates day-to-day administration and the delivery of information to learners; enhances curricular development, review and innovation; and reduces overhead for internal and accreditation reporting. The end result is a powerful tool creating complete and accurate pictures of complex, integrated, multi-year curricula.
 

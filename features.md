@@ -80,7 +80,7 @@ Ilios allows for the control and development of complex curricula organized by i
 - Curriculum mapping
 - Trend reporting
 - Full archiving
-- AAMC Curriculum Inventory Export Tool suite included
+- Tools for the review of curriculum mapping and modeling to support accreditation
 - Numerous in-line work aid reports available in the Dashboard (overview [available here](/myreports.html))
 
 <!--EndFragment-->
