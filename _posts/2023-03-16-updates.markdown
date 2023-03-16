@@ -1,0 +1,31 @@
+---
+layout: post
+title: moving forward
+date: 2023-03-16  08:00:00
+categories: updates
+---
+
+![GI_Ilios_4_time_as_fast](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/b6af0ee0-ff24-42bd-9018-9c46bda5aed7.jpg)
+
+| __CURRENT STATUS__:
+| Current Version: **vv3.104.1**
+| Next Scheduled Release: *18 March 2023*
+|
+| __CURRENT RELEASE HIGHLIGHTS__:
+|
+Since the end of last year, we have been working on some major under-the-hood updates and revisions to the core code, to keep up with current libraries and package updates; more importantly, we have been refactoring critical components of our styling code, our search components, and of course our reporting tools, in line with the current roadmap. We will continue to place our focus on accessibility, sustainability, and reporting through the first half of this calendar year.
+
+*SEARCH*: one of the efforts that has been active since the start of the year is the refactoring of our global search tools. This is due to some (deep in the weeds) complications between AWS, Elasticsearch, and Opensearch.
+
+**(N.B. This next paragraph is for just for folks who like getting deep into details. The rest of you feel free to skip on.)**
+Opensearch is currently API compatible with the Elasticsearch PHP client, but there is a significant risk that this will not remain true. Elasticsearch's PHP library (and other clients provided by Elastic) include a check to ensure they can only be used with official elastic servers, locking in a user to a single commercial vendor solution. We've elected to maintain the broadest API compatibility by moving to Opensearch - which does not include that check.
+
+As Ilios hosts on AWS, and we know other schools are using that cloud platform as well, the switch to Opensearch best serves the needs of our users at this time. *If you are running Elasticsearch with your Ilios instance, please contact us for additional assistance with this conversion.*
+
+*REPORTS*: We continue to work on building up the new reports landing page and associated tools. We have significantly improved the architecture of this system, but still have a lot of work ahead to improve report responsiveness, integration with visualizations, custom reporting, and presentation.
+
+*OTHER NEWS*: Internally here at the BatCave Hogwarts UCSF, the Ilios development team has moved their home affiliation from the University Library to the newly formed IT Education department within our central IT organization. We anticiapte a somewhat slower cadence for our development efforts while they get settled in their new situation and we sort out some of the operational logistics of this move. But once settled in, we look forward to a significantly more robust infrastructure to support the development team and the growth and improvement of the Ilios platform.
+
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/). (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/))
