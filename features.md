@@ -81,6 +81,6 @@ Ilios allows for the control and development of complex curricula organized by i
 - Trend reporting
 - Full archiving
 - Tools for the review of curriculum mapping and modeling to support accreditation
-- Numerous in-line work aid reports available in the Dashboard (overview [available here](/myreports.html))
+- Numerous in-line work aid reports available in the Reporting Dashboard (overview [available here](/myreports.html)), with new reporting tools planned for **v3.105.0**
 
 <!--EndFragment-->
