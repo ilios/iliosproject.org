@@ -8,12 +8,12 @@ categories: updates
 ![GI_Ilios_4_time_as_fast](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/b6af0ee0-ff24-42bd-9018-9c46bda5aed7.jpg)
 
 | __CURRENT STATUS__:
-| Current Version: **vv3.104.1**
-| Next Scheduled Release: *18 March 2023*
+| Current Version: **v3.105.0**
+| Next Scheduled Release: *03 April 2023*
 |
 | __CURRENT RELEASE HIGHLIGHTS__:|
 
-Since the end of last year, we have been working on some major under-the-hood updates and revisions to the core code, to keep up with current libraries and package updates; more importantly, we have been refactoring critical components of our styling code, our search components, and of course our reporting tools, in line with the current roadmap. We will continue to place our focus on accessibility, sustainability, and reporting through the first half of this calendar year.
+Since the end of last year, we have been working on some major under-the-hood updates and revisions to the core code, to keep up with current libraries and package updates; more importantly, we have been refactoring critical components of our styling code, our search components, and of course our reporting tools, in line with the current roadmap. We will continue to place our focus on accessibility, sustainability, and reporting through the first half of this calendar year. In our most recently released update, **v3.105.0**, these begin to surface in more apparent ways.
 
 *SEARCH*: one of the efforts that has been active since the start of the year is the refactoring of our global search tools. This is due to some (deep in the weeds) complications between AWS, Elasticsearch, and Opensearch.
 
