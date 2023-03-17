@@ -31,6 +31,7 @@ Want to be a part of the Ilios team, and help to create even better tools and fe
 The Ilios Project is indebted to the continuing support and sponsorship from the Deans and leadership of the following institutions:
 
 - **_UCSF_** _School of Medicine_
-- **_UCSF_** _University Library_
+- **_UCSF_** _IT Education_
 - **_UCSF_** _School of Pharmacy_
 - **_UC Irvine_** _School of Medicine_
+- **_Stanford University_** _School of Medicine_

@@ -14,7 +14,6 @@ path: '/'
 - [Ilios Hosting - **Get Hosted!**](/hosting)
 - [Ilios In House - **Get The Code!**](https://www.github.com/ilios/ilios/releases/latest/){:target="_blank"}
 - [Join The Ilios Community - *Subscribe for Updates*](/subscribe)
-
 - [Demo Site Information](/demo)
 - [Latest User Guide](https://iliosproject.gitbooks.io/ilios-user-guide/content/){:target="_blank"} *(always up to date!)*
   - [Read the FAQs](https://github.com/ilios/ilios/wiki/FAQS){:target="_blank"}
