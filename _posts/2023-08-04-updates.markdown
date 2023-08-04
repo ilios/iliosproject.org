@@ -19,10 +19,6 @@ If you or someone at your institution runs (or desires to run) an integration be
 
 We are hoping to have some initial work in the new reporting suite available for you in the next quarter, and look forward to feedback.
 
-Current Version: v3.106.1
-Next Scheduled Release: 10 August 2023
-
-
 Please be sure to updates your systems to get the latest, greatest code!
 
 Questions? Comments? Feedback? Find us at
