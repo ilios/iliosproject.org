@@ -1,0 +1,25 @@
+---
+layout: post
+title: On The Road To Somewhere
+date: 2023-08-04  08:00:00
+categories: updates
+---
+
+![image of man-at-whiteboard-icon](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/0f8f9105-af2e-0ae6-60c4-c4edc9d05234.png)
+
+| __CURRENT STATUS__:
+| Current Version: **v3.106.1**
+| Next Scheduled Release: *18 August 2023 (v3.107.0)*
+|
+| __CURRENT HIGHLIGHTS__:|
+
+Since our last update, the Ilios team has been busy with internal infrastructure updates here at our UCSF home, so progress on our roadmap has been a little slower than hoped. But the updates and upgrades elsewhere are now complete, and we are back to our focus on reporting tools for Ilios! We are also hoping to quickly complete the long awaited work providing for B2B/App-to-App service accounts in Ilios, to better and more securely leverage API connectivity and integrations with other external tools and systems.
+
+If you or someone at your institution runs (or desires to run) an integration between Ilios and a 3rd party tool or application, we'd love to hear from you, to better understand your use case(s) and needs in this regard.
+
+We are hoping to have some initial work in the new reporting suite available for you in the next set of upcoming releases, and look forward to feedback.
+
+**Please be sure to updates your systems to get the latest, greatest code!**
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/). (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/))
