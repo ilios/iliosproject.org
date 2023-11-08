@@ -41,8 +41,8 @@ PRICE LIST (as of 9/01/2019)
 |Multi-zone redundancy|	_Included_|
 |||
 | _Training_ ||
-|Onsite training - 2 days|	_$13,800.00_|
-|Virtual Online training - 2 days|	_8,500.00_|
+|Onsite training - 2 days|	_startnig at $13,800.00_|
+|Virtual Online training - 2 days|	_starting at 8,500.00_|
 ||
 
 ![Ilios-AWS-Schema](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/b70aa30e-0d9a-4bf6-af9b-ce25adfa7454.png)
