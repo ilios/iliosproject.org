@@ -1,0 +1,25 @@
+---
+layout: post
+title: 2023 End Of Year Report
+date: 2023-08-04  08:00:00
+categories: updates
+---
+
+![image of man-at-whiteboard-icon](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/829d4dc8-8cb3-b5f0-2386-c4dd7823b356.png)
+
+| __CURRENT STATUS__:
+| Current Version: **v3.109.2**
+| Next Scheduled Release: *16 December 2023*
+|
+| __CURRENT HIGHLIGHTS__:|
+
+What to say about 2023? We've achieved some notable milestones in work on Ilios, while others have had to be postponed or delayed, as we have addressed our own organizational change here at the University. As of this month, we have launched our app-specific B2B authentication token system, which should provide significantly more security and stability to integrated systems leveraging the Ilios API and data. We have completed the core code updates and enhancements necessary to launch our completely rewritten GraphQL-based reporting suite, which will now land early in 2024. We have made literally hundreds of updates and additions to the UI, in order to provide a more coherent, accessible, and consistent experience for all users.
+
+For me personally, it is now almost exactly 15 years since I began my engagement with the Ilios application, and curriculum management design. The field itself has transformed during that time - as has the Ilios platform - and as we enter 2024, it is clear that one of the next challenges we will take on is how to adapt and leverage the burgeoning world of generative AI and large language models to the already complex toolset of curriculum, curriculum mapping, CQI, and education at large. What anything will look like 15 years from now is anybody's guess. I sure don't know!
+
+What I do know is that for the time being Ilios will continue to work at providing data, access, and insights for curriulum planners, managers, educators, and learners across the health sciences spectrum.
+
+**Please be sure to updates your systems to get the latest, greatest code!**
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/). (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/))
