@@ -5,7 +5,7 @@ date: 2023-08-04  08:00:00
 categories: updates
 ---
 
-![image of man-at-whiteboard-icon](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/829d4dc8-8cb3-b5f0-2386-c4dd7823b356.png)
+![darkened ilios logo](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/829d4dc8-8cb3-b5f0-2386-c4dd7823b356.png)
 
 | __CURRENT STATUS__:
 | Current Version: **v3.109.2**
