@@ -9,5 +9,5 @@ categories: updates
 
 | __CURRENT STATUS__:
 | Current Version: **v3.110.0**
-| Next Scheduled Release: *2024, baby!*
+| Next Scheduled Release: *__2024__, baby!*
 |
