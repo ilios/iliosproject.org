@@ -1,13 +1,13 @@
 ---
 layout: post
 title: 2023 Final Update
-date: 2023-12-20  08:00:00
+date: 2023-12-17  08:00:00
 categories: updates
 ---
 
-![darkened ilios logo](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/140c97df-fb8d-3ceb-ffd4-f3166543ece4.jpg)
+![darkened ilios logo](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/1466710a-f737-aee0-4b75-dcbbd18f417e.jpg)
 
 | __CURRENT STATUS__:
-| Current Version: **v3.109.2**
+| Current Version: **v3.110.0**
 | Next Scheduled Release: *2024, baby!*
 |
