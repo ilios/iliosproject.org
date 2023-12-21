@@ -1,11 +1,11 @@
 ---
 layout: post
 title: 2023 Final Update
-date: 2023-12-17  08:00:00
+date: 2023-12-22  08:00:00
 categories: updates
 ---
 
-![Charlie Brown abd Snoopy](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/1466710a-f737-aee0-4b75-dcbbd18f417e.jpg)
+![Image of Charlie Brown and Snoopy from Charles Schulz's "Charlie Brown Christmas"](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/1466710a-f737-aee0-4b75-dcbbd18f417e.jpg)
 
 | __CURRENT STATUS__:
 | Current Version: **v3.110.0**
