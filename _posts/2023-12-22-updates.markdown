@@ -5,7 +5,7 @@ date: 2023-12-17  08:00:00
 categories: updates
 ---
 
-![darkened ilios logo](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/1466710a-f737-aee0-4b75-dcbbd18f417e.jpg)
+![Charlie Brown abd Snoopy](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/1466710a-f737-aee0-4b75-dcbbd18f417e.jpg)
 
 | __CURRENT STATUS__:
 | Current Version: **v3.110.0**
