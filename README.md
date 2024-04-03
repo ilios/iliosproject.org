@@ -9,7 +9,7 @@ This is the codebase for the Ilios Project Website at https://www.iliosproject.o
 For developing locally, we recommend using Docker with the provided Dockerfile.
 
 ### Requirements
-To use Docker, you will need to have [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed on your system, and you will need to add the path to the iliosproject.org codebase (this folder!) to your docker configuration by visiting `Resources -> File Sharing` in your Docker Desktop Settings and adding the path there.
+To use Docker, you will need to have [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed on your system, and you will need to add the path to the iliosproject.org codebase (this folder!) to your docker configuration by visiting `Resources -> File Sharing` in your Docker Desktop Settings and adding the path there. See below for more info...
 
 ### Get the code
 
@@ -29,6 +29,7 @@ You are now in the codebase directory from where all of the rest of the followin
 ```bash
 pwd
 ```
+Make sure that the path displayed here is added as a "Shared folder" in your Docker Desktop settings. Open your Docker Desktop settings and go to `Resources -> File Sharing` and select `Create Share +` and browse to and select your codebase folder.
 
 ### Steps
 
