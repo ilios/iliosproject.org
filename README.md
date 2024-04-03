@@ -29,7 +29,7 @@ You are now in the codebase directory from where all of the rest of the followin
 ```bash
 pwd
 ```
-Make sure that the path displayed here is added as a "Shared folder" in your Docker Desktop settings. Open your Docker Desktop settings and go to `Resources -> File Sharing` and select `Create Share +` and browse to and select your codebase folder.
+This is your codebase directory path. Make sure that the path displayed here is added as a "Shared folder" in your Docker Desktop settings. Open your Docker Desktop settings and go to `Resources -> File Sharing` and select `Create Share +` and browse to and select your codebase folder.
 
 ### Steps
 
