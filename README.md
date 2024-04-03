@@ -11,6 +11,25 @@ For developing locally, we recommend using Docker with the provided Dockerfile.
 ### Requirements
 To use Docker, you will need to have [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed on your system, and you will need to add the path to the iliosproject.org codebase (this folder!) to your docker configuration by visiting `Resources -> File Sharing` in your Docker Desktop Settings and adding the path there.
 
+### Get the code
+
+Clone the code from https://github.com/ilios/iliosproject.org - NOTE: you must have a Github username and password with proper permissions to clone code from this repository:
+
+```bash
+git clone git@github.com:/ilios/iliosproject.org
+```
+
+When the code is checked out, change into the newly-created `iliosproject.org` directory:
+
+```bash
+cd iliosproject.org
+```
+You are now in the codebase directory from where all of the rest of the following commands will be run.  To see the full path of the codebase directory you are in, run `pwd` to get the `Present Working Directory` path:
+
+```bash
+pwd
+```
+
 ### Steps
 
 1. From within the iliosproject.org codebase directory, run the following command to build the docker image locally:
@@ -23,11 +42,11 @@ docker build --no-cache -t iliosproject .
 docker run --rm --name iliosproject -p 4000:4000 -v .:/srv/app -t iliosproject
 ```
 
-When the Docker container starts, it will build the iliosproject.org website locally, and will let you know when it is ready. When the containe is fully started, you can visit your local site in your browser by visiting http://localhost:4000.
+When the Docker container starts, it will build the iliosproject.org website locally, and will let you know when it is ready. When the container is fully started, you can visit your local site in your browser by visiting http://localhost:4000.
 
 ### Finishing up
 
-3. When you are done editing the code as-needed and would like to stop the iliosproject conainer, DO NOT press `CTRL-C` in the same terminal window!  Instead, open a new terminal window and type the following:
+3. When you are done editing the code as-needed and would like to stop the iliosproject container, DO NOT press `CTRL-C` in the same terminal window!  Instead, open a new terminal window and type the following:
 
 ```bash
 docker stop iliosproject
