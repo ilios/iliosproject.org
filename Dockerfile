@@ -1,8 +1,5 @@
-FROM ubuntu:latest as ubuntu
-RUN apt-get update && \
-    apt-get install -y ruby && \
-    apt-get install -y gem && \
-    apt-get install -y bundler && \
+FROM ruby:3.3.0
+RUN gem install rubygems-bundler && \
     echo "#!/bin/bash" > /usr/local/sbin/start-jekyll.sh && \
     echo "cd /srv/app" >> /usr/local/sbin/start-jekyll.sh && \
     echo "bundle install" >> /usr/local/sbin/start-jekyll.sh && \
