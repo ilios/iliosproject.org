@@ -1,0 +1,20 @@
+---
+layout: post
+title: 2024 Post 1 - Update for Eclipse Day
+date: 2024-04-08  08:00:00
+categories: updates
+---
+
+![Image of a solar eclipse. source: Nasa.gov](https://www.nasa.gov/wp-content/uploads/2017/08/469309main_20100711eclipse.jpg)
+
+| __CURRENT STATUS__:
+| Current Version: **v3.111.2**
+| Next Scheduled Release: *19 April, 2024*
+|
+
+While the sun may fall behind the moon's shadow today, Ilios, though a bit behind in our timeline progress, isn't falling behind anything dark!
+
+We are continuing this quarter to update the system with improvements to code, including some nice additions to the UI which include simplifying calendar viewing for users with multiple roles, new and better reports access, and more. The current stable release, **v3.111.2**, includes numerous codebase, dependency and library updates, including access to the 2024 MeSH data set (instructions for updating are at [https://github.com/ilios/ilios/blob/master/docs/custom_cli_commands.md#mesh-import](https://github.com/ilios/ilios/blob/master/docs/custom_cli_commands.md#mesh-import)). We encourage all institutions to update at their soonest convenience to access the improvements and maintain security and stability for the system.
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/). (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/))
