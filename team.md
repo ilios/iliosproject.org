@@ -11,6 +11,7 @@ topLevel: true
 - Stefan Topfstedt (@stopfstedt), Senior Applications Programmer
 - Jason Hedrick (@thecoolestguy), Applications Programmer
 - Brandon Lo (@blo1), Applications Programmer
+- Michael Chadwick (@michaelchadwick), Applications Programmer
 - Dave Leonard (@dartajax), User Support
 - Rich Trott (@Trott), Contributor
 
