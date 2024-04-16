@@ -40,21 +40,19 @@ docker build --no-cache -t iliosproject .
 
 2. Continuing from within the same directory, run the docker image:
 ```bash
-docker run --rm --name iliosproject -p 4000:4000 -v .:/srv/app -t iliosproject
+docker run --rm --name iliosproject -p 4000:4000 -v .:/srv/app -i -t iliosproject
 ```
 
 When the Docker container starts, it will build the iliosproject.org website locally, and will let you know when it is ready. When the container is fully started, you can visit your local site in your browser by visiting http://localhost:4000.
 
-### Finishing up
-
-3. When you are done editing the code as-needed and would like to stop the iliosproject container, DO NOT press `CTRL-C` in the same terminal window!  Instead, open a new terminal window and type the following:
-
+3. When you are done editing the code as-needed and would like to stop the iliosproject container, press `CTRL-C` in the same terminal window that is running the docker image, and then the following command:
 ```bash
 docker stop iliosproject
 ```
-When the container is completely stopped, you will see that the Jekyll process in your original terminal window has now exited cleanly.
 
-When you are ready to work on the iliosproject.org codebase again, do a git pull and repeat steps 1-3 above.
+When the container is completely stopped, you will see that the Jekyll process in your terminal window has now exited cleanly.
+
+When you are ready to work on the iliosproject.org codebase again, do a `git pull` and repeat steps 1-3 above.
 
 
 ## Developing locally without using Docker
