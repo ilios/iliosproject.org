@@ -6,7 +6,7 @@ topLevel: false
 ---
 Ilios allows for the control and development of complex curricula organized by individual departments, programs schools or institutions. Courses may be shared across these organizations, while still maintaining data integrity, security and intellectual property controls.
 
-**Program Management**
+## Program Management
 
 - Create and manage any number of unique programs within your authorized institution(s)
 - Longitudinal tracking: control the attributes and requirements of each unique program year by year, allowing growth and modification to each individual matriculation group.
@@ -17,7 +17,7 @@ Ilios allows for the control and development of complex curricula organized by i
 
 &nbsp;
 
-**Group Management**
+## Group Management
 
 - Create and manage groups and sub-groups of learners for your curriculum
 - Add any person in the system to an instructor group and designate their role or classification
@@ -31,7 +31,7 @@ Ilios allows for the control and development of complex curricula organized by i
 
 &nbsp;
 
-**Course Management**
+## Course Management
 
 - Create and manage any number of courses and course events for your curriculum
 - Associate discrete learning objectives to courses and learning activities
@@ -45,7 +45,7 @@ Ilios allows for the control and development of complex curricula organized by i
 
 &nbsp;
 
-**Calendar Management**
+## Calendar Management
 
 - User-centric calendar access to all registered users
 - Multi-modal calendar search
@@ -55,7 +55,7 @@ Ilios allows for the control and development of complex curricula organized by i
 
 &nbsp;
 
-**User & ID Management**
+## User & ID Management
 
 - Import external feeds for enrollment and identity control
 - Export internal data for enrollment to 3rd party applications
@@ -64,7 +64,7 @@ Ilios allows for the control and development of complex curricula organized by i
 
 &nbsp;
 
-**Workflow Management**
+## Workflow Management
 
 - Easy control of materials for editing, review, and publishing/propagation
 - User control over who may move any piece of work from one state to the next, ie. draft to published
@@ -72,7 +72,7 @@ Ilios allows for the control and development of complex curricula organized by i
 
 &nbsp;
 
-**Data Tracking and Reporting**
+## Data Tracking and Reporting
 
 - Full relational data reporting capacity via API
 - Teaching hours tracking and management by instructor, department, educational method

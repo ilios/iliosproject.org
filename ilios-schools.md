@@ -37,7 +37,7 @@ If you are interested in joining the Ilios Project Consortium as a contributing 
 
 Ilios is an Open Source, community-based software application. For more information on Ilios please contact:
 
-*The Ilios Project* <br>
-UCSF School of Medicine & Library <br>
-530 Parnassus Box 0840 <br>
+*The Ilios Project*\
+UCSF School of Medicine & Library\
+530 Parnassus Box 0840\
 San Francisco, CA 94143

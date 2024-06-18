@@ -7,13 +7,12 @@ redirect_from: '/tech-specs/'
 
 ---
 
-__Supported Browsers__
+## Supported Browsers
 
 Chrome || Firefox ESR || Edge || Safari || Safari iOS |
 --- | ---| --- | ---| --- | ---| --- | ---| --- | ---| --- |
 ![Chrome](https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/chrome/chrome_48x48.png) || ![Firefox](https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/firefox/firefox_48x48.png) || ![Edge](https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/edge/edge_48x48.png) || ![Safari](https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/safari/safari_48x48.png) || ![Safari iOS](https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/safari-ios/safari-ios_48x48.png)
 Latest ✔ || Latest ✔ || Latest ✔ || Latest ✔ || Latest ✔ |
-
 
 __Current (as of 3/2022) Recommended Minimum System Requirements for Ilios 3 Installation:__
 

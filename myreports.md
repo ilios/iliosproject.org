@@ -4,8 +4,7 @@ title: My Reports
 permalink: /myreports.html
 topLevel: false
 ---
-
-
+<!-- markdownlint-disable MD033 -->
   <title>Ilios My Reports Grid</title>
   <style type="text/css">
    ol{margin:0;padding:0}
@@ -48,9 +47,7 @@ topLevel: false
    h6{padding-top:10pt;line-height:1.15;text-align:left;color:#000000;font-size:10pt;font-family:"Arial";font-weight:bold;padding-bottom:2pt}
    </style>
 
-
-
- <p class="c6 c9">
+  <p class="c6 c9">
 
   <span class="c1"></span>
  </p><a href="#" name="71619b3b69cc506a5e38b4fbb8c4104ee8834b2a"></a><a href="#" name="0"></a>
@@ -59,7 +56,7 @@ topLevel: false
  <tbody>
   <tr>
    <td class="c8 c22">
-    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;HAVING</span><img height="28" src="/media/image01.png" width="96"><br /><span class="c1">GET ALL &nbsp; </span></p>
+    <p class="c0"><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;HAVING</span><img height="28" src="/media/image01.png" width="96" alt=""><br /><span class="c1">GET ALL &nbsp; </span></p>
    </td>
   <td class="c3 c8"><p class="c0 c14"><span class="c11 c15">Course</span></p></td>
   <td class="c3 c8"><p class="c0 c14"><span class="c11 c15">Session</span></p></td>
@@ -278,7 +275,7 @@ topLevel: false
   <table cellpadding="0" cellspacing="0" class="c12">
    <tbody>
     <tr>
-     <td class="c13"><p class="c0"><img height="113" src="/media/image00.png" width="298"></p></td>
+     <td class="c13"><p class="c0"><img height="113" src="/media/image00.png" width="298" alt=""></p></td>
      <td class="c25"><p class="c6 c9"><span class="c1"></span></p>
       <p class="c9"><span class="c11 c1">(C)</span><span class="c1">&nbsp; &nbsp; &nbsp; = Course Only</span></p>
       <p class="c9"><span class="c11 c1">(S)</span><span class="c1">&nbsp; &nbsp; &nbsp; &nbsp;= Session Only</span></p>
