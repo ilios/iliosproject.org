@@ -2,14 +2,15 @@
 layout: page
 redirect_from: '/home/'
 path: '/'
-
 ---
+<!-- markdownlint-disable MD033 MD041 -->
 
 {% assign post = site.posts.first %}
 {% assign content = post.content %}
 
 # Ilios: Curriculum Management *from* UCSF
-#### - The premier open source curriculum management platform for schools around the globe -
+
+The premier open source curriculum management platform for schools around the globe
 
 - [Ilios Hosting - **Get Hosted!**](/hosting)
 - [Ilios In House - **Get The Code!**](https://www.github.com/ilios/ilios/releases/latest/){:target="_blank"}
@@ -18,7 +19,6 @@ path: '/'
 - [Latest User Guide](https://iliosproject.gitbooks.io/ilios-user-guide/content/){:target="_blank"} *(always up to date!)*
   - [Read the FAQs](https://github.com/ilios/ilios/wiki/FAQS){:target="_blank"}
   - [Check out our Wiki](https://github.com/ilios/ilios/wiki){:target="_blank"}
-
 
 ## Latest News
 

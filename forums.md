@@ -4,6 +4,7 @@ title: Forums (Closed Permanaently)
 permalink: /forums/
 topLevel: false
 ---
+<!-- markdownlint-disable MD033 -->
 
 ## We have closed our Ilios forums.  The best place to ask questions is in our [Slack Room](https://ilios-slack.herokuapp.com/)
 

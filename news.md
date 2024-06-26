@@ -4,6 +4,7 @@ title: News
 permalink: /news/
 topLevel: true
 ---
+<!-- markdownlint-disable MD033 -->
 
 <div class="subscribe-for-updates">
   <a href="/subscribe">Subscribe for Updates</a>
@@ -16,7 +17,7 @@ topLevel: true
       <h2>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
-      
+
       {{post.excerpt}}
     </li>
   {% endfor %}
