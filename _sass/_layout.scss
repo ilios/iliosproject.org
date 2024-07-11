@@ -48,7 +48,7 @@
   line-height: 68px;
   z-index: 5;
 
-  .menu-icon {
+  #menu-icon {
     display: none;
   }
 
@@ -82,13 +82,15 @@
     border-radius: 5px;
     text-align: right;
 
-    .menu-icon {
+    #menu-icon {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
       display: block;
       float: right;
       width: 36px;
-      height: 26px;
+      height: 36px;
       line-height: 0;
-      padding-top: 10px;
       text-align: center;
 
       > svg {
