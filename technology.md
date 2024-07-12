@@ -28,7 +28,7 @@ PHP should be configured with a `memory_limit` setting of at least 386MB and hav
 
 - `php-mbstring` - UTF-8 support
 - `php-ldap` - LDAP-connectivity support (when using LDAP)
-- `php-xml`
+- `php-xml` - MeSH imports and report exports
 - `php-pecl-apcu` - caching
 - `php-mysql` - DB connectivity
 - `php-mysqlnd` - DB connectivity
