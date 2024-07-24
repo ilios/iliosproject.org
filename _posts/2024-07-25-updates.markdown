@@ -1,0 +1,36 @@
+---
+layout: post
+title: 2024 Post 2 - Summer Update
+date: 2024-07-24  08:00:00
+categories: updates
+---
+
+![Image of a GI with the tag "Ilios: 4x as fast"](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/b6af0ee0-ff24-42bd-9018-9c46bda5aed7.jpg)
+
+| __CURRENT STATUS__:
+| Current Version: **v3.116.0**
+| Next Scheduled Release: *08 August, 2024*
+|
+
+While we continue to chug along here at Ilios headquarters, chipping away at our technical debt and housekeeping, we continue to tackle features we hope will set you up as users to be more effective in your educational work, and better prepared to support your curriculum governance and accreditation needs!
+
+Beginning with **v3.116**, the dashboard now includes a long-requested feature for users who interact with Ilios in multiple contexts (administrator, instructor, learner): if you have multiple roles within Ilios, you now can toggle between them to allow your dashboard to show only the activities for a given context.
+
+![image of the ilios dashboard noting the new context toggle buttons](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/f716711e-fffb-848d-0215-dc46b44f1d52.png)
+
+For example, if you are a course administrator (eg director) but also have individual instructional duties, you can now filter to show only your direct instructional activities - and not the entire calendar of activities in a course block. Each context of Instructing, Learning, or Administrating can be selected individually. Users who do not have multiple contexts will not see these filters.
+
+Also of note, the link to generate an .ics calendar feed link has been moved, and is now a
+"single-click" action button, more conveniently located immediately to the right of the dashboard "Calendar" button.
+
+Our final feature update of note this cycle is the addition of an embedded link directly to the Ilios User Guide placed in the header of the application.
+
+![image of the ilios page header noting the new icon link to the User Guide](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/df19e086-00f1-e628-715e-d8057ab5e9dc.png)
+
+This information link will open the public user guide in a separate window to provide immediate support and guidance for users of the platform.
+
+
+**TECHNICAL NOTE**: For those of you managing your own implementations, please note that Ilios now requires *PHP 8.3* (as of version **v3.113**) so please be sure to update your systems for compliance.
+
+Questions? Comments? Feedback? Find us at
+ [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/). 
