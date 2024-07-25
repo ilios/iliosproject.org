@@ -23,6 +23,10 @@
   font-weight: bold;
   font-size: 12px;
   z-index: 1;
+
+  @include media-query($on-palm) {
+    display: none;
+  }
 }
 .site-title {
   font-size: 26px;
