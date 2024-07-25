@@ -26,11 +26,11 @@
 
       <div class="trigger">
         <span class="page-link space-link">&nbsp;</span
-        ><a class="page-link {% if '/' == page.url %} active{% endif %}" href="/">Home</a>
+        ><a class="page-link{% if '/' == page.url %} active{% endif %}" href="/">Home</a>
         {% for nav in site.pages %} {% if nav.title and nav.topLevel %}
         <span class="page-link space-link">&nbsp;</span
         ><a
-          class="page-link {% if nav.url == page.url %} active{% endif %}"
+          class="page-link{% if nav.url == page.url %} active{% endif %}"
           href="{{ nav.url | prepend: site.baseurl }}"
           >{{ nav.title }}</a
         >
