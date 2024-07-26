@@ -5,13 +5,17 @@
 .site-header {
   border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
-  padding-left: 7em;
+  padding-left: 0;
   min-height: 68px;
   max-height: 68px;
   background-color: rgb(216, 91, 0);
 
   // Positioning context for the mobile navigation icon
   position: relative;
+
+  @include media-query($on-laptop) {
+    padding-left: 7em;
+  }
 }
 //adding this for the header tagline
 .site-header-tag {
@@ -47,8 +51,9 @@
 
 .site-nav {
   //   vertical-align: sub;
-  float: right;
-  line-height: 68px;
+  clear: both;
+  float: left;
+  line-height: 34px;
   z-index: 5;
 
   #menu-icon {
@@ -57,7 +62,9 @@
 
   .page-link {
     color: $text-color;
+    display: inline-block;
     line-height: $base-line-height;
+    margin-top: 1.5em;
 
     // Gaps between nav items, but not on the first one
     &:not(:first-child) {
@@ -78,8 +85,8 @@
 
   @include media-query($on-palm) {
     position: absolute;
-    top: 9px;
-    right: 30px;
+    top: 14px;
+    right: 14px;
     background-color: $background-color;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
@@ -248,6 +255,7 @@
  * Posts
  */
 .post-header {
+  clear: both;
   margin-bottom: $spacing-unit;
 }
 
