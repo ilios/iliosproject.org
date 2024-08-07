@@ -25,22 +25,20 @@
       </button>
 
       <div class="trigger">
-        <span class="page-link space-link">&nbsp;</span
-        ><a class="page-link {% if '/' == page.url %} active{% endif %}" href="/">Home</a>
+        <a class="page-link{% if '/' == page.url %} active{% endif %}" href="/">Home</a>
+
         {% for nav in site.pages %} {% if nav.title and nav.topLevel %}
-        <span class="page-link space-link">&nbsp;</span
-        ><a
-          class="page-link {% if nav.url == page.url %} active{% endif %}"
+        <a
+          class="page-link{% if nav.url == page.url %} active{% endif %}"
           href="{{ nav.url | prepend: site.baseurl }}"
           >{{ nav.title }}</a
         >
         {% endif %} {% endfor %}
-        <span class="page-link space-link">&nbsp;</span
-        ><a
+        <a
           class="page-link"
           href="http://us3.campaign-archive2.com/home/?u=845c4ebabb5b5ae7a6372c715&id=1493e3df18"
           target="_blank"
-          >Status&nbsp;Reports</a
+          >Status Reports</a
         >
       </div>
     </nav>
