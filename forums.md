@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Forums (Closed Permanaently)
+title: Forums (Closed Permanently)
 permalink: /forums/
 topLevel: false
 ---
