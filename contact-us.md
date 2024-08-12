@@ -16,7 +16,7 @@ San Francisco, CA 94143
 
 [info@iliosproject.org](mailto:info@iliosproject.org)
 
-You can now contact us on Slack! Join the channel here: [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_blank"}
+You can now contact us on Slack! Join the channel here: [https://team-ilios.slack.com/](https://team-ilios.slack.com/){:target="_blank"}
 
 Or if you wish, you may call the UCSF School of Medicine Office of Technology Enhanced Education at: (415) 502-2800.
 
