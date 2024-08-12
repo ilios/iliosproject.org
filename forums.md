@@ -6,7 +6,7 @@ topLevel: false
 ---
 <!-- markdownlint-disable MD033 -->
 
-## We have closed our Ilios forums.  The best place to ask questions is in our [Slack Room](https://ilios-slack.herokuapp.com/)
+## We have closed our Ilios forums.  The best place to ask questions is in our [Slack Room](https://team-ilios.slack.com/)
 
 <script async defer src="https://ilios-slack.herokuapp.com/slackin.js"></script>
 
