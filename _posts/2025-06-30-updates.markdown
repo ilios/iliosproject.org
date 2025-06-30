@@ -1,0 +1,16 @@
+---
+layout: post
+title: 2025 Summer Update
+date: 2025-06-30  08:00:00
+categories: updates
+---
+
+![tada image](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/21ebb36d-2da3-4b46-9294-1e962088a666.png)
+![Image of Ilios logo"](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/829d4dc8-8cb3-b5f0-2386-c4dd7823b356.png)
+
+| __CURRENT STATUS__:
+| Current Version: **v3.125.2**
+| Current API: *v3.12*
+| Current Frontend: **v43.9.3**
+| Next Scheduled Release: *14 July, 2025*
+|
