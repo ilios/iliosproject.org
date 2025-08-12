@@ -1,4 +1,4 @@
-@use 'sass:math';
+@use "sass:math";
 /**
  * Site header
  */
@@ -136,6 +136,10 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+
+  .acr {
+    width: 2rem;
+  }
 }
 
 .footer-heading {

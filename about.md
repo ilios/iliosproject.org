@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 topLevel: true
 ---
-<!-- markdownlint-disable MD033 -->
 
 - [Technology](/technology)
 - [License](/license)
 - [Ilios Schools](/ilios-schools)
 - [Features](/features)
+- [Accessibility Conformance Report (VPAT)](/acr)
 
 &nbsp;
 
