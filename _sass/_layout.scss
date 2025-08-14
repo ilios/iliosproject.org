@@ -1,4 +1,4 @@
-@use 'sass:math';
+@use "sass:math";
 /**
  * Site header
  */
@@ -136,6 +136,10 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+
+  .acr {
+    width: 2rem;
+  }
 }
 
 .footer-heading {
@@ -303,5 +307,21 @@
   text-align: center;
   img {
     width: 75%;
+  }
+}
+
+.acr {
+  h2 {
+    margin-top: 2rem;
+  }
+
+  table {
+    td,
+    th {
+      text-align: center;
+    }
+    td:first-of-type {
+      text-align: left;
+    }
   }
 }
