@@ -309,3 +309,19 @@
     width: 75%;
   }
 }
+
+.acr {
+  h2 {
+    margin-top: 2rem;
+  }
+
+  table {
+    td,
+    th {
+      text-align: center;
+    }
+    td:first-of-type {
+      text-align: left;
+    }
+  }
+}

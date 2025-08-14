@@ -3,6 +3,7 @@ layout: page
 title: Accessibility Conformance Report
 permalink: /acr/
 topLevel: false
+pageClass: acr
 ---
 
 ## Ilios Accessibility Conformance Report
@@ -85,6 +86,7 @@ topLevel: false
 ## Table 2: Success Criteria, Level AA
 
 **Notes:**
+Ilios is designed and tested against the WCAG 2.1 AA standard, this table includes criteria from the 2.2 version of this standard. Progress is ongoing to align with these new benchmarks, but not currently supported.
 
 | Criteria                                                                                                                             | Conformance Level  | Remarks and Explanations |
 | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------ | ------------------------ |
@@ -103,8 +105,8 @@ topLevel: false
 | [**2.4.6 Headings and Labels**](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-descriptive) (Level AA)                           | Supports           |                          |
 | [**2.4.7 Focus Visible**](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-focus-visible) (Level AA)                               | Supports           |                          |
 | [**2.4.11 Focus Not Obscured (Minimum)**](https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum) (Level AA 2.2 only)              | Supports           |                          |
-| [**2.5.7 Dragging Movements**](https://www.w3.org/TR/WCAG22/#dragging-movements) (Level AA 2.2 only)                                 | Does Not Support   |                          |
-| [**2.5.8 Target Size (Minimum)**](https://www.w3.org/TR/WCAG22/#target-size-minimum) (Level AA 2.2 only)                             | Partially Supports |                          |
+| [**2.5.7 Dragging Movements**](https://www.w3.org/TR/WCAG22/#dragging-movements) (Level AA 2.2 only)                                 | Does Not Support   | See Note                 |
+| [**2.5.8 Target Size (Minimum)**](https://www.w3.org/TR/WCAG22/#target-size-minimum) (Level AA 2.2 only)                             | Partially Supports | See Note                 |
 | [**3.1.2 Language of Parts**](http://www.w3.org/TR/WCAG20/#meaning-other-lang-id) (Level AA)                                         | Supports           |                          |
 | [**3.2.3 Consistent Navigation**](http://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-locations) (Level AA)                  | Supports           |                          |
 | [**3.2.4 Consistent Identification**](http://www.w3.org/TR/WCAG20/#consistent-behavior-consistent-functionality) (Level AA)          | Supports           |                          |
@@ -116,6 +118,7 @@ topLevel: false
 ## Table 3: Success Criteria, Level AAA
 
 **Notes:**
+Ilios is designed and tested against the WCAG 2.1 AA standard, this table includes many criteria from the AAA version of this standard which we do not target in our tests or development. However, if you have any issues accessing the content or features of Ilios please let us know.
 
 | Criteria                                                                                                                                | Conformance Level | Remarks and Explanations |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | ------------------------ |
@@ -123,29 +126,29 @@ topLevel: false
 | [**1.2.7 Extended Audio Description (Prerecorded)**](http://www.w3.org/TR/WCAG20/#media-equiv-extended-ad) (Level AAA)                  | Supports          |                          |
 | [**1.2.8 Media Alternative (Prerecorded)**](http://www.w3.org/TR/WCAG20/#media-equiv-text-doc) (Level AAA)                              | Supports          |                          |
 | [**1.2.9 Audio-only (Live)**](http://www.w3.org/TR/WCAG20/#media-equiv-live-audio-only) (Level AAA)                                     | Supports          |                          |
-| [**1.3.6 Identify Purpose**](https://www.w3.org/TR/WCAG21/#identify-purpose) (Level AAA 2.1 and 2.2)                                    | Not Evaluated     |                          |
-| [**1.4.6 Contrast (Enhanced)**](http://www.w3.org/TR/WCAG20/#visual-audio-contrast7) (Level AAA)                                        | Does Not Support  |                          |
-| [**1.4.7 Low or No Background Audio**](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-noaudio) (Level AAA)                          | Supports          |                          |
-| [**1.4.8 Visual Presentation**](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-visual-presentation) (Level AAA)                     | Does Not Support  |                          |
+| [**1.3.6 Identify Purpose**](https://www.w3.org/TR/WCAG21/#identify-purpose) (Level AAA 2.1 and 2.2)                                    | Not Evaluated     | See Note                 |
+| [**1.4.6 Contrast (Enhanced)**](http://www.w3.org/TR/WCAG20/#visual-audio-contrast7) (Level AAA)                                        | Does Not Support  | See Note                 |
+| [**1.4.7 Low or No Background Audio**](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-noaudio) (Level AAA)                          | Supports          | See Note                 |
+| [**1.4.8 Visual Presentation**](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-visual-presentation) (Level AAA)                     | Does Not Support  | See Note                 |
 | [**1.4.9 Images of Text (No Exception)**](http://www.w3.org/TR/WCAG20/#visual-audio-contrast-text-images) (Level AAA)                   | Supports          |                          |
 | [**2.1.3 Keyboard (No Exception)**](http://www.w3.org/TR/WCAG20/#keyboard-operation-all-funcs) (Level AAA)                              | Supports          |                          |
 | [**2.2.3 No Timing**](http://www.w3.org/TR/WCAG20/#time-limits-no-exceptions) (Level AAA)                                               | Supports          |                          |
 | [**2.2.4 Interruptions**](http://www.w3.org/TR/WCAG20/#time-limits-postponed) (Level AAA)                                               | Supports          |                          |
-| [**2.2.5 Re-authenticating**](http://www.w3.org/TR/WCAG20/#time-limits-server-timeout) (Level AAA)                                      | Does Not Support  |                          |
-| [**2.2.6 Timeouts**](https://www.w3.org/TR/WCAG21/#timeouts) (Level AAA 2.1 and 2.2)                                                    | Does Not Support  |                          |
-| [**2.3.2 Three Flashes**](http://www.w3.org/TR/WCAG20/#seizure-three-times) (Level AAA)                                                 | Does Not Support  |                          |
-| [**2.3.3 Animation from Interactions**](https://www.w3.org/TR/WCAG21/#animation-from-interactions) (Level AAA 2.1 and 2.2)              | Does Not Support  |                          |
+| [**2.2.5 Re-authenticating**](http://www.w3.org/TR/WCAG20/#time-limits-server-timeout) (Level AAA)                                      | Does Not Support  | See Note                 |
+| [**2.2.6 Timeouts**](https://www.w3.org/TR/WCAG21/#timeouts) (Level AAA 2.1 and 2.2)                                                    | Does Not Support  | See Note                 |
+| [**2.3.2 Three Flashes**](http://www.w3.org/TR/WCAG20/#seizure-three-times) (Level AAA)                                                 | Does Not Support  | See Note                 |
+| [**2.3.3 Animation from Interactions**](https://www.w3.org/TR/WCAG21/#animation-from-interactions) (Level AAA 2.1 and 2.2)              | Does Not Support  | See Note                 |
 | [**2.4.8 Location**](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-location) (Level AAA)                                           | Supports          |                          |
 | [**2.4.9 Link Purpose (Link Only)**](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-link) (Level AAA)                               | Supports          |                          |
 | [**2.4.10 Section Headings**](http://www.w3.org/TR/WCAG20/#navigation-mechanisms-headings) (Level AAA)                                  | Supports          |                          |
 | [**2.4.12 Focus Not Obscured (Enhanced)**](https://www.w3.org/TR/WCAG22/#focus-not-obscured-enhanced) (Level AAA 2.2 only)              | Supports          |                          |
 | [**2.4.13 Focus Appearance**](https://www.w3.org/TR/WCAG22/#focus-appearance) (Level AAA 2.2 only)                                      | Supports          |                          |
-| [**2.5.5 Target Size**](https://www.w3.org/TR/WCAG21/#target-size) (Level AAA 2.1 and 2.2)                                              | Limited Support   |                          |
+| [**2.5.5 Target Size**](https://www.w3.org/TR/WCAG21/#target-size) (Level AAA 2.1 and 2.2)                                              | Limited Support   | See Note                 |
 | [**2.5.6 Concurrent Input Mechanisms**](https://www.w3.org/TR/WCAG21/#concurrent-input-mechanisms) (Level AAA 2.1 and 2.2)              | Supports          |                          |
 | [**3.1.3 Unusual Words**](http://www.w3.org/TR/WCAG20/#meaning-idioms) (Level AAA)                                                      | Supports          |                          |
 | [**3.1.4 Abbreviations**](http://www.w3.org/TR/WCAG20/#meaning-located) (Level AAA)                                                     | Supports          |                          |
 | [**3.1.5 Reading Level**](http://www.w3.org/TR/WCAG20/#meaning-supplements) (Level AAA)                                                 | Supports          |                          |
-| [**3.1.6 Pronunciation**](http://www.w3.org/TR/WCAG20/#meaning-pronunciation) (Level AAA)                                               | Does Not Support  |                          |
+| [**3.1.6 Pronunciation**](http://www.w3.org/TR/WCAG20/#meaning-pronunciation) (Level AAA)                                               | Does Not Support  | See Note                 |
 | [**3.2.5 Change on Request**](http://www.w3.org/TR/WCAG20/#consistent-behavior-no-extreme-changes-context) (Level AAA)                  | Supports          |                          |
 | [**3.3.5 Help**](http://www.w3.org/TR/WCAG20/#minimize-error-context-help) (Level AAA)                                                  | Supports          |                          |
 | [**3.3.6 Error Prevention (All)**](http://www.w3.org/TR/WCAG20/#minimize-error-reversible-all) (Level AAA)                              | Supports          |                          |
