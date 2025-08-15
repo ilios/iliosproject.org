@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Ilios - Curriculum Management from UCSF
 redirect_from: '/home/'
 path: '/'
 ---
@@ -7,8 +8,6 @@ path: '/'
 
 {% assign post = site.posts.first %}
 {% assign content = post.content %}
-
-# Ilios: Curriculum Management *from* UCSF
 
 The premier open source curriculum management platform for schools around the globe
 
