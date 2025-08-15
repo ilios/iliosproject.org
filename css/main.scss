@@ -3,6 +3,10 @@
 ---
 
 @charset "utf-8";
+@use "mixins";
+@use "base";
+@use "layout";
+@use "syntax-highlighting";
 @use "sass:color";
 
 // Our variables
@@ -39,6 +43,3 @@ $on-laptop: 1000px;
     @content;
   }
 }
-
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import "mixins", "base", "layout", "syntax-highlighting";
