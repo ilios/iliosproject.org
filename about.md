@@ -46,4 +46,8 @@ _User Assignment & Access:_ Ilios manages learners and instructors and their rel
 
 _Integration and Communication:_ Ilios leverages the power of your existing online learning. With its comprehensive API, Ilios allows you to integrate with external data sources and systems. For schools using online learning systems such as Moodle or Canvas, Ilios provides a backbone of curricular information to make that deployment more robust and to complement the rich online tools, activities and materials already in use.
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/9m4pN88tNImDHA" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/saschaben/updated-infodeck" title="Ilios Intro Info 2017" target="_blank">Ilios Intro Info 2017</a> </strong> from <strong><a target="_blank" href="//www.slideshare.net/saschaben">Sascha Cohen</a></strong> </div>
+<iframe title="Ilios Intro Info 2017" src="//www.slideshare.net/slideshow/embed_code/key/9m4pN88tNImDHA" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen></iframe>
+
+<div style="margin-bottom:5px">
+  <strong><a href="//www.slideshare.net/saschaben/updated-infodeck" title="Ilios Intro Info 2017" target="_blank">Ilios Intro Info 2017</a></strong> from <strong><a target="_blank" href="//www.slideshare.net/saschaben">Sascha Cohen</a></strong>
+</div>
