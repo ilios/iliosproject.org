@@ -1,4 +1,5 @@
-@use 'sass:math';
+@use "sass:math";
+@use "sass:color";
 
 /**
  * Reset some basic elements
@@ -112,7 +113,7 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: color.adjust($brand-color, $lightness: -15%);
   }
 
   &:hover {
@@ -188,7 +189,7 @@ pre {
  */
 %clearfix {
   &:after {
-    content: '';
+    content: "";
     display: table;
     clear: both;
   }
@@ -211,9 +212,9 @@ pre {
 }
 
 article.post-content {
-  @include css3-prefix('column-width', '300px');
-  @include css3-prefix('column-gap', '2em');
-  @include css3-prefix('column-rule-width', '1px');
-  @include css3-prefix('column-rule-style', 'solid');
-  @include css3-prefix('column-rule-color', $grey-color-light);
+  @include css3-prefix("column-width", "300px");
+  @include css3-prefix("column-gap", "2em");
+  @include css3-prefix("column-rule-width", "1px");
+  @include css3-prefix("column-rule-style", "solid");
+  @include css3-prefix("column-rule-color", $grey-color-light);
 }
