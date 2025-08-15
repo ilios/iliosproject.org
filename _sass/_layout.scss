@@ -232,8 +232,41 @@
   font-size: 20px;
 }
 .page-tabla {
-  margin-left: 1.5em;
-  padding-left: 1em;
+  padding: 0 1em;
+}
+.reports-key {
+  border: 2px solid #000;
+  border-radius: 4px;
+  padding: 0.25em;
+  width: 100%;
+}
+.reports-key .row {
+  align-items: center;
+  display: flex;
+}
+.reports-key .square {
+  border: 2px solid #000;
+  height: 24px;
+  margin: 0.25em 0.5em 0.25em 0.25em;
+  width: 24px;
+}
+.reports-key .square.implemented {
+  background: linear-gradient(
+    to bottom right,
+    #fff 0%,
+    #fff 50%,
+    #8bfafe 50%,
+    #8bfafe 100%
+  );
+}
+.reports-key .square.not-available-being-reviewed {
+  background-color: #c5c5c5;
+}
+.reports-key .square.not-available {
+  background-color: #3c3c3c;
+}
+.reports-key .square.implemented-to-be-removed {
+  background-color: #b02816;
 }
 
 .post-list {
