@@ -2,6 +2,7 @@
   --text-color: hsl(0, 0%, 7%);
   --background-color: hsl(0, 0%, 99%);
   --brand-color: hsl(214, 76%, 53%);
+  --brand-color-light: hsl(214, 76%, 37%);
 
   --grey-color: hsl(0, 0%, 51%);
   --grey-color-light: hsl(from var(--grey-color) h s calc(l + 40));
