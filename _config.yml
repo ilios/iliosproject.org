@@ -4,7 +4,7 @@ email: support@iliosproject.org
 description: Curriculum Management for the Health Professions
 baseurl: ""
 url: "https:/iliosproject.org"
-github_username:  ilios
+github_username: ilios
 # Build settings
 markdown: kramdown
 exclude: [Gemfile, Gemfile.lock, LICENSE]
@@ -14,3 +14,4 @@ plugins:
 links:
   - title: Home
     url: /
+date_YYYYMMDD_dash: "%Y-%m-%d"
