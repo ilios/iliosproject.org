@@ -3,6 +3,7 @@ layout: page
 title: Ilios - Curriculum Management from UCSF
 redirect_from: '/home/'
 path: '/'
+search: true
 ---
 <!-- markdownlint-disable MD033 MD041 -->
 
@@ -18,6 +19,17 @@ The premier open source curriculum management platform for schools around the gl
 - [Latest User Guide](https://iliosproject.gitbooks.io/ilios-user-guide/content/){:target="_blank"} *(always up to date!)*
   - [Read the FAQs](https://github.com/ilios/ilios/wiki/FAQS){:target="_blank"}
   - [Check out our Wiki](https://github.com/ilios/ilios/wiki){:target="_blank"}
+
+<div id="search-container">
+  <input
+    type="search"
+    id="search-input"
+    data-post-size="{{ site.posts | size }}"
+    placeholder="Search news"
+  />
+  <ul id="results-container"></ul>
+</div>
+<div class="overlay"></div>
 
 ## Latest News
 
