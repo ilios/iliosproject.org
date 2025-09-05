@@ -428,6 +428,10 @@
 }
 
 #results-container {
+  display: none;
   margin: 0;
   padding-left: 20px;
+}
+#results-container.display {
+  display: block;
 }

@@ -27,7 +27,7 @@ The premier open source curriculum management platform for schools around the gl
     data-post-size="{{ site.posts | size }}"
     placeholder="Search news"
   />
-  <ul id="results-container"></ul>
+  <ul id="results-container" class="{% if results %}display{% endif %}"></ul>
 </div>
 <div class="overlay"></div>
 
