@@ -1,0 +1,9 @@
+services:
+  nginx:
+    build:
+      context: .
+    ports:
+      - "4000:4000"
+    volumes:
+      # The "cached" option has no effect on Linux but improves performance on Mac
+      - ./:/srv/app:cached
