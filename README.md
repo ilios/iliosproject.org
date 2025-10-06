@@ -38,29 +38,15 @@ This is your codebase directory path. Make sure that the path displayed here is 
 
 ### Steps to run Docker
 
-1. From within the iliosproject.org codebase directory, run the following command to build the docker image locally:
+```bash
+docker compose up
+```
 
-   ```bash
-   docker build --no-cache -t iliosproject .
-   ```
+When the Docker container starts, it will build the iliosproject.org website locally, and will let you know when it is ready. Once the container is fully started, you can visit your local site in your browser by visiting [http://localhost:4000](http://localhost:4000).
 
-2. Continuing from within the same directory, run the docker image:
+When you are done editing the code as-needed and would like to stop the iliosproject container, press `CTRL-C` in the same terminal window that is running the docker image. Once the container is completely stopped, you will see that the Jekyll process in your terminal window has now exited cleanly.
 
-   ```bash
-   docker run --rm --name iliosproject -p 4000:4000 -v .:/srv/app -i -t iliosproject
-   ```
-
-   When the Docker container starts, it will build the iliosproject.org website locally, and will let you know when it is ready. When the container is fully started, you can visit your local site in your browser by visiting [http://localhost:4000](http://localhost:4000).
-
-3. When you are done editing the code as-needed and would like to stop the iliosproject container, press `CTRL-C` in the same terminal window that is running the docker image, and then the following command:
-
-   ```bash
-   docker stop iliosproject
-   ```
-
-When the container is completely stopped, you will see that the Jekyll process in your terminal window has now exited cleanly.
-
-When you are ready to work on the iliosproject.org codebase again, do a `git pull` and repeat steps 1-3 above.
+When you are ready to work on the iliosproject.org codebase again, do a `git pull` and repeat the steps above.
 
 ## Developing locally without using Docker
 
