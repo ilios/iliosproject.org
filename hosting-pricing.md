@@ -20,6 +20,7 @@ If you are interested, please [contact us](mailto:info@iliosproject.org) for fur
 PRICE LIST (as of 9/01/2019)
 
 ||
+
 | SYSTEM APPLICATION | PRICE (annual) |
 |:-------------------|--------------:|
 |||
