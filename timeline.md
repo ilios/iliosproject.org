@@ -6,7 +6,7 @@ topLevel: true
 ---
 <!-- markdownlint-disable MD033 -->
 
-#### **Past Progress:**
+## Past Progress
 
 > **_2010_** : Functional first-generation software application deployed.\
 **_2013_** : _Refinement and expansion_ of the product, and outreach to the larger community.\
@@ -17,7 +17,7 @@ topLevel: true
 **_2019_** : Deployment of _Global Search for Ilios_\
 **_2020_** : Full (AA/AAA) accessibility; improved performance; personalization and preferences; site management; extended objective tagging; extended analytics
 
-#### **Current Roadmap:**
+## Current Roadmap
 
 > (_2023_ - _2025_ : _Community engagement; next-generation planning and preparation; enhanced preferences and analytics_)\
 > (_2024_ - _2028_ : Extend robust analytics, search, and visualization capabilities within the platform, as well as for integration with third party tools, including AI-assisted enhancements)
