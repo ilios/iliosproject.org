@@ -13,3 +13,5 @@ categories: updates
 As always, with the holiday season approaching and the impending close of the calendar year, we will be putting a code freeze in place until after the team returns from the holiday break at the start of 2026. We will begin again with our regular release cadence in early January.
 
 That's it for 2025; thanks for continuing to be a part of the Ilios community, and we look forward to seeing you in 2026!
+
+| CURRENT STATUS: | Current Version: v3.132.0 | Current API: v3.13 | Current Frontend: v45.2.1 | Next Scheduled Release: January, 2026 |
