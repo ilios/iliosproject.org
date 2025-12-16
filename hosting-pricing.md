@@ -20,6 +20,7 @@ If you are interested, please [contact us](mailto:info@iliosproject.org) for fur
 PRICE LIST (as of 9/01/2019)
 
 ||
+
 | SYSTEM APPLICATION | PRICE (annual) |
 |:-------------------|--------------:|
 |||
@@ -46,4 +47,4 @@ PRICE LIST (as of 9/01/2019)
 | Virtual Online training - 2 days | _starting at 8,500.00_ |
 |||
 
-![Ilios-AWS-Schema](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/b70aa30e-0d9a-4bf6-af9b-ce25adfa7454.png)
+[![Ilios-AWS-Schema](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/b70aa30e-0d9a-4bf6-af9b-ce25adfa7454.png)](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/b70aa30e-0d9a-4bf6-af9b-ce25adfa7454.png)
