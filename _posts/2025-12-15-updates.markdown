@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2025 End of Year Update
-date: 2025-06-30  08:00:00
+date: 2025-12-15  08:00:00
 categories: updates
 ---
 
