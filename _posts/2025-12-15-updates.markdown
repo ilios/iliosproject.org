@@ -1,0 +1,22 @@
+---
+layout: post
+title: 2025 End of Year Update
+date: 2025-06-30  08:00:00
+categories: updates
+---
+
+![Snoopy and charlie brown at the xmas tree image](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/e4dfe76b-25cb-c0b1-5df6-3972dda8a3bf.jpg)
+
+| ![Image of Ilios logo](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/829d4dc8-8cb3-b5f0-2386-c4dd7823b356.png)
+|
+
+As always, with the holiday season approaching and the impending close of the calendar year, we will be putting a code freeze in place until after the team returns from the holiday break at the start of 2026. We will begin again with our regular release cadence in early January.
+
+That's it for 2025; thanks for continuing to be a part of the Ilios community, and we look forward to seeing you in 2026!
+
+| __CURRENT STATUS__:
+| Current Version: **v3.132.0**
+| Current API: *v3.13*
+| Current Frontend: **v45.2.1**
+| Next Scheduled Release: *14 July, 2025*
+|
