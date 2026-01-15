@@ -1,5 +1,0 @@
-source 'https://rubygems.org'
-gem 'csv'
-gem 'jekyll'
-gem 'jekyll-redirect-from'
-gem 'jekyll-mentions'
