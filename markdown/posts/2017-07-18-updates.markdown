@@ -6,10 +6,11 @@ categories: updates
 ---
 
 Did you know you can...
-* Customize the header, colors, and logos for your Ilios installation?
-* Copy teaching sessions from one course to another?
-* View another user's calendar? (if you have admin privileges)
-*  See the weighted value of course objectives by time spent?
+
+- Customize the header, colors, and logos for your Ilios installation?
+- Copy teaching sessions from one course to another?
+- View another user's calendar? (if you have admin privileges)
+- See the weighted value of course objectives by time spent?
 
 Well -- you can!
 
@@ -21,6 +22,6 @@ Well -- you can!
 
 **_See the Weighted Value of Course Objectives_**: In any course page, click the donut chart icon in either the summary detail section or in the course objectives section, and you will be taken to the visualizations page showing the course objective weightings.
 
-Want to know more? Check out some of our FAQs at  [https://github.com/ilios/ilios/wiki/FAQS](https://github.com/ilios/ilios/wiki/FAQS), and our user guide at [https://iliosproject.gitbooks.io/ilios-user-guide/content](https://iliosproject.gitbooks.io/ilios-user-guide/content).
+Want to know more? Check out some of our FAQs at [https://github.com/ilios/ilios/wiki/FAQS](https://github.com/ilios/ilios/wiki/FAQS), and our user guide at [https://iliosproject.gitbooks.io/ilios-user-guide/content](https://iliosproject.gitbooks.io/ilios-user-guide/content).
 
 Questions? Comments? Feedback? Please let us know at support@iliosproject.org or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/) (if you have not yet joined our slack channel, you can get started here: [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/)).

@@ -4,24 +4,29 @@ title: Summer Speed and Super Leaps
 date: 2018-08-23  13:00:00
 categories: updates
 ---
-__STATUS__:
-- current version: __3.53.1__
-- next scheduled release: __8/30/2018__
 
-__HIGHLIGHTS__:
+**STATUS**:
+
+- current version: **3.53.1**
+- next scheduled release: **8/30/2018**
+
+**HIGHLIGHTS**:
+
 - CI bugfixes for the management views
 - New view for .ics calendar feed: better security and manageability
 - New updated session list for course management: a cleaner, tighter view with more rapid access to edit controls and offering information
 
-__COMING SOON__:
+**COMING SOON**:
+
 - Linked Sessions: assign pre- and post-work by linking sessions to one another.
 - Updated view for ILMs in the calendar and Week at a Glance
 - Selectives modeling
 - LTI component for Course management
 
-__MORE DETAILS__:
+**MORE DETAILS**:
+
 - [http://bit.ly/IliosWeeklyUpdates](http://bit.ly/IliosWeeklyUpdates){:target="updates"}
 
-Questions? Comments? Feedback? Please let us know at [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+Questions? Comments? Feedback? Please let us know at [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="\_slackithelp"}. (If you have not yet joined our slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="\_slackit"}.)
 
-Please [download the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest updates!
+Please [download the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="\_releases"} and update your frontend to take advantage of all the latest updates!

@@ -7,9 +7,9 @@ categories: updates
 
 ![Image of a GI with the tag "Ilios: 4x as fast"](https://gallery.mailchimp.com/845c4ebabb5b5ae7a6372c715/images/b6af0ee0-ff24-42bd-9018-9c46bda5aed7.jpg)
 
-| __CURRENT STATUS__:
+| **CURRENT STATUS**:
 | Current Version: **v3.116.0**
-| Next Scheduled Release: *08 August, 2024*
+| Next Scheduled Release: _08 August, 2024_
 |
 
 While we continue to chug along here at Ilios headquarters, chipping away at our technical debt and housekeeping, we continue to tackle features we hope will set you up as users to be more effective in your educational work, and better prepared to support your curriculum governance and accreditation needs!
@@ -29,8 +29,7 @@ Our final feature update of note this cycle is the addition of an embedded link 
 
 This information link will open the public user guide in a separate window to provide immediate support and guidance for users of the platform.
 
-
-**TECHNICAL NOTE**: For those of you managing your own implementations, please note that Ilios now requires *PHP 8.3* (as of version **v3.113**) so please be sure to update your systems for compliance.
+**TECHNICAL NOTE**: For those of you managing your own implementations, please note that Ilios now requires _PHP 8.3_ (as of version **v3.113**) so please be sure to update your systems for compliance.
 
 Questions? Comments? Feedback? Find us at
- [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/). 
+[support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/).

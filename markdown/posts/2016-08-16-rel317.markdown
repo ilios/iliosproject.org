@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  “Curriculum Inventory Tools are Here!”
-date:   2016-08-16 05:00:00
+title: “Curriculum Inventory Tools are Here!”
+date: 2016-08-16 05:00:00
 categories: release
 ---
 
 We are very happy to announce the latest update to Ilios, v3.17.0, and a host of great updates to the interface. Among the newly introduced features:
 
-- *__Curriculum Inventory Report tools are now available for immediate use__*
+- _**Curriculum Inventory Report tools are now available for immediate use**_
 - Ilios now allows the ability to select, map, and manage competencies which have no sub-domains
 - Corrected the application of learner group default instructor and location values to small group offerings
 - Improved display of ILM events in the dashboard agenda list view
