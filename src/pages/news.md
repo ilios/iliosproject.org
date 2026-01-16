@@ -1,9 +1,8 @@
 ---
-layout: page
+layout: ../Layouts/Content.astro
 title: News
-permalink: /news/
-topLevel: true
 ---
+
 <!-- markdownlint-disable MD033 -->
 
 <div class="subscribe-for-updates">
@@ -20,5 +19,7 @@ topLevel: true
 
       {{post.excerpt}}
     </li>
-  {% endfor %}
+
+{% endfor %}
+
 </ul>

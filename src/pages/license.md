@@ -1,8 +1,6 @@
 ---
-layout: page
+layout: ../Layouts/Content.astro
 title: License
-permalink: /license/
-topLevel: false
 ---
 
 The MIT License (MIT)

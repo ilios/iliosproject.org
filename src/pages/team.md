@@ -1,9 +1,8 @@
 ---
-layout: page
+layout: ../Layouts/Content.astro
 title: Team
-permalink: /team/
-topLevel: true
 ---
+
 ## The Ilios Project Core Team & Contributors
 
 - Sascha Cohen (@saschaben), Director, Strategic Development
@@ -25,7 +24,7 @@ topLevel: true
 - Loki der Quaeler (@quaeler), Lead Developer (_emeritus_)
 - Rolf Mortensen (@rolfsf), Usability Designer (_emeritus_)
 
-Want to be a part of the Ilios team, and help to create even better tools and features? Ilios is an [Open Source](http://opensource.org/){:target="_blank"}, community-based software application. [Fork the code at GitHub](https://github.com/ilios){:target="_blank"}, and get yourself started!
+Want to be a part of the Ilios team, and help to create even better tools and features? Ilios is an [Open Source](http://opensource.org/){:target="\_blank"}, community-based software application. [Fork the code at GitHub](https://github.com/ilios){:target="\_blank"}, and get yourself started!
 
 ## Sponsors
 

@@ -1,9 +1,6 @@
 ---
-layout: page
+layout: ../Layouts/Content.astro
 title: Accessibility Conformance Report
-permalink: /acr/
-topLevel: false
-pageClass: acr
 ---
 
 ## Ilios Accessibility Conformance Report

@@ -1,12 +1,11 @@
 ---
-layout: page
+layout: ../Layouts/Content.astro
 title: Subscribe
-permalink: /subscribe/
-topLevel: false
 ---
+
 <!-- markdownlint-disable MD033 -->
 
-***NEW***: You can now contact us on Slack! Join the channel here: [https://team-ilios.slack.com/](https://team-ilios.slack.com/){:target="_blank"}
+**_NEW_**: You can now contact us on Slack! Join the channel here: [https://team-ilios.slack.com/](https://team-ilios.slack.com/){:target="\_blank"}
 
 If you would like to be added to the Ilios monthly status updates and release notice distribution list, please add your name and email to our subscriber lists using the form below:
 

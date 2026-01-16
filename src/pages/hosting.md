@@ -1,8 +1,6 @@
 ---
-layout: page
+layout: ../Layouts/Content.astro
 title: Hosting
-permalink: /hosting/
-topLevel: false
 ---
 
 ## We Can Host You

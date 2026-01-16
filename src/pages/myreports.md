@@ -1,9 +1,8 @@
 ---
 layout: unrestricted-width
 title: Ilios Dashboard 'My Reports' Grid
-permalink: /myreports.html
-topLevel: false
 ---
+
 <!-- markdownlint-disable MD033 -->
 <style type="text/css">
   ol{margin:0;padding:0}

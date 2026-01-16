@@ -1,9 +1,8 @@
 ---
-layout: page
+layout: ../Layouts/Content.astro
 title: Features
-permalink: /features/
-topLevel: false
 ---
+
 Ilios allows for the control and development of complex curricula organized by individual departments, programs schools or institutions. Courses may be shared across these organizations, while still maintaining data integrity, security and intellectual property controls.
 
 ## Program Management

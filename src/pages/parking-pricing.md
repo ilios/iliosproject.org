@@ -1,8 +1,6 @@
 ---
-layout: page
+layout: ../Layouts/Content.astro
 title: Parking
-permalink: /parking-pricing/
-topLevel: false
 ---
 
 [<-- Back](/hosting)
