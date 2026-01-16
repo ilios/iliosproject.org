@@ -14,6 +14,12 @@ interface Props {
 const { title, description } = Astro.props;
 ---
 
+<style>
+  main {
+    padding: 0.5rem;
+  }
+</style>
+
 <Html title={title} description={description}>
   <Header />
   <Nav />
