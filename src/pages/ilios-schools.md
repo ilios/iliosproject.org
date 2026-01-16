@@ -1,5 +1,5 @@
 ---
-layout: ../Layouts/Content.astro
+layout: ../layouts/Content.astro
 title: Ilios Schools
 description: >
   List of Ilios Schools

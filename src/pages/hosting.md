@@ -1,5 +1,5 @@
 ---
-layout: ../Layouts/Content.astro
+layout: ../layouts/Content.astro
 title: Hosting
 description: >
   If you are interested in having us host your Ilios instance for you in our secure production environment, let us know. We can help migrate your existing Ilios, or if you are new to Ilios we can spin you up an original setup.

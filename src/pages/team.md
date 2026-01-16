@@ -1,5 +1,5 @@
 ---
-layout: ../Layouts/Content.astro
+layout: ../layouts/Content.astro
 title: Team
 description: >
   The Ilios Project core team, contributors, and sponsors
