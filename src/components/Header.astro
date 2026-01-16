@@ -1,28 +1,39 @@
 <style>
-  a {
+  header {
+    background-color: var(--orange);
+    color: var(--white);
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: var(--fs-small);
+    padding: 0 0.5rem;
 
-    @media (width >= 500px) {
-      justify-content: flex-start;
-    }
+    a {
+      img {
+        padding: 0 5px;
+        width: 75px;
+      }
 
-    & img {
-      padding: 0 5px;
-      width: var(--fs-xxl);
-
-      @media (width <= 400px) {
-        width: var(--fs-xl);
+      .visually-hidden {
+        border: 0;
+        clip-path: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
       }
     }
   }
 </style>
+
 <header>
   <h1>
-    <a href="/" aria-label="Home">
+    <a href="/" aria-label="Ilios Home">
       <img src="/media/ilios-logo.svg" alt="Ilios Logo" />
-      Ilios
+      <span class="visually-hidden">Ilios</span>
     </a>
   </h1>
+  Curriculum Management for the Health Professions
 </header>
