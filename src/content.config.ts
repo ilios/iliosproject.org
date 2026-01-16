@@ -10,4 +10,18 @@ const page = defineCollection({
   }),
 });
 
-export const collections = { page };
+const post = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './markdown/posts' }),
+  schema: z
+    .object({
+      title: z.string(),
+      description: z.string().optional(),
+      date: z.coerce.date(),
+      imagePath: z.string().optional(),
+      imageAlt: z.string().optional(),
+      categories: z.string().transform((val) => val.split(' ')),
+    })
+    .refine((data) => !data.imagePath || (data.imagePath && data.imageAlt)),
+});
+
+export const collections = { page, post };
