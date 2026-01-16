@@ -1,22 +1,22 @@
 ---
-layout: page
+layout: ../Layouts/Content.astro
 title: Contact Us
-permalink: /contact/
-topLevel: true
+
 redirect_from: '/contact-us/'
 ---
+
 <!-- markdownlint-disable MD033 -->
 
 For more information on Ilios please contact:
 
-***The Ilios Project***\
+**_The Ilios Project_**\
 UCSF School of Medicine & Library\
 530 Parnassus Box 0840\
 San Francisco, CA 94143
 
 [info@iliosproject.org](mailto:info@iliosproject.org)
 
-You can now contact us on Slack! Join the channel here: [https://team-ilios.slack.com/](https://team-ilios.slack.com/){:target="_blank"}
+You can now contact us on Slack! Join the channel here: [https://team-ilios.slack.com/](https://team-ilios.slack.com/){:target="\_blank"}
 
 Or if you wish, you may call the UCSF School of Medicine Office of Technology Enhanced Education at: (415) 502-2800.
 

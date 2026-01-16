@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: ../Layouts/Content.astro
 title: Ilios Schools
-permalink: /ilios-schools/
-topLevel: false
+
 redirect_from: '/home/join-the-lists/'
 ---
 
@@ -37,7 +36,7 @@ If you are interested in joining the Ilios Project Consortium as a contributing 
 
 Ilios is an Open Source, community-based software application. For more information on Ilios please contact:
 
-*The Ilios Project*\
+_The Ilios Project_\
 UCSF School of Medicine & Library\
 530 Parnassus Box 0840\
 San Francisco, CA 94143

@@ -1,21 +1,20 @@
 ---
-layout: page
+layout: ../Layouts/Content.astro
 title: Timeline
-permalink: /timeline/
-topLevel: true
 ---
+
 <!-- markdownlint-disable MD033 -->
 
 ## Past Progress
 
 > **_2010_** : Functional first-generation software application deployed.\
-**_2013_** : _Refinement and expansion_ of the product, and outreach to the larger community.\
-**_2015_** : _Support and expansion_ of the Open Source Community\
-**_2016_** : Deployment of the _API-driven application platform_\
-**_2017_** : Implementation of _Mobile-Ready Interface_\
-**_2018_** : Introduction of _Curriculum-based Granular Permissions Matrix_\
-**_2019_** : Deployment of _Global Search for Ilios_\
-**_2020_** : Full (AA/AAA) accessibility; improved performance; personalization and preferences; site management; extended objective tagging; extended analytics
+> **_2013_** : _Refinement and expansion_ of the product, and outreach to the larger community.\
+> **_2015_** : _Support and expansion_ of the Open Source Community\
+> **_2016_** : Deployment of the _API-driven application platform_\
+> **_2017_** : Implementation of _Mobile-Ready Interface_\
+> **_2018_** : Introduction of _Curriculum-based Granular Permissions Matrix_\
+> **_2019_** : Deployment of _Global Search for Ilios_\
+> **_2020_** : Full (AA/AAA) accessibility; improved performance; personalization and preferences; site management; extended objective tagging; extended analytics
 
 ## Current Roadmap
 

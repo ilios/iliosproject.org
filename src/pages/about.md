@@ -1,8 +1,6 @@
 ---
-layout: page
+layout: ../Layouts/Content.astro
 title: About
-permalink: /about/
-topLevel: true
 ---
 
 - [Technology](/technology)

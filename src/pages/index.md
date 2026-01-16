@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: ../Layouts/Content.astro
 title: Ilios - Curriculum Management from UCSF
 redirect_from: '/home/'
 path: '/'
 search: true
 ---
+
 <!-- markdownlint-disable MD033 MD041 -->
 
 {% assign post = site.posts.first %}
@@ -13,12 +14,12 @@ search: true
 The premier open source curriculum management platform for schools around the globe
 
 - [Ilios Hosting - **Get Hosted!**](/hosting)
-- [Ilios In House - **Get The Code!**](https://www.github.com/ilios/ilios/releases/latest/){:target="_blank"}
-- [Join The Ilios Community - *Subscribe for Updates*](/subscribe)
+- [Ilios In House - **Get The Code!**](https://www.github.com/ilios/ilios/releases/latest/){:target="\_blank"}
+- [Join The Ilios Community - _Subscribe for Updates_](/subscribe)
 - [Demo Site Information](/demo)
-- [Latest User Guide](https://iliosproject.gitbooks.io/ilios-user-guide/content/){:target="_blank"} *(always up to date!)*
-  - [Read the FAQs](https://github.com/ilios/ilios/wiki/FAQS){:target="_blank"}
-  - [Check out our Wiki](https://github.com/ilios/ilios/wiki){:target="_blank"}
+- [Latest User Guide](https://iliosproject.gitbooks.io/ilios-user-guide/content/){:target="\_blank"} _(always up to date!)_
+  - [Read the FAQs](https://github.com/ilios/ilios/wiki/FAQS){:target="\_blank"}
+  - [Check out our Wiki](https://github.com/ilios/ilios/wiki){:target="\_blank"}
 
 <div id="search-container">
   <input
@@ -45,5 +46,7 @@ The premier open source curriculum management platform for schools around the gl
       {{post.excerpt}} <a href="{{ post.url | prepend: site.baseurl }}">...read more</a>
 
     </li>
-  {% endfor %}
+
+{% endfor %}
+
 </ul>
