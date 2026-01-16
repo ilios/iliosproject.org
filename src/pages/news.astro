@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import Content from '../layouts/Content.astro';
+import PostSummary from '../components/PostSummary.astro';
+
+const posts = (await getCollection('post')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+---
+
+<style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5rem;
+  }
+</style>
+<Content title="News" description="What's new in Ilios?">
+  <h2>News</h2>
+  <ul>
+    {posts.map((post) => <PostSummary post={post} />)}
+  </ul>
+</Content>

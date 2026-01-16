@@ -1,0 +1,35 @@
+---
+interface Post {
+  id: string;
+  data: {
+    title: string;
+    description?: string;
+    imagePath?: string;
+    imageAlt?: string;
+  };
+}
+
+export interface Props {
+  post: Post;
+}
+
+const { post } = Astro.props;
+const { id, data } = post;
+const { title, description, imageAlt, imagePath } = data;
+---
+
+<style>
+  li {
+    margin-bottom: 1rem;
+
+    img {
+      max-width: 15rem;
+    }
+  }
+</style>
+
+<li>
+  <a href={`/posts/${id}`}>{title}</a>
+  {imagePath && <img src={imagePath} alt={imageAlt} />}
+  {description && <p>{description}</p>}
+</li>
