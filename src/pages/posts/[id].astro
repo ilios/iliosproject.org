@@ -1,0 +1,27 @@
+---
+import { getCollection, getEntry, render } from 'astro:content';
+import Content from '../../layouts/Content.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('post');
+  return posts.map((p) => {
+    return {
+      params: { id: p.id },
+    };
+  });
+}
+
+const { id } = Astro.params;
+const postData = await getEntry('post', id);
+if (!postData) {
+  throw new Error(`No such post: ${id}`);
+}
+const { Content: PostContent } = await render(postData);
+---
+
+<Content title={postData.data.title} description={postData.data.description || postData.data.title}>
+  <div>
+    <PostContent />
+    <p>Published on: {postData.data.date.toLocaleDateString()}</p>
+  </div>
+</Content>
