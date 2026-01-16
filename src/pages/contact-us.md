@@ -1,8 +1,13 @@
 ---
 layout: ../Layouts/Content.astro
 title: Contact Us
-
-redirect_from: '/contact-us/'
+description: >
+  For more information on Ilios please contact:
+  info@iliosproject.org
+  The Ilios Project
+  UCSF School of Medicine & Library
+  530 Parnassus Box 0840
+  San Francisco, CA 94143
 ---
 
 <!-- markdownlint-disable MD033 -->

@@ -1,6 +1,8 @@
 ---
 layout: unrestricted-width
 title: Ilios Dashboard 'My Reports' Grid
+description: >
+  Information on Available Reports
 ---
 
 <!-- markdownlint-disable MD033 -->

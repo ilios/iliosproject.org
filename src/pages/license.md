@@ -1,6 +1,8 @@
 ---
 layout: ../Layouts/Content.astro
 title: License
+description: >
+  Ilios License Information
 ---
 
 The MIT License (MIT)

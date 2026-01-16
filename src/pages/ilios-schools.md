@@ -1,8 +1,8 @@
 ---
 layout: ../Layouts/Content.astro
 title: Ilios Schools
-
-redirect_from: '/home/join-the-lists/'
+description: >
+  List of Ilios Schools
 ---
 
 - UCSF School of Medicine (project partner)

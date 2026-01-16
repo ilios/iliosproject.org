@@ -1,6 +1,8 @@
 ---
 layout: ../Layouts/Content.astro
 title: News
+description: >
+  What's new in Ilios?
 ---
 
 <!-- markdownlint-disable MD033 -->
