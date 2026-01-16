@@ -1,6 +1,20 @@
 ---
+import { getCollection } from 'astro:content';
 import Content from '../layouts/Content.astro';
+import PostSummary from '../components/PostSummary.astro';
+
+const posts = (await getCollection('post')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
 ---
+
+<style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5rem;
+  }
+</style>
 
 <Content title="Home" description="Curriculum Management for the Health Professions">
   <nav aria-label="Primary">
@@ -20,4 +34,11 @@ import Content from '../layouts/Content.astro';
       </li>
     </ul>
   </nav>
+  <div>
+    <h2>Latest News</h2>
+    <ul>
+      <PostSummary post={posts[0]} />
+      <PostSummary post={posts[1]} />
+    </ul>
+  </div>
 </Content>
