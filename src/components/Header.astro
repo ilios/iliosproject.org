@@ -1,7 +1,27 @@
+<style>
+  a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    @media (width >= 500px) {
+      justify-content: flex-start;
+    }
+
+    & img {
+      padding: 0 5px;
+      width: var(--fs-xxl);
+
+      @media (width <= 400px) {
+        width: var(--fs-xl);
+      }
+    }
+  }
+</style>
 <header>
   <h1>
     <a href="/" aria-label="Home">
-      <img src="/media/ilios-logo.svg" alt="Ilios Logo">
+      <img src="/media/ilios-logo.svg" alt="Ilios Logo" />
       Ilios
     </a>
   </h1>
