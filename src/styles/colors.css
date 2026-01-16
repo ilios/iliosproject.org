@@ -1,0 +1,8 @@
+:root {
+  --white: hsl(0deg 0% 98%);
+  --grey: hsl(0deg 0% 30%);
+  --orange: hsl(30deg 100% 40%);
+  --blue: hsl(195deg 50% 35%);
+  --light-blue: hsl(195deg 50% 45%);
+  --black: hsl(345deg 6% 13%);
+}
