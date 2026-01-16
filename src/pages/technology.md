@@ -1,8 +1,8 @@
 ---
 layout: ../Layouts/Content.astro
 title: Technology
-
-redirect_from: '/tech-specs/'
+description: >
+  Information on the technical requirements for running Ilios
 ---
 
 ## Supported Browsers

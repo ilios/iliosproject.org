@@ -1,6 +1,8 @@
 ---
 layout: ../Layouts/Content.astro
 title: Pricing
+description: >
+  Information on Ilios Hosting Pricing
 ---
 
 [<-- Back](/hosting)

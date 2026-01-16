@@ -1,6 +1,8 @@
 ---
 layout: ../Layouts/Content.astro
 title: Subscribe
+description: >
+  Information on joining the Ilios community and subscribing for updates
 ---
 
 <!-- markdownlint-disable MD033 -->
