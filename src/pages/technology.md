@@ -1,5 +1,5 @@
 ---
-layout: ../Layouts/Content.astro
+layout: ../layouts/Content.astro
 title: Technology
 description: >
   Information on the technical requirements for running Ilios

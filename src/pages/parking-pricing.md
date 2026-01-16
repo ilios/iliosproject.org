@@ -1,5 +1,5 @@
 ---
-layout: ../Layouts/Content.astro
+layout: ../layouts/Content.astro
 title: Parking
 description: >
   For $32 a day, you can either park one car in the lot, or have your whole school running Ilios

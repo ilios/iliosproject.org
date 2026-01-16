@@ -1,5 +1,5 @@
 ---
-layout: ../Layouts/Content.astro
+layout: ../layouts/Content.astro
 title: Pricing
 description: >
   Information on Ilios Hosting Pricing

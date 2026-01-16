@@ -1,5 +1,5 @@
 ---
-layout: ../Layouts/Content.astro
+layout: ../layouts/Content.astro
 title: Ilios Dashboard 'My Reports' Grid
 description: >
   Information on Available Reports
