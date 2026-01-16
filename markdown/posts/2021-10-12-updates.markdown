@@ -11,12 +11,12 @@ Welcome to pumpkin season here at Ilios! We have now released **v3.90.3**, which
 
 The AAMC Curriculum Inventory upload window is coming to a close, so if you participate, please remember to get your report into the portal prior to the 21st of October. There will be no extensions this year!
 
-__CURRENT STATUS__:
-- current version: __3.90.3__
-- next scheduled release: __10/22/2021__
+**CURRENT STATUS**:
 
+- current version: **3.90.3**
+- next scheduled release: **10/22/2021**
 
 Questions? Comments? Feedback? Find us at
- [support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="_slackithelp"}.  (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="_slackit"}.)
+[support@iliosproject.org](mailto:support@iliosproject.org) or in [https://team-ilios.slack.com/messages/help/](https://team-ilios.slack.com/messages/help/){:target="\_slackithelp"}. (If you have not yet joined our Slack channel, you can get started at [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="\_slackit"}.)
 
-Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="_releases"} and update your frontend to take advantage of all the latest features and improvements!
+Please be sure to get [the most recent release](https://www.github.com/ilios/ilios/releases/latest){:target="\_releases"} and update your frontend to take advantage of all the latest features and improvements!

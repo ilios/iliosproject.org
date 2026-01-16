@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  End of Year Updates
-date:   2016-12-19 08:00:00
+title: End of Year Updates
+date: 2016-12-19 08:00:00
 categories: updates
 ---
 
-*Winter Is Coming*.  Oh, and __v3.23.0__.
+_Winter Is Coming_. Oh, and **v3.23.0**.
 
-As we approach year's end for 2016, we have made a *lot* of progress with Ilios. To list just a few of this year's achievements and enhancements that we have been able to push out for you between our original launch and our most recent __v3.23.0__ version update:
+As we approach year's end for 2016, we have made a _lot_ of progress with Ilios. To list just a few of this year's achievements and enhancements that we have been able to push out for you between our original launch and our most recent **v3.23.0** version update:
 
 - New displays for access to Learning Materials for students
 - Improvements to the Curriculum Inventory tools

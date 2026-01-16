@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Version 3.8 is now available"
-date:   2016-03-23 15:00:00
+title: 'Version 3.8 is now available'
+date: 2016-03-23 15:00:00
 categories: news
 ---
 
@@ -12,4 +12,4 @@ What is also available via the vocabularies is the Medbiquitous list of instruct
 We've also provided a bunch of UI improvements, bug fixes, and under the hood improvements. If you have questions, let us know!
 
 The newly released code, as well as the complete changelog, is available here:
-[https://github.com/ilios/ilios/releases/tag/v3.8.0](https://github.com/ilios/ilios/releases/latest){:target="_blank"}:
+[https://github.com/ilios/ilios/releases/tag/v3.8.0](https://github.com/ilios/ilios/releases/latest){:target="\_blank"}:

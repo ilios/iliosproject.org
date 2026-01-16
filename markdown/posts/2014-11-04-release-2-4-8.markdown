@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "Version 2.4.8 Released"
-date:   2014-11-04 11:24:36
+title: 'Version 2.4.8 Released'
+date: 2014-11-04 11:24:36
 categories: ilios release
 ---
+
 We are pleased to announce the release of version 2.4.8, available now for download and installation.
 
 This point release includes a number of workflow enhancements to improve the Ilios experience:
