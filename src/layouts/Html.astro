@@ -24,6 +24,12 @@ const url = Astro.url.toString();
     <meta property="og:title" content=`${baseTitle} ${title}` />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={url} />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Ilios"
+      href={new URL('feed.xml', Astro.site)}
+    />
     <title>{pageTitle}</title>
   </head>
   <body>
