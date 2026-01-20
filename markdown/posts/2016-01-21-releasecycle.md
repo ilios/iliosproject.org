@@ -3,6 +3,7 @@ layout: post
 title: 'About Our Release Cycle'
 date: 2016-01-21 15:00:00
 categories: news
+description: A few words on the Ilios release cycle.
 ---
 
 Just a few words on our current rapid release cycle:

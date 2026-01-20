@@ -3,6 +3,7 @@ layout: post
 title: "So What's Next?"
 date: 2015-12-16 18:00:00
 categories: news
+description: What's next on our development roadmap?
 ---
 
 With the public launch of [the Ilios 3 codebase](https://github.com/ilios/ilios/releases/tag/v3.0.0){:target="\_blank}, API, and frontend, you may be asking yourself "Dang! What _will_ they be up to next?"

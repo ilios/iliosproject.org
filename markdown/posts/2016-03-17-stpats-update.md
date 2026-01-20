@@ -3,6 +3,7 @@ layout: post
 title: 'A General Update'
 date: 2016-03-18 15:00:00
 categories: news
+description: Development progress update for March 2016.
 ---
 
 No release this week, but while we are waiting for a few final fixes to push out the next bundle of updates, I wanted to give you a sense of where we are at with development:

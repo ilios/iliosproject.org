@@ -3,6 +3,7 @@ layout: post
 title: 'Our Latest Release'
 date: 2016-03-04 15:00:00
 categories: news
+description: Release announcement for Ilios 3.7.0.
 ---
 
 As most of you know, we released the latest update to Ilios the other day, version _3.7.0_. What's new?
