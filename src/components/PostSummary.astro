@@ -1,12 +1,15 @@
 ---
+import type { RenderedContent } from 'astro:content';
 interface Post {
   id: string;
   data: {
+    date: Date;
     title: string;
     description?: string;
     imagePath?: string;
     imageAlt?: string;
   };
+  rendered?: RenderedContent;
 }
 
 export interface Props {
@@ -15,7 +18,27 @@ export interface Props {
 
 const { post } = Astro.props;
 const { id, data } = post;
-const { title, description, imageAlt, imagePath } = data;
+const { title, date } = data;
+const html: string = post.rendered?.html ?? '';
+
+// format publication date for the given post.
+const formattedDate = date.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'short',
+  day: 'numeric',
+});
+
+// retrieve and truncate the post body after the first paragraph.
+// this makes it consistent with Jekyll's default behavior for
+// creating post excerpts.
+// see https://jekyllrb.com/docs/posts/#post-excerpts
+const closingParagraph = '</p>';
+const idxClosingParagraph = html.indexOf(closingParagraph);
+const idxCutOff = idxClosingParagraph + closingParagraph.length;
+let content = html;
+if (idxClosingParagraph !== -1 && idxCutOff < html.length) {
+  content = html.slice(0, idxCutOff);
+}
 ---
 
 <style>
@@ -29,7 +52,9 @@ const { title, description, imageAlt, imagePath } = data;
 </style>
 
 <li>
-  <a href={`/posts/${id}`}>{title}</a>
-  {imagePath && <img src={imagePath} alt={imageAlt} />}
-  {description && <p>{description}</p>}
+  {formattedDate && <span class="post-meta">{formattedDate}</span>}
+  <h2>
+    <a class="post-link" href={`/posts/${id}`}>{title}</a>
+  </h2>
+  <Fragment set:html={content} />
 </li>
