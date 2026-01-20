@@ -3,6 +3,7 @@ layout: post
 title: 'The Latest Greatest'
 date: 2016-02-08 15:00:00
 categories: news
+description: Release announcement for Ilios 3.5.0.
 ---
 
 Another week, another Ilios build, another chance to move ahead...

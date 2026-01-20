@@ -3,6 +3,7 @@ layout: post
 title: 'Ilios 3 is here!'
 date: 2015-11-20 11:00:00
 categories: ilios release
+description: Prerelease announcement for Ilios 3.
 ---
 
 The latest prerelease of the Ilios 3 code is now available for download and testing. Please use [this download link](https://github.com/ilios/ilios/releases){:target="\_blank"} to see the current release and notes for the core code and API.
