@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Content.astro
+layout: ../layouts/Markdown.astro
 title: Contact Us
 description: >
   For more information on Ilios please contact:
@@ -10,8 +10,6 @@ description: >
   San Francisco, CA 94143
 ---
 
-<!-- markdownlint-disable MD033 -->
-
 For more information on Ilios please contact:
 
 **_The Ilios Project_**\
@@ -21,7 +19,7 @@ San Francisco, CA 94143
 
 [info@iliosproject.org](mailto:info@iliosproject.org)
 
-You can now contact us on Slack! Join the channel here: [https://team-ilios.slack.com/](https://team-ilios.slack.com/){:target="\_blank"}
+You can now contact us on Slack! Join the channel here: [https://team-ilios.slack.com/](https://team-ilios.slack.com/)
 
 Or if you wish, you may call the UCSF School of Medicine Office of Technology Enhanced Education at: (415) 502-2800.
 
@@ -29,7 +27,6 @@ If you would like to be added to the Ilios monthly status updates and release no
 
 If you are a current institutional Ilios user, and require assistance or advice regarding your installation, please email us at [support@iliosproject.org](mailto:support@iliosproject.org?subject=SupportRequest).
 
-<!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
   #mc_embed_signup{border: 1 black solid; clear:left; font:12px Helvetica,Arial,sans-serif; }
@@ -60,5 +57,3 @@ If you are a current institutional Ilios user, and require assistance or advice 
     </div>
 </form>
 </div>
-
-<!--End mc_embed_signup-->

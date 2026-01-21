@@ -81,7 +81,10 @@ a {
 p {
   margin-bottom: 1rem;
   line-height: calc(1px + 3ex);
+}
 
+p,
+li {
   a {
     text-decoration: underline;
   }
