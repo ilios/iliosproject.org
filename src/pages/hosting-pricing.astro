@@ -1,0 +1,136 @@
+---
+import Content from '../layouts/Content.astro';
+---
+
+<style>
+  img {
+    width: 75%;
+  }
+
+  table {
+    margin-bottom: 1rem;
+
+    tr {
+      th:nth-of-type(2),
+      td:nth-of-type(2) {
+        text-align: right;
+      }
+
+      th:nth-of-type(1),
+      td:nth-of-type(1) {
+        text-align: left;
+      }
+    }
+  }
+</style>
+
+<Content title="Pricing" description="Information on Ilios Hosting Pricing">
+  <p><a href="/hosting">&lt;-- Back</a></p>
+  <h2>We Can Host You</h2>
+
+  <p>Our hosting service begins for as little as **$1,000 per month**, per school.</p>
+
+  <p>Implementation, customization, and deployment fees are separate and not included.</p>
+
+  <p>
+    If you are interested, please <a href="mailto:info@iliosproject.org">contact us</a> for further details.
+  </p>
+  <h3>PRICE LIST (as of 9/01/2019)</h3>
+
+  <table>
+    <caption>Core Services</caption>
+    <thead>
+      <tr>
+        <th>SYSTEM APPLICATION</th>
+        <th>PRICE (annual)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>One-time Implementation fee (<em>req.</em>)</td>
+        <td><em>$15,000.00</em></td>
+      </tr>
+      <tr>
+        <td>Core Hosting Services:</td>
+        <td><em>$12,000.00</em></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <caption>Additional Services</caption>
+    <thead>
+      <tr>
+        <th>SYSTEM APPLICATION</th>
+        <th>PRICE (annual)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>LTI Component Activation</td>
+        <td><em>(one-time fee) $500.00</em></td>
+      </tr>
+      <tr>
+        <td>Custom Development</td>
+        <td><em>TBD: starting at $185/hr</em></td>
+      </tr>
+      <tr>
+        <td>Mirror test / stage environment</td>
+        <td><em>$10,200 ($850/mo)</em></td>
+      </tr>
+      <tr>
+        <td>Custom Update Schedule</td>
+        <td><em>Inquire</em></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <caption>Other Services</caption>
+    <thead>
+      <tr>
+        <th>SYSTEM APPLICATION</th>
+        <th>PRICE (annual)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>DB Backups</td>
+        <td><em>Included</em></td>
+      </tr>
+      <tr>
+        <td>LM Backups</td>
+        <td><em>Included</em></td>
+      </tr>
+      <tr>
+        <td>Additional Storage</td>
+        <td><em>Included</em></td>
+      </tr>
+      <tr>
+        <td>Load Balancing & failover</td>
+        <td><em>Included</em></td>
+      </tr>
+      <tr>
+        <td>Audit logs</td>
+        <td><em>Included</em></td>
+      </tr>
+      <tr>
+        <td>Multi-zone redundancy</td>
+        <td><em>Included</em></td>
+      </tr>
+      <tr>
+        <td><em>Training</em></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Onsite training - 2 days</td>
+        <td><em>starting at $13,800.00</em></td>
+      </tr>
+      <tr>
+        <td>Virtual Online training - 2 days</td>
+        <td><em>starting at 8,500.00</em></td>
+      </tr>
+    </tbody>
+  </table>
+  <img src="/assets/ilios-application-flow.png" alt="Ilios AWS Schema" />
+</Content>
