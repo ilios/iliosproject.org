@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
         with:
-          ref: 'master'
+          ref: ${{ github.base_ref }}
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v6
         with:
