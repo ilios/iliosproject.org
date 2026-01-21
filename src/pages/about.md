@@ -11,23 +11,13 @@ description: >
 - [Features](/features)
 - [Accessibility Conformance Report (VPAT)](/acr)
 
-&nbsp;
-
 ---
-
-&nbsp;
 
 _**The Ilios Vision**: To provide the Health Professions a user-friendly, flexible, and robust web application to collect, manage, analyze and deliver curricular information, which will continue to grow and adapt to new and changing models of Health Professions education._
 
 _**The Ilios Mission**: To be the premier provider of open source curriculum management to health professions schools around the globe, and to create and support a vibrant community of educators, technologists, and end users in the improvement and enhancement of education through curricular mapping, management, and delivery._
 
-&nbsp;
-
 ---
-
-&nbsp;
-&nbsp;
-&nbsp;
 
 Ilios is a curriculum management platform for the Health Professions educational community. It is a user-friendly, flexible, and robust web application. Ilios collects, manages, analyzes, and delivers curricular information.
 
