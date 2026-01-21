@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Content.astro
+layout: ../layouts/Markdown.astro
 title: Accessibility Conformance Report
 description: >
   Ilios Accessibility Conformance Report for Ilios v3.x with testing for WCAG 2.2 AAA

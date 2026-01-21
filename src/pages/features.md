@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Content.astro
+layout: ../layouts/Markdown.astro
 title: Features
 description: >
   Ilios allows for the control and development of complex curricula organized by individual departments, programs schools or institutions. Courses may be shared across these organizations, while still maintaining data integrity, security and intellectual property controls.
@@ -16,8 +16,6 @@ Ilios allows for the control and development of complex curricula organized by i
 - Streamlined workflow management for content review prior to public dissemination.
 - Full historic audit abilities for tracking record changes and updates
 
-&nbsp;
-
 ## Group Management
 
 - Create and manage groups and sub-groups of learners for your curriculum
@@ -29,8 +27,6 @@ Ilios allows for the control and development of complex curricula organized by i
 - Assign groups to curricular activity and provide direct, secure access to group members via the calendar
 - Modify groups assigned to curriculum objects and activities for each unique instance, without altering the group in other curricular assignments
 - Create and manage groups of instructors
-
-&nbsp;
 
 ## Course Management
 
@@ -44,8 +40,6 @@ Ilios allows for the control and development of complex curricula organized by i
 - Course replication and rollover from one academic year to the next
 - Share curricular information via xml / web services with other standards-compliant systems
 
-&nbsp;
-
 ## Calendar Management
 
 - User-centric calendar access to all registered users
@@ -54,8 +48,6 @@ Ilios allows for the control and development of complex curricula organized by i
 - Direct access to online learning environments and materials via calendar interface
 - Real-time alerts of schedule, location and content changes
 
-&nbsp;
-
 ## User & ID Management
 
 - Import external feeds for enrollment and identity control
@@ -63,15 +55,11 @@ Ilios allows for the control and development of complex curricula organized by i
 - Assignment of user roles by group, or individually
 - Public access for non-affiliated users, and temporary or guest access for non-permanent or casual affiliations
 
-&nbsp;
-
 ## Workflow Management
 
 - Easy control of materials for editing, review, and publishing/propagation
 - User control over who may move any piece of work from one state to the next, ie. draft to published
 - Full audit capability
-
-&nbsp;
 
 ## Data Tracking and Reporting
 
@@ -83,5 +71,3 @@ Ilios allows for the control and development of complex curricula organized by i
 - Full archiving
 - Tools for the review of curriculum mapping and modeling to support accreditation
 - Numerous in-line work aid reports available in the Reporting Dashboard (overview [available here](/myreports.html)), with new reporting tools planned for **v3.105.0**
-
-<!--EndFragment-->
