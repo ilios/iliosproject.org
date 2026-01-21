@@ -1,0 +1,67 @@
+name: Visual Diff
+
+on:
+  pull_request: {}
+
+concurrency:
+  group: visual-diff-${{ github.head_ref || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  baseline:
+    name: Baseline
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: 'master'
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install
+      - run: pnpm exec playwright install --with-deps
+      - name: Capture Screenshots
+        run: pnpm run test
+      - uses: actions/upload-artifact@v6
+        with:
+          name: baseline
+          path: build/screenshots
+
+  candidate:
+    name: Candidate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install
+      - run: pnpm exec playwright install --with-deps
+      - name: Capture Screenshots
+        run: pnpm run test
+      - uses: actions/upload-artifact@v6
+        with:
+          name: candidate
+          path: build/screenshots
+
+  compare:
+    name: Visual Diff
+    needs: [baseline, candidate]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v7
+      - run: ls -lh baseline candidate
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - name: Create Visual Diff
+        run: npx visual-differ baseline candidate results/visual-diff-${{ github.event.pull_request.number }}
+      - uses: actions/upload-artifact@v6
+        if: always()
+        with:
+          name: visual-diff-${{ github.event.pull_request.number }}
+          path: results
