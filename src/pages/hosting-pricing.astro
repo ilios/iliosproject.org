@@ -1,5 +1,8 @@
 ---
 import Content from '../layouts/Content.astro';
+import { DateTime } from 'luxon';
+
+const jan1OfThisYear = DateTime.fromObject({ month: 1, day: 1 });
 ---
 
 <style>
@@ -35,7 +38,7 @@ import Content from '../layouts/Content.astro';
   <p>
     If you are interested, please <a href="mailto:info@iliosproject.org">contact us</a> for further details.
   </p>
-  <h3>PRICE LIST (as of 9/01/2019)</h3>
+  <h3>PRICE LIST (as of {jan1OfThisYear.toLocaleString()})</h3>
 
   <table>
     <caption>Core Services</caption>
