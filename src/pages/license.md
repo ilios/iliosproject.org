@@ -1,13 +1,13 @@
 ---
-layout: ../layouts/Content.astro
+layout: ../layouts/Markdown.astro
 title: License
 description: >
   Ilios License Information
 ---
 
-The MIT License (MIT)
+## The MIT License (MIT)
 
-Copyright (c) 2015 The Regents of the University of California
+Copyright (c) 2026 The Regents of the University of California
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

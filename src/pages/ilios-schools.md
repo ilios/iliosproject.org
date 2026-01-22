@@ -1,9 +1,11 @@
 ---
-layout: ../layouts/Content.astro
-title: Ilios Schools
+layout: ../layouts/Markdown.astro
+title: Schools
 description: >
   List of Ilios Schools
 ---
+
+## Ilios Schools
 
 - UCSF School of Medicine (project partner)
 - UC Irvine School of Medicine (project partner)
