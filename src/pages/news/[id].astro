@@ -21,6 +21,7 @@ const { Content: PostContent } = await render(postData);
 
 <Content title={postData.data.title} description={postData.data.description || postData.data.title}>
   <div>
+    <h1>{postData.data.title}</h1>
     <PostContent />
     <p>Published on: {postData.data.date.toLocaleDateString()}</p>
   </div>
