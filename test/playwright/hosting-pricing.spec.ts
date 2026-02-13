@@ -7,7 +7,7 @@ test.describe('Hosting Pricing Page', () => {
     await page.goto('/hosting-pricing');
 
     await expect(page).toHaveTitle('Pricing | Ilios');
-    await expect(page.getByRole('heading', { level: 1 })).toContainText('Ilios');
+    await expect(page.getByRole('heading', { level: 1 })).toContainText('Pricing');
     await expect(page.getByRole('heading', { level: 2 })).toContainText('We Can Host You');
 
     //I left this hardcoded on purpose so we'd have to take a peek at this pricae list at least once a year

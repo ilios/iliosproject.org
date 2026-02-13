@@ -7,7 +7,7 @@ test.describe('Demo Page', () => {
     await page.goto('/demo');
 
     await expect(page).toHaveTitle('Demo | Ilios');
-    await expect(page.getByRole('heading', { level: 1 })).toContainText('Ilios');
+    await expect(page.getByRole('heading', { level: 1 })).toContainText('Demo');
     await takeScreenshot(page, 'demo');
   });
 
