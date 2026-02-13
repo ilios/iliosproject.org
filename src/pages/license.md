@@ -5,6 +5,8 @@ description: >
   Ilios License Information
 ---
 
+# License
+
 ## The MIT License (MIT)
 
 Copyright (c) 2026 The Regents of the University of California

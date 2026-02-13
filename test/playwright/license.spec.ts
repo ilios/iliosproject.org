@@ -10,7 +10,7 @@ test.describe('License Page', () => {
     await page.goto('/license');
 
     await expect(page).toHaveTitle('License | Ilios');
-    await expect(page.getByRole('heading', { level: 1 })).toContainText('Ilios');
+    await expect(page.getByRole('heading', { level: 1 })).toContainText('License');
     await expect(page.getByRole('heading', { level: 2 })).toContainText('The MIT License (MIT)');
     await expect(
       page.getByText(`Copyright (c) ${thisYear} The Regents of the University of California`),

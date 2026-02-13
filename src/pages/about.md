@@ -5,6 +5,8 @@ description: >
   Ilios is a curriculum management platform for the Health Professions educational community. It is a user-friendly, flexible, and robust web application. Ilios collects, manages, analyzes, and delivers curricular information.
 ---
 
+# About
+
 - [Technology](/technology)
 - [License](/license)
 - [Ilios Schools](/ilios-schools)

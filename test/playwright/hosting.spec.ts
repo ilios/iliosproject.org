@@ -7,7 +7,7 @@ test.describe('Hosting Page', () => {
     await page.goto('/hosting');
 
     await expect(page).toHaveTitle('Hosting | Ilios');
-    await expect(page.getByRole('heading', { level: 1 })).toContainText('Ilios');
+    await expect(page.getByRole('heading', { level: 1 })).toContainText('Hosting');
     await expect(page.getByRole('heading', { level: 2 })).toContainText('We Can Host You');
     await takeScreenshot(page, 'hosting');
   });

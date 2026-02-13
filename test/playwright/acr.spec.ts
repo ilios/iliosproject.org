@@ -7,7 +7,12 @@ test.describe('ACR Page', () => {
     await page.goto('/acr');
 
     await expect(page).toHaveTitle('Accessibility Conformance Report | Ilios');
-    await expect(page.getByRole('heading', { level: 1 })).toContainText('Ilios');
+    await expect(page.getByRole('heading', { level: 1 })).toContainText(
+      'Accessibility Conformance Report',
+    );
+    await expect(page.locator('h2').first()).toContainText(
+      'Ilios Accessibility Conformance Report',
+    );
     await takeScreenshot(page, 'acr');
   });
 

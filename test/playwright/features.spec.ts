@@ -7,7 +7,8 @@ test.describe('Features Page', () => {
     await page.goto('/features');
 
     await expect(page).toHaveTitle('Features | Ilios');
-    await expect(page.getByRole('heading', { level: 1 })).toContainText('Ilios');
+    await expect(page.getByRole('heading', { level: 1 })).toContainText('Features');
+    await expect(page.locator('h2').first()).toContainText('Program Management');
     await takeScreenshot(page, 'features');
   });
 
