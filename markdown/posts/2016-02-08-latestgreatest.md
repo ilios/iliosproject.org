@@ -19,4 +19,4 @@ Some of the things to look forward to in the coming weeks are memory management 
 
 If you have questions about the code or the process, or want advice on how best to keep up with the releases, please let us know and we will be happy to work with you.
 
-The latest code can always be found at [https://github.com/ilios/ilios/releases/latest](https://github.com/ilios/ilios/releases/latest){:target="\_blank"}, along with the changelog.
+The latest code can always be found at [https://github.com/ilios/ilios/releases/latest](https://github.com/ilios/ilios/releases/latest), along with the changelog.

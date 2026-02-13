@@ -6,6 +6,6 @@ categories: news
 description: Ilios Slack workspace announcement.
 ---
 
-Interested in chatting with the Ilios team and users? Have a question that needs answering? Now you can chime in directly in our Slack channel! You can join by going here to sign in to our channel: [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/){:target="\_blank"}
+Interested in chatting with the Ilios team and users? Have a question that needs answering? Now you can chime in directly in our Slack channel! You can join by going here to sign in to our channel: [https://ilios-slack.herokuapp.com/](https://ilios-slack.herokuapp.com/)
 
 We look forward to seeing you there!
