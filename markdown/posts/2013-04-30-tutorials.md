@@ -6,4 +6,4 @@ categories: ilios announcement
 description: Check out our tutorial videos.
 ---
 
-Interested in some great user tutorials? Check out our [collection of articulate videos here](https://moodle.ucsf.edu/course/view.php?id=3370){:target="\_blank"}: [https://moodle.ucsf.edu/course/view.php?id=3370](https://moodle.ucsf.edu/course/view.php?id=3370){:target="\_blank"}
+Interested in some great user tutorials? Check out our [collection of articulate videos here](https://moodle.ucsf.edu/course/view.php?id=3370): [https://moodle.ucsf.edu/course/view.php?id=3370](https://moodle.ucsf.edu/course/view.php?id=3370)
