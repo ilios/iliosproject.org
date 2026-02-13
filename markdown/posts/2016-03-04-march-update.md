@@ -13,7 +13,7 @@ As most of you know, we released the latest update to Ilios the other day, versi
 - Ability to create recurring events!
 - Calendar icons for recent updates!
 - improved print view!
-- Automatic delivery of frontend updates! 
+- Automatic delivery of frontend updates!
 
   ...And lots more as well. [Check it out!](https://github.com/ilios/ilios/releases/tag/v3.7.0)
 

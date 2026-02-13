@@ -12,4 +12,4 @@ This, as well as all pending release iterations, will be applied to the public i
 
 Live API documentation is available here: [https://ilios3-demo.ucsf.edu/api/doc](https://ilios3-demo.ucsf.edu/api/doc).
 
-Interested in the data model updates for the latest Ilios version? You can get the ERD [here](https://github.com/ilios/ilios/wiki/Database-ERD)!
+Interested in the data model updates for the latest Ilios version? You can [get the ERD here](https://github.com/ilios/ilios/wiki/Database-ERD)!
