@@ -5,6 +5,8 @@ description: >
   Ilios Accessibility Conformance Report for Ilios v3.x with testing for WCAG 2.2 AAA
 ---
 
+# Accessibility Conformance Report
+
 ## Ilios Accessibility Conformance Report
 
 (Based on VPAT® Version 2.5)

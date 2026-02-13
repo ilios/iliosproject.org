@@ -7,7 +7,7 @@ test.describe('Contact Us Page', () => {
     await page.goto('/contact-us');
 
     await expect(page).toHaveTitle('Contact Us | Ilios');
-    await expect(page.getByRole('heading', { level: 1 })).toContainText('Ilios');
+    await expect(page.getByRole('heading', { level: 1 })).toContainText('Contact Us');
     await takeScreenshot(page, 'contact-us');
   });
 
