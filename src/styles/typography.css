@@ -34,6 +34,22 @@ html {
   }
 }
 
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: calc(1px + 3ex);
+}
+
+p,
+li {
+  a {
+    text-decoration: underline;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -56,6 +72,14 @@ h1 {
 
 h2 {
   font-size: var(--fs-xl);
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 h3 {
@@ -72,20 +96,4 @@ h5 {
 
 h6 {
   font-size: var(--fs-base);
-}
-
-a {
-  text-decoration: none;
-}
-
-p {
-  margin-bottom: 1rem;
-  line-height: calc(1px + 3ex);
-}
-
-p,
-li {
-  a {
-    text-decoration: underline;
-  }
 }
