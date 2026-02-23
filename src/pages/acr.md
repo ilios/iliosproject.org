@@ -84,6 +84,8 @@ description: >
 | [**3.3.7 Redundant Entry**](https://www.w3.org/TR/WCAG22/#redundant-entry) (Level A 2.2 only)                                   | Supports          |                          |
 | [**4.1.2 Name, Role, Value**](http://www.w3.org/TR/WCAG20/#ensure-compat-rsv) (Level A)                                         | Supports          |                          |
 
+---
+
 ## Table 2: Success Criteria, Level AA
 
 **Notes:**
@@ -115,6 +117,8 @@ Ilios is designed and tested against the WCAG 2.1 AA standard, this table includ
 | [**3.3.4 Error Prevention (Legal, Financial, Data)**](http://www.w3.org/TR/WCAG20/#minimize-error-reversible) (Level AA)             | Supports           |                          |
 | [**3.3.8 Accessible Authentication (Minimum)**](https://www.w3.org/TR/WCAG22/#accessible-authentication-minimum) (Level AA 2.2 only) | Supports           |                          |
 | [**4.1.3 Status Messages**](https://www.w3.org/TR/WCAG21/#status-messages) (Level AA 2.1 and 2.2)                                    | Supports           |                          |
+
+---
 
 ## Table 3: Success Criteria, Level AAA
 
