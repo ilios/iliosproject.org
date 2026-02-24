@@ -35,6 +35,7 @@ html {
 }
 
 a {
+  color: var(--blue);
   text-decoration: none;
 }
 
@@ -96,4 +97,8 @@ h5 {
 
 h6 {
   font-size: var(--fs-base);
+}
+
+a:visited {
+  color: var(--purple);
 }
