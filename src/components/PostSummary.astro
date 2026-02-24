@@ -52,9 +52,9 @@ if (idxClosingParagraph !== -1 && idxCutOff < html.length) {
 </style>
 
 <li>
-  {formattedDate && <span class="post-meta">{formattedDate}</span>}
   <h2>
     <a class="post-link" href={`/news/${id}`}>{title}</a>
   </h2>
+  {formattedDate && <span class="post-meta">{formattedDate}</span>}
   <Fragment set:html={content} />
 </li>
