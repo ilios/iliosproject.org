@@ -16,12 +16,18 @@ const postData = await getEntry('post', id);
 if (!postData) {
   throw new Error(`No such post: ${id}`);
 }
+const formattedDate = postData.data.date.toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'short',
+  day: 'numeric',
+});
 const { Content: PostContent } = await render(postData);
 ---
 
 <Content title={postData.data.title} description={postData.data.description || postData.data.title}>
   <div>
     <h1>{postData.data.title}</h1>
+    {formattedDate && <span class="post-meta">{formattedDate}</span>}
     <PostContent />
     <p>Published on: {postData.data.date.toLocaleDateString()}</p>
   </div>
