@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Content.astro
+layout: ../layouts/Markdown.astro
 title: Timeline
 description: >
   Since we began the Ilios Project in 2009, we have journeyed through multiple phases of growth and development. Beginning in 2015, we moved into the next critical phase of growth. During the expected initial 7-year lifecycle of version 3 (2016-2023), we extended and improved the application platform for mobility, interoperability and visibility of data across the spectrum of the educational ecosystem. As of this writing, we are approaching the ninth year of life for version 3, and expect to see at least four more years of the stable version 3 platform before reviewing needs for a major revision and version update.
