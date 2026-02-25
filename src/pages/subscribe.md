@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/Content.astro
+layout: ../layouts/Markdown.astro
 title: Subscribe
 description: >
   Information on joining the Ilios community and subscribing for updates
