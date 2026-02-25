@@ -1,9 +1,11 @@
 ---
 layout: ../layouts/Markdown.astro
-title: Ilios Dashboard 'My Reports' Grid
+title: My Reports Grid
 description: >
   Information on Available Reports
 ---
+
+# My Reports Grid
 
 <!-- markdownlint-disable MD033 -->
 <style type="text/css">
@@ -11,6 +13,7 @@ description: >
   .c0{line-height:1.0;direction:ltr}.c27{max-width:1080pt;padding:14.4pt 72pt 7.2pt 72pt}
   .c1{font-size:8pt}
   .c2{vertical-align:top;width:97.9pt;border-style:solid;background-color:#333333;border-color:#000000;border-width:1pt;padding:5pt 5pt 5pt 5pt}
+  .c2 > p > .c1 {color:#ffffff}
   .c3{vertical-align:top;width:97.9pt;border-style:solid;border-color:#000000;border-width:1pt;padding:5pt 5pt 5pt 5pt}
   .c4{font-size:12pt}
   .c5{background-color:#c0c0c0}
@@ -26,7 +29,7 @@ description: >
   .c15{font-size:9pt}
   .c16{font-size:36pt}
   .c17{background-color:#ffffff}
-  .c18{color:#ff0000}
+  .c18{color:#c84040}
   .c19{font-style:italic}
   .c20{vertical-align:middle;width:97.9pt;border-style:solid;background-color:#ff6666;border-color:#000000;border-width:1pt;padding:5pt 5pt 5pt 5pt}
   .c21{margin-left:12pt}
@@ -49,7 +52,7 @@ description: >
 
 <p class="c6 c9"><span class="c1"></span></p>
 
-<div style="overflow-x: scroll">
+<div class="my-reports-grid" style="overflow-x: scroll" tabindex="0">
   <table cellpadding="0" cellspacing="0" class="c12" style="align:left; margin-left:0em; z-index:1;">
     <tbody>
       <tr>
