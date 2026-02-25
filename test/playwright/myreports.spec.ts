@@ -8,7 +8,7 @@ test.describe('My Reports Page', () => {
 
     await expect(page).toHaveTitle('My Reports Grid | Ilios');
     await expect(page.getByRole('heading', { level: 1 })).toContainText('My Reports Grid');
-    await expect(page.locator('.my-reports-grid')).toHaveCount(1);
+    await expect(page.locator('.reports-grid')).toHaveCount(1);
 
     await takeScreenshot(page, 'myreports');
   });
