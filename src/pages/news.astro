@@ -16,7 +16,7 @@ const posts = (await getCollection('post')).sort(
   }
 </style>
 <Content title="News" description="What's new in Ilios?">
-  <h2>News</h2>
+  <h1>News</h1>
   <ul>
     {posts.map((post) => <PostSummary post={post} />)}
   </ul>
