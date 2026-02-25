@@ -7,6 +7,8 @@ description: >
 
 # Accessibility Conformance Report
 
+<br />
+
 ## Ilios Accessibility Conformance Report
 
 (Based on VPAT® Version 2.5)
@@ -14,7 +16,7 @@ description: >
 - **Name of Product/Version:** Ilios v3.x
 - **Report Date:** August 2025
 - **Product Description:** The premier open source curriculum management platform for schools around the globe
-- **Contact Information:** support@iliosproject.org
+- **Contact Information:** [support@iliosproject.org](mailto:support@iliosproject.org)
 - **Notes:**
 - **Evaluation Methods Used:** Automated tests in CI pipeline; site scanning with Siteimprove; manual testing by developers and users familiar with functionality; testing with assistive technologies by experts in those technologies, but not in the product.
 
