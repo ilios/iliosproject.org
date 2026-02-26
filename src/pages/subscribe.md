@@ -7,6 +7,8 @@ description: >
 
 <!-- markdownlint-disable MD033 -->
 
+# Subscribe
+
 **_NEW_**: You can now contact us on Slack! Join the channel here: [https://team-ilios.slack.com/](https://team-ilios.slack.com/)
 
 If you would like to be added to the Ilios monthly status updates and release notice distribution list, please add your name and email to our subscriber lists using the form below:
@@ -15,6 +17,8 @@ If you would like to be added to the Ilios monthly status updates and release no
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
   #mc_embed_signup{border: 1 black solid; clear:left; font:12px Helvetica,Arial,sans-serif; }
+  #mc_embed_signup .button{background-color:#555;}
+  #mc_embed_signup .button:hover{background-color:#222;}
 </style>
 <div id="mc_embed_signup">
 <form action="//iliosproject.us3.list-manage.com/subscribe/post?u=845c4ebabb5b5ae7a6372c715&amp;id=1493e3df18" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
