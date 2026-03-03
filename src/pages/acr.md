@@ -7,8 +7,14 @@ description: >
 
 <style>
   td:nth-of-type(2),
-  td:nth-of-type(3) {
+  td:nth-of-type(3),
+  td:nth-of-type(4) {
     text-align: center;
+  }
+
+  #applicable-standardsguidelines + table {
+    margin-top: 1em;
+    width: 100%;
   }
 </style>
 
