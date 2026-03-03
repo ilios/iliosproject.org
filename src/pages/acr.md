@@ -5,6 +5,13 @@ description: >
   Ilios Accessibility Conformance Report for Ilios v3.x with testing for WCAG 2.2 AAA
 ---
 
+<style>
+  td:nth-of-type(2),
+  td:nth-of-type(3) {
+    text-align: center;
+  }
+</style>
+
 # Accessibility Conformance Report
 
 <br />
