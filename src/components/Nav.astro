@@ -3,9 +3,13 @@
     display: flex;
     justify-content: flex-end;
 
-    @media screen and (max-width: 600px) {
-      .trigger {
-        display: none;
+    .link-container {
+      display: none;
+    }
+
+    @media screen and (min-width: 601px) {
+      .link-container {
+        display: block;
       }
     }
 
@@ -96,7 +100,7 @@
       ></path>
     </svg>
   </button>
-  <div class="trigger">
+  <div class="link-container">
     <ul>
       <li><a class={Astro.url.pathname == '/about' ? 'active' : ''} href="/about">About</a></li>
       <li>
@@ -129,7 +133,7 @@
 
   if (mobileMenuIcon) {
     mobileMenuIcon.addEventListener('click', () => {
-      const mobileMenu = document.querySelector('nav .trigger') as HTMLElement;
+      const mobileMenu = document.querySelector('nav .link-container') as HTMLElement;
       if (mobileMenu) {
         if (mobileMenu.style.display == 'block') {
           mobileMenu.style.display = 'none';
@@ -139,4 +143,15 @@
       }
     });
   }
+
+  window.addEventListener('resize', () => {
+    const navContainer = document.querySelector('nav .link-container') as HTMLElement;
+    if (navContainer) {
+      if (window.innerWidth > 600) {
+        navContainer.style.display = 'block';
+      } else {
+        navContainer.style.display = 'none';
+      }
+    }
+  });
 </script>
