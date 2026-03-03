@@ -20,6 +20,10 @@ const { title, description } = Astro.props;
     max-width: calc(800px - 15px * 2);
     padding: 0.5rem 15px;
     width: 100%;
+
+    @media screen and (max-width: 600px) {
+      padding: 1rem 15px;
+    }
   }
 </style>
 
