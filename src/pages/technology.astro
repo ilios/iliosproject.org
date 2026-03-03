@@ -3,11 +3,24 @@ import Content from '../layouts/Content.astro';
 ---
 
 <style>
-  table {
-    th,
-    tr {
-      padding: 0 2rem;
-      text-align: center;
+  #browser-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em 2em;
+    padding-top: 1em;
+
+    & > div {
+      display: flex;
+      flex-direction: column;
+
+      span:first-of-type {
+        font-weight: bold;
+      }
+
+      img {
+        height: 48px;
+        width: 48px;
+      }
     }
   }
 </style>
@@ -19,58 +32,49 @@ import Content from '../layouts/Content.astro';
   <h1>Technology</h1>
   <br />
   <h2>Supported Browsers</h2>
-  <table>
-    <thead>
-      <tr>
-        <th>Chrome</th>
-        <th>Firefox ESR</th>
-        <th>Edge</th>
-        <th>Safari</th>
-        <th>Safari iOS</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td
-          ><img
-            src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/chrome/chrome_48x48.png"
-            alt="Chrome"
-          /></td
-        >
-        <td
-          ><img
-            src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/firefox/firefox_48x48.png"
-            alt="Firefox"
-          /></td
-        >
-        <td
-          ><img
-            src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/edge/edge_48x48.png"
-            alt="Edge"
-          /></td
-        >
-        <td
-          ><img
-            src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/safari/safari_48x48.png"
-            alt="Safari"
-          /></td
-        >
-        <td
-          ><img
-            src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/safari-ios/safari-ios_48x48.png"
-            alt="Safari iOS"
-          /></td
-        >
-      </tr>
-      <tr>
-        <td>Latest ✔</td>
-        <td>Latest ✔</td>
-        <td>Latest ✔</td>
-        <td>Latest ✔</td>
-        <td>Latest ✔</td>
-      </tr>
-    </tbody>
-  </table>
+
+  <div id="browser-list">
+    <div class="browser chrome">
+      <span>Chrome</span>
+      <img
+        src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/chrome/chrome_48x48.png"
+        alt="Chrome"
+      />
+      <span>Latest ✔</span>
+    </div>
+    <div class="browser firefox">
+      <span>Firefox</span>
+      <img
+        src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/firefox/firefox_48x48.png"
+        alt="Firefox"
+      />
+      <span>Latest ✔</span>
+    </div>
+    <div class="browser edge">
+      <span>Edge</span>
+      <img
+        src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/edge/edge_48x48.png"
+        alt="Edge"
+      />
+      <span>Latest ✔</span>
+    </div>
+    <div class="browser safari">
+      <span>Safari</span>
+      <img
+        src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/safari/safari_48x48.png"
+        alt="Safari"
+      />
+      <span>Latest ✔</span>
+    </div>
+    <div class="browser safari-ios">
+      <span>Safari iOS</span>
+      <img
+        src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/safari-ios/safari-ios_48x48.png"
+        alt="Safari iOS"
+      />
+      <span>Latest ✔</span>
+    </div>
+  </div>
 
   <p>
     <strong
