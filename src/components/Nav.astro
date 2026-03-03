@@ -3,10 +3,6 @@
     display: flex;
     justify-content: flex-end;
 
-    &:hover .trigger {
-      display: block;
-    }
-
     @media screen and (max-width: 600px) {
       .trigger {
         display: none;
@@ -18,13 +14,12 @@
     }
 
     @media screen and (max-width: 600px) {
-      position: absolute;
-      top: 6px;
-      right: 14px;
       background-color: var(--white);
       border-radius: 5px;
-      text-align: right;
       flex-direction: column;
+      position: absolute;
+      right: 14px;
+      top: 6px;
 
       #menu-icon {
         align-self: flex-end;
@@ -32,10 +27,9 @@
         border: none;
         cursor: pointer;
         display: flex;
-        float: right;
-        width: 32px;
         height: 32px;
         line-height: 0;
+        width: 32px;
       }
     }
 
@@ -72,6 +66,10 @@
         &.active {
           color: var(--orange);
 
+          @media screen and (max-width: 600px) {
+            color: var(--dark-orange);
+          }
+
           &:hover {
             text-decoration: none;
           }
@@ -80,6 +78,7 @@
     }
   }
 </style>
+
 <nav aria-label="Primary">
   <button role="button" aria-label="Menu" id="menu-icon">
     <svg viewBox="0 0 18 15">
@@ -124,3 +123,20 @@
     </ul>
   </div>
 </nav>
+
+<script>
+  const mobileMenuIcon = document.querySelector('nav #menu-icon');
+
+  if (mobileMenuIcon) {
+    mobileMenuIcon.addEventListener('click', () => {
+      const mobileMenu = document.querySelector('nav .trigger') as HTMLElement;
+      if (mobileMenu) {
+        if (mobileMenu.style.display == 'block') {
+          mobileMenu.style.display = 'none';
+        } else {
+          mobileMenu.style.display = 'block';
+        }
+      }
+    });
+  }
+</script>
