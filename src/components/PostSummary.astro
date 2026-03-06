@@ -57,9 +57,9 @@ if (home) {
 </style>
 
 <li>
+  {formattedDate && <span class="post-meta">{formattedDate}</span>}
   <HeaderType>
     <a class="post-link" href={`/news/${id}`}>{title}</a>
   </HeaderType>
-  {formattedDate && <span class="post-meta">{formattedDate}</span>}
   <Fragment set:html={content} />
 </li>
