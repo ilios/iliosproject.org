@@ -25,7 +25,7 @@ const { Content: PostContent } = await render(postData);
 ---
 
 <Content title={postData.data.title} description={postData.data.description || postData.data.title}>
-  <div>
+  <div class="post-content">
     <h1>{postData.data.title}</h1>
     {formattedDate && <span class="post-meta">{formattedDate}</span>}
     <PostContent />
