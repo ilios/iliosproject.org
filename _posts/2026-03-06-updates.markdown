@@ -1,0 +1,28 @@
+---
+layout: post
+title: 2026 Springtime Update
+date: 2026-03-06  08:00:00
+categories: updates
+---
+
+
+|![Image of Ilios logo](https://mcusercontent.com/845c4ebabb5b5ae7a6372c715/images/829d4dc8-8cb3-b5f0-2386-c4dd7823b356.png)
+|
+
+It's a new year, Spring is springing up, and The Ilios Team is heads down working to execute our plans.
+
+At our inaugural CodeJam for the year in January, we identified our three primary themes of focus for the first half of the year:
+ - providing robust support for compliance with the new Title II federal guidelines on accessibility which begin on April 26th this year;
+ - expanding the reporting suite and associated data analytics tools and methods to support on-demand and JIT accreditation needs; and
+ - aggressively working to improve and refine the overall user experience for all aspects of the platform.
+
+Our goal this year is to take a very good platform, and make it so that it "feels" as good as it is. I don't know if there is a field of study for UX 'vibes', but it is good UX vibes that we are looking to build with this work. We hope you agree and approve of the outcome.
+
+Among the other upcoming targets for improvement: ILM (asynchronous learning activity) session creation and workflow improvements; vocabulary term management improvements; and learning materials upload and management.
+
+| **CURRENT STATUS**:
+| Current Version: *v3.134.0*
+| Current API: v3.13
+| Current Frontend: v45.5.0
+| Next Scheduled Release: **12 March, 2026**
+|
