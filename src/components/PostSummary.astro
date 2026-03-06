@@ -14,9 +14,10 @@ interface Post {
 
 export interface Props {
   post: Post;
+  home: boolean;
 }
 
-const { post } = Astro.props;
+const { post, home } = Astro.props;
 const { id, data } = post;
 const { title, date } = data;
 const html: string = post.rendered?.html ?? '';
@@ -39,6 +40,10 @@ let content = html;
 if (idxClosingParagraph !== -1 && idxCutOff < html.length) {
   content = html.slice(0, idxCutOff);
 }
+let HeaderType = 'h2';
+if (home) {
+  HeaderType = 'h3';
+}
 ---
 
 <style>
@@ -52,9 +57,9 @@ if (idxClosingParagraph !== -1 && idxCutOff < html.length) {
 </style>
 
 <li>
-  <h2>
+  <HeaderType>
     <a class="post-link" href={`/news/${id}`}>{title}</a>
-  </h2>
+  </HeaderType>
   {formattedDate && <span class="post-meta">{formattedDate}</span>}
   <Fragment set:html={content} />
 </li>

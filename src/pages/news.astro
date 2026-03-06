@@ -18,6 +18,6 @@ const posts = (await getCollection('post')).sort(
 <Content title="News" description="What's new in Ilios?">
   <h1>News</h1>
   <ul>
-    {posts.map((post) => <PostSummary post={post} />)}
+    {posts.map((post) => <PostSummary post={post} home={false} />)}
   </ul>
 </Content>
