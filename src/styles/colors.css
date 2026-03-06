@@ -1,6 +1,8 @@
 :root {
   --white: hsl(0deg 0% 98%);
   --grey: hsl(0deg 0% 30%);
+  --grey-light: hsl(0deg 0% 40%);
+  --grey-lighter: hsl(from var(--grey-light) h s calc(l + 40));
   --orange: hsl(30deg 100% 40%);
   --dark-orange: hsl(30deg 100% 35%);
   --blue: hsl(195deg 50% 35%);

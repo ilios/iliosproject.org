@@ -101,3 +101,12 @@ h6 {
 a:visited {
   color: var(--purple);
 }
+
+blockquote {
+  color: var(--grey-light);
+  border-left: 4px solid var(--grey-lighter);
+  margin-left: 0;
+  padding-left: 15px;
+  font-size: 18px;
+  letter-spacing: -1px;
+}
