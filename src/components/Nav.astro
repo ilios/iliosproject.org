@@ -68,11 +68,7 @@
         }
 
         &.active {
-          color: var(--orange);
-
-          @media screen and (max-width: 600px) {
-            color: var(--dark-orange);
-          }
+          color: var(--dark-orange);
 
           &:hover {
             text-decoration: none;
@@ -102,21 +98,25 @@
   </button>
   <div class="link-container">
     <ul>
-      <li><a class={Astro.url.pathname == '/about' ? 'active' : ''} href="/about">About</a></li>
       <li>
-        <a class={Astro.url.pathname == '/contact-us' ? 'active' : ''} href="/contact-us"
+        <a class={Astro.url.pathname.includes('/about') ? 'active' : ''} href="/about">About</a>
+      </li>
+      <li>
+        <a class={Astro.url.pathname.includes('/contact-us') ? 'active' : ''} href="/contact-us"
           >Contact Us</a
         >
       </li>
-      <li><a class={Astro.url.pathname == '/news' ? 'active' : ''} href="/news">News</a></li>
-      <li><a class={Astro.url.pathname == '/team' ? 'active' : ''} href="/team">Team</a></li>
+      <li><a class={Astro.url.pathname.includes('/news') ? 'active' : ''} href="/news">News</a></li>
+      <li><a class={Astro.url.pathname.includes('/team') ? 'active' : ''} href="/team">Team</a></li>
       <li>
-        <a class={Astro.url.pathname == '/technology' ? 'active' : ''} href="/technology"
+        <a class={Astro.url.pathname.includes('/technology') ? 'active' : ''} href="/technology"
           >Technology</a
         >
       </li>
       <li>
-        <a class={Astro.url.pathname == '/timeline' ? 'active' : ''} href="/timeline">Timeline</a>
+        <a class={Astro.url.pathname.includes('/timeline') ? 'active' : ''} href="/timeline"
+          >Timeline</a
+        >
       </li>
       <li>
         <a
