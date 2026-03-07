@@ -15,9 +15,10 @@ interface Post {
 export interface Props {
   post: Post;
   home: boolean;
+  readMore: boolean;
 }
 
-const { post, home } = Astro.props;
+const { post, home, readMore } = Astro.props;
 const { id, data } = post;
 const { title, date } = data;
 const html: string = post.rendered?.html ?? '';
@@ -44,6 +45,8 @@ let HeaderType = 'h2';
 if (home) {
   HeaderType = 'h3';
 }
+
+const postLink = `/news/${id}`;
 ---
 
 <style>
@@ -59,7 +62,8 @@ if (home) {
 <li>
   {formattedDate && <span class="post-meta">{formattedDate}</span>}
   <HeaderType>
-    <a class="post-link" href={`/news/${id}`}>{title}</a>
+    <a class="post-link" href={postLink}>{title}</a>
   </HeaderType>
   <Fragment set:html={content} />
+  {readMore ? <a href={postLink}>...read more</a> : ''}
 </li>

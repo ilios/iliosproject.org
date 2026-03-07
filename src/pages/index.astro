@@ -43,8 +43,8 @@ const posts = (await getCollection('post')).sort(
   <div>
     <h2>Latest News</h2>
     <ul>
-      <PostSummary post={posts[0]} home={true} />
-      <PostSummary post={posts[1]} home={true} />
+      <PostSummary post={posts[0]} home={true} readMore={true} />
+      <PostSummary post={posts[1]} home={true} readMore={true} />
     </ul>
   </div>
 </Content>
