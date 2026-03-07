@@ -14,9 +14,21 @@ const posts = (await getCollection('post')).sort(
     margin: 0;
     padding: 0.5rem 0;
   }
+
+  .subscribe-for-updates {
+    float: right;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 </style>
 <Content title="News" description="What's new in Ilios?">
   <h1>News</h1>
+  <div class="subscribe-for-updates">
+    <a href="/subscribe">Subscribe for Updates</a>
+  </div>
   <ul>
     {posts.map((post) => <PostSummary post={post} home={false} readMore={false} />)}
   </ul>
