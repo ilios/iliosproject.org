@@ -83,13 +83,19 @@ import Search from 'astro-pagefind/components/Search';
 </div>
 
 <script>
-  const searchUI = document.querySelector('#pagefind-search') as HTMLElement;
+  const searchWrapper = document.querySelector('.site-search') as HTMLElement;
   const searchIcon = document.querySelector('img.search');
+  const searchUI = document.querySelector('#pagefind-search') as HTMLElement;
   const searchInput = document.querySelector('.pagefind-ui__search-input') as HTMLElement;
+  const searchDrawer = document.querySelector('.pagefind-ui__drawer') as HTMLElement;
+  const searchResults = document.querySelector('.pagefind-ui__results-area') as HTMLElement;
 
   function toggleSearchUI() {
-    // `document.activeElement` is the element that currently has focus.
-    const isFocusedInside = searchUI.contains(document.activeElement);
+    const activeElement = document.activeElement;
+    const isFocusedInside =
+      searchWrapper.contains(activeElement) ||
+      searchDrawer.contains(activeElement) ||
+      (searchResults ? searchResults.contains(activeElement) : true);
 
     if (isFocusedInside) {
       searchUI.classList.add('show');
@@ -102,7 +108,6 @@ import Search from 'astro-pagefind/components/Search';
 
   searchUI.addEventListener('focusin', toggleSearchUI);
   searchUI.addEventListener('focusout', () => {
-    // Timeout gives the browser a chance to move focus to another child.
     setTimeout(toggleSearchUI, 0);
   });
 
