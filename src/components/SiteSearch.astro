@@ -3,7 +3,7 @@ import Search from 'astro-pagefind/components/Search';
 ---
 
 <style>
-  #site-search {
+  .site-search {
     .icon .search {
       cursor: pointer;
       display: none;
@@ -75,7 +75,7 @@ import Search from 'astro-pagefind/components/Search';
   }
 </style>
 
-<div id="site-search">
+<div class="site-search">
   <div class="icon">
     <img src="/assets/search.svg" class="search show" alt="Search" />
   </div>
@@ -83,8 +83,8 @@ import Search from 'astro-pagefind/components/Search';
 </div>
 
 <script>
+  const searchUI = document.querySelector('#pagefind-search') as HTMLElement;
   const searchIcon = document.querySelector('img.search');
-  const searchUI = document.getElementById('pagefind-search') as HTMLElement;
   const searchInput = document.querySelector('.pagefind-ui__search-input') as HTMLElement;
 
   function toggleSearchUI() {
