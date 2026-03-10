@@ -3,70 +3,69 @@ import Search from 'astro-pagefind/components/Search';
 ---
 
 <style>
-  .site-search {
-    .icon .search {
-      cursor: pointer;
-      display: none;
-      height: 24px;
-      position: relative;
-      width: 24px;
+  .icon .search {
+    cursor: pointer;
+    display: none;
+    height: 24px;
+    position: relative;
+    width: 24px;
 
-      &.show {
-        display: block;
-      }
-
-      @media screen and (max-width: 600px) {
-        right: 3rem;
-      }
+    &.show {
+      display: block;
     }
 
-    #pagefind-search {
-      display: none;
+    @media screen and (max-width: 600px) {
+      right: 3rem;
+    }
+  }
 
-      &.show {
-        display: flex;
-      }
+  #pagefind-container {
+    display: none;
+
+    &.show {
+      display: flex;
     }
 
     .pagefind-ui {
       @media screen and (max-width: 600px) {
         padding-right: 1.5rem;
       }
-    }
-    .pagefind-ui__form::before {
-      height: calc(15px * var(--pagefind-ui-scale));
-      top: calc(10px * var(--pagefind-ui-scale));
-    }
-    .pagefind-ui__search-input {
-      font-size: calc(18px * var(--pagefind-ui-scale));
-      height: calc(40px * var(--pagefind-ui-scale));
-    }
-    .pagefind-ui__search-clear {
-      height: calc(28px * var(--pagefind-ui-scale));
-      top: calc(5px * var(--pagefind-ui-scale));
-    }
-    .pagefind-ui__drawer {
-      background-color: var(--white);
-      max-height: 90vh;
-      overflow-y: auto;
-      position: absolute;
 
-      .pagefind-ui__results-area {
-        .pagefind-ui__message {
-          margin-left: 0;
-          padding: 0 1.5rem 1rem 1.5rem;
-        }
+      .pagefind-ui__form::before {
+        height: calc(15px * var(--pagefind-ui-scale));
+        top: calc(10px * var(--pagefind-ui-scale));
       }
+      .pagefind-ui__search-input {
+        font-size: calc(18px * var(--pagefind-ui-scale));
+        height: calc(40px * var(--pagefind-ui-scale));
+      }
+      .pagefind-ui__search-clear {
+        height: calc(28px * var(--pagefind-ui-scale));
+        top: calc(5px * var(--pagefind-ui-scale));
+      }
+      .pagefind-ui__drawer {
+        background-color: var(--white);
+        max-height: 90vh;
+        overflow-y: auto;
+        position: absolute;
 
-      .pagefind-ui__results {
-        .pagefind-ui__result {
-          padding: calc(20px * var(--pagefind-ui-scale)) 0 calc(30px * var(--pagefind-ui-scale));
+        .pagefind-ui__results-area {
+          .pagefind-ui__message {
+            margin-left: 0;
+            padding: 0 1.5rem 1rem 1.5rem;
+          }
+        }
 
-          .pagefind-ui__result-inner {
-            display: block;
-            & > * {
-              margin-left: 1.5rem;
-              padding-right: 1.5rem;
+        .pagefind-ui__results {
+          .pagefind-ui__result {
+            padding: calc(20px * var(--pagefind-ui-scale)) 0 calc(30px * var(--pagefind-ui-scale));
+
+            .pagefind-ui__result-inner {
+              display: block;
+              & > * {
+                margin-left: 1.5rem;
+                padding-right: 1.5rem;
+              }
             }
           }
         }
@@ -75,58 +74,55 @@ import Search from 'astro-pagefind/components/Search';
   }
 </style>
 
-<div class="site-search">
-  <div class="icon">
-    <img src="/media/search.svg" class="search show" alt="Search" />
-  </div>
+<div class="icon">
+  <img src="/media/search.svg" class="search show" alt="Search" />
+</div>
+<div id="pagefind-container">
   <Search id="pagefind-search" className="pagefind-ui" uiOptions={{ showImages: false }} />
 </div>
 
 <script>
-  const searchWrapper = document.querySelector('.site-search') as HTMLElement;
-  const searchIcon = document.querySelector('img.search');
-  const searchUI = document.querySelector('#pagefind-search') as HTMLElement;
-  const searchInput = document.querySelector('.pagefind-ui__search-input') as HTMLElement;
-  const searchDrawer = document.querySelector('.pagefind-ui__drawer') as HTMLElement;
-  const searchResults = document.querySelector('.pagefind-ui__results-area') as HTMLElement;
+  const searchIcon = document.querySelector('img.search') as HTMLElement;
+  const searchWrapper = document.getElementById('pagefind-container') as HTMLElement;
+  const searchUI = searchWrapper.querySelector('.pagefind-ui') as HTMLElement;
+  const searchInput = searchUI.querySelector('.pagefind-ui__search-input') as HTMLElement;
 
-  function toggleSearchUI() {
-    const activeElement = document.activeElement;
-    const isFocusedInside =
-      searchWrapper.contains(activeElement) ||
-      searchDrawer.contains(activeElement) ||
-      (searchResults ? searchResults.contains(activeElement) : true);
-
-    if (isFocusedInside) {
-      searchUI.classList.add('show');
-      searchIcon?.classList.remove('show');
-    } else {
-      searchUI.classList.remove('show');
-      searchIcon?.classList.add('show');
-    }
+  // hide icon, show input, focus input
+  function openSearch() {
+    searchWrapper.classList.add('show');
+    searchIcon.classList.remove('show');
+    searchInput.focus();
   }
 
-  searchUI.addEventListener('focusin', toggleSearchUI);
-  searchUI.addEventListener('focusout', () => {
-    setTimeout(toggleSearchUI, 0);
-  });
+  // hide input, show icon
+  function closeSearch() {
+    searchWrapper.classList.remove('show');
+    searchIcon.classList.add('show');
+  }
 
+  // click searchIcon, show input
   if (searchIcon) {
     searchIcon.addEventListener('click', (event) => {
-      const target = event.target as HTMLElement;
-      target.classList.remove('show');
-
-      if (searchUI) {
-        searchUI.classList.add('show');
-      }
-
-      if (searchInput) {
-        searchInput.classList.add('show');
-        searchInput.focus();
-        // fixes a11y issue in pagefind component until fixed upstream
-        // https://dequeuniversity.com/rules/axe/4.11/label-title-only? application=playwright
-        searchInput.ariaLabel = 'Search';
-      }
+      event.stopPropagation();
+      openSearch();
     });
   }
+
+  // fixes a11y issue in pagefind component until fixed upstream
+  // https://dequeuniversity.com/rules/axe/4.11/label-title-only? application=playwright
+  if (searchInput) {
+    searchInput.ariaLabel = 'Search';
+  }
+
+  // click anywhere outside search UI -> hide search UI
+  document.addEventListener('click', (event) => {
+    const node = event.target as Node;
+    if (!searchWrapper.contains(node) && !searchIcon.contains(node)) {
+      closeSearch();
+    }
+  });
+
+  searchWrapper.addEventListener('click', (event) => {
+    event.stopPropagation();
+  });
 </script>
