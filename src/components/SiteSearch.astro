@@ -112,6 +112,13 @@ import Search from 'astro-pagefind/components/Search';
   // https://dequeuniversity.com/rules/axe/4.11/label-title-only? application=playwright
   if (searchInput) {
     searchInput.ariaLabel = 'Search';
+
+    // hide search on escape key
+    searchInput.addEventListener('keydown', (event) => {
+      if (event.key == 'Escape') {
+        closeSearch();
+      }
+    });
   }
 
   // click anywhere outside search UI -> hide search UI
