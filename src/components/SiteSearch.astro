@@ -75,7 +75,7 @@ import Search from 'astro-pagefind/components/Search';
 </style>
 
 <div class="icon">
-  <img src="/media/search.svg" class="search show" alt="Search" />
+  <img src="/media/search.svg" class="search show" alt="Search" tabindex="0" />
 </div>
 <div id="pagefind-container">
   <Search id="pagefind-search" className="pagefind-ui" uiOptions={{ showImages: false }} />
@@ -91,7 +91,7 @@ import Search from 'astro-pagefind/components/Search';
   function openSearch() {
     searchWrapper.classList.add('show');
     searchIcon.classList.remove('show');
-    searchInput.focus();
+    setTimeout(() => searchInput.focus(), 0);
   }
 
   // hide input, show icon
@@ -102,10 +102,20 @@ import Search from 'astro-pagefind/components/Search';
 
   // click searchIcon, show input
   if (searchIcon) {
+    searchIcon.addEventListener('keydown', (event: KeyboardEvent) => {
+      if (event.key == 'Enter') {
+        event.stopPropagation();
+        openSearch();
+      }
+    });
     searchIcon.addEventListener('click', (event) => {
       event.stopPropagation();
       openSearch();
     });
+  }
+
+  if (searchWrapper) {
+    searchWrapper.tabIndex = 0;
   }
 
   // fixes a11y issue in pagefind component until fixed upstream
