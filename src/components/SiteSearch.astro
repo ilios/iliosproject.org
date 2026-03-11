@@ -116,19 +116,19 @@ import Search from 'astro-pagefind/components/Search';
 
   if (searchWrapper) {
     searchWrapper.tabIndex = 0;
+
+    // hide search on escape key
+    searchWrapper.addEventListener('keydown', (event) => {
+      if (event.key == 'Escape') {
+        closeSearch();
+      }
+    });
   }
 
   // fixes a11y issue in pagefind component until fixed upstream
   // https://dequeuniversity.com/rules/axe/4.11/label-title-only? application=playwright
   if (searchInput) {
     searchInput.ariaLabel = 'Search';
-
-    // hide search on escape key
-    searchInput.addEventListener('keydown', (event) => {
-      if (event.key == 'Escape') {
-        closeSearch();
-      }
-    });
   }
 
   // click anywhere outside search UI -> hide search UI
