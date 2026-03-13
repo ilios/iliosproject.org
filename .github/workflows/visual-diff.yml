@@ -24,7 +24,7 @@ jobs:
       - run: pnpm exec playwright install --with-deps
       - name: Capture Screenshots
         run: pnpm run test
-      - uses: actions/upload-artifact@v6
+      - uses: actions/upload-artifact@v7
         with:
           name: baseline
           path: build/screenshots
@@ -43,7 +43,7 @@ jobs:
       - run: pnpm exec playwright install --with-deps
       - name: Capture Screenshots
         run: pnpm run test
-      - uses: actions/upload-artifact@v6
+      - uses: actions/upload-artifact@v7
         with:
           name: candidate
           path: build/screenshots
@@ -60,7 +60,7 @@ jobs:
           node-version: 24
       - name: Create Visual Diff
         run: npx visual-differ baseline candidate results/visual-diff-${{ github.event.pull_request.number }}
-      - uses: actions/upload-artifact@v6
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: visual-diff-${{ github.event.pull_request.number }}
