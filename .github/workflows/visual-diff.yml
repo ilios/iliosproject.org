@@ -1,7 +1,8 @@
 name: Visual Diff
 
 on:
-  pull_request: {}
+  pull_request:
+    types: [labeled, unlabeled, opened, synchronize, reopened]
 
 concurrency:
   group: visual-diff-${{ github.head_ref || github.ref }}
@@ -11,20 +12,36 @@ jobs:
   baseline:
     name: Baseline
     runs-on: ubuntu-latest
+    outputs:
+      ref: ${{ steps.ref.outputs.ref }}
     steps:
       - uses: actions/checkout@v6
         with:
-          ref: ${{ github.base_ref }}
+          ref: 'master'
+      - id: ref
+        run: |
+          echo "$(git rev-parse HEAD)"
+          echo "ref=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Cache Screenshots
+        id: screenshot-cache
+        uses: actions/cache@v5
+        with:
+          path: build
+          key: screenshots-${{ steps.ref.outputs.ref }}
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: pnpm
-      - run: pnpm install
-      - run: pnpm exec playwright install --with-deps
+      - name: Install Dependencies
+        if: steps.screenshot-cache.outputs.cache-hit != 'true'
+        run: |
+          pnpm install
+          pnpm exec playwright install --with-deps
       - name: Capture Screenshots
+        if: steps.screenshot-cache.outputs.cache-hit != 'true'
         run: pnpm run test
-      - uses: actions/upload-artifact@v6
+      - uses: actions/upload-artifact@v7
         with:
           name: baseline
           path: build/screenshots
@@ -32,18 +49,34 @@ jobs:
   candidate:
     name: Candidate
     runs-on: ubuntu-latest
+    outputs:
+      ref: ${{ steps.ref.outputs.ref }}
     steps:
       - uses: actions/checkout@v6
+      - id: ref
+        run: |
+          echo "$(git rev-parse HEAD)"
+          echo "ref=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Cache Screenshots
+        id: screenshot-cache
+        uses: actions/cache@v5
+        with:
+          path: build
+          key: screenshots-${{ steps.ref.outputs.ref }}-${{ matrix.name }}
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: pnpm
-      - run: pnpm install
-      - run: pnpm exec playwright install --with-deps
+      - name: Install Dependencies
+        if: steps.screenshot-cache.outputs.cache-hit != 'true'
+        run: |
+          pnpm install
+          pnpm exec playwright install --with-deps
       - name: Capture Screenshots
-        run: pnpm run test
-      - uses: actions/upload-artifact@v6
+        if: steps.screenshot-cache.outputs.cache-hit != 'true'
+        run: pnpm test
+      - uses: actions/upload-artifact@v7
         with:
           name: candidate
           path: build/screenshots
@@ -52,16 +85,64 @@ jobs:
     name: Visual Diff
     needs: [baseline, candidate]
     runs-on: ubuntu-latest
+    env:
+      OUTPUT_DIR: visual-diff-${{ github.event.pull_request.number }}
+      BASELINE_REF: ${{needs.baseline.outputs.ref}}
+      CANDIDATE_REF: ${{needs.candidate.outputs.ref}}
     steps:
-      - uses: actions/download-artifact@v7
-      - run: ls -lh baseline candidate
+      - name: Restore Comparison Cache
+        id: comparison-cache
+        uses: actions/cache/restore@v5
+        with:
+          path: |
+            ${{ env.OUTPUT_DIR }}
+            results
+          key: comparison-${{ env.BASELINE_REF }}-${{ env.CANDIDATE_REF }}
+      - uses: actions/download-artifact@v8
+        if: steps.comparison-cache.outputs.cache-hit != 'true'
+      - run: ls -lh baseline candidate 2>/dev/null || true
       - uses: actions/setup-node@v6
         with:
-          node-version: 24
+          node-version: 22
+      - run: |
+          mkdir -p ./results
+          echo ${{ github.event.pull_request.number }} > ./results/pr_number
       - name: Create Visual Diff
-        run: npx visual-differ baseline candidate results/visual-diff-${{ github.event.pull_request.number }}
-      - uses: actions/upload-artifact@v6
-        if: always()
+        if: steps.comparison-cache.outputs.cache-hit != 'true'
+        run: |
+          set +e
+          npx visual-differ --threshold=0.1 baseline candidate ${{ env.OUTPUT_DIR }} > results/visual-diff.txt
+          exit_code=$?
+          echo $exit_code > ./results/exit_code
+          cp ${{ env.OUTPUT_DIR }}/report.md results/
+          cat results/report.md results/visual-diff.txt
+      - uses: actions/upload-artifact@v7
+        id: upload-output
         with:
-          name: visual-diff-${{ github.event.pull_request.number }}
+          name: ${{ env.OUTPUT_DIR }}
+          path: ${{ env.OUTPUT_DIR }}
+      - run: |
+          echo ${{ steps.upload-output.outputs.artifact-url }} > ./results/artifact_url
+          echo ${{ contains(github.event.pull_request.labels.*.name, 'approve visual diff') }} > ./results/approved
+      - name: Save Comparison Cache
+        if: steps.comparison-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v5
+        with:
+          path: |
+            ${{ env.OUTPUT_DIR }}
+            results
+          key: ${{ steps.comparison-cache.outputs.cache-primary-key }}
+      - uses: actions/upload-artifact@v7
+        with:
+          name: results
           path: results
+      - name: Check Status
+        run: |
+          exitCode=$(cat ./results/exit_code)
+          approved=$(cat ./results/approved)
+          echo "visual-differ exit code: $exitCode"
+          echo "approve visual diff label present: $approved"
+          if [ "$exitCode" != "0" ] && [ "$approved" != "true" ]; then
+            echo "Visual diff detected and 'approve visual diff' label not present."
+            exit 1
+          fi
