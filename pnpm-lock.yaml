@@ -25,8 +25,8 @@ importers:
         specifier: ^4.0.15
         version: 4.0.15
       '@axe-core/playwright':
-        specifier: ^4.11.0
-        version: 4.11.0(playwright-core@1.57.0)
+        specifier: ^4.11.1
+        version: 4.11.1(playwright-core@1.57.0)
       '@eslint/js':
         specifier: ^9.39.2
         version: 9.39.2
@@ -149,8 +149,8 @@ packages:
   '@astrojs/yaml2ts@0.2.2':
     resolution: {integrity: sha512-GOfvSr5Nqy2z5XiwqTouBBpy5FyI6DEe+/g/Mk5am9SjILN1S5fOEvYK0GuWHg98yS/dobP4m8qyqw/URW35fQ==}
 
-  '@axe-core/playwright@4.11.0':
-    resolution: {integrity: sha512-70vBT/Ylqpm65RQz2iCG2o0JJCEG/WCNyefTr2xcOcr1CoSee60gNQYUMZZ7YukoKkFLv26I/jjlsvwwp532oQ==}
+  '@axe-core/playwright@4.11.1':
+    resolution: {integrity: sha512-mKEfoUIB1MkVTht0BGZFXtSAEKXMJoDkyV5YZ9jbBmZCcWDz71tegNsdTkIN8zc/yMi5Gm2kx7Z5YQ9PfWNAWw==}
     peerDependencies:
       playwright-core: '>= 1.0.0'
 
@@ -3296,7 +3296,7 @@ snapshots:
     dependencies:
       yaml: 2.8.2
 
-  '@axe-core/playwright@4.11.0(playwright-core@1.57.0)':
+  '@axe-core/playwright@4.11.1(playwright-core@1.57.0)':
     dependencies:
       axe-core: 4.11.1
       playwright-core: 1.57.0
