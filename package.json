@@ -42,7 +42,7 @@
     "husky": "^9.1.7",
     "jsdom": "^27.4.0",
     "luxon": "^3.7.2",
-    "markdown-it": "^14.1.0",
+    "markdown-it": "^14.1.1",
     "prettier": "^3.8.0",
     "prettier-plugin-astro": "^0.14.1",
     "rehype-external-links": "^3.0.0",
