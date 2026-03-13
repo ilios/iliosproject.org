@@ -1,0 +1,57 @@
+---
+import SiteSearch from './SiteSearch.astro';
+---
+
+<style>
+  header {
+    background-color: var(--orange);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--fs-small);
+    padding: 0 0.5rem;
+
+    .logo {
+      align-self: center;
+      display: flex;
+    }
+
+    a {
+      padding-right: 5rem;
+
+      @media (max-width: 768px) {
+        padding-right: 1rem;
+      }
+      @media (max-width: 525px) {
+        padding-right: 1rem;
+      }
+      img {
+        padding: 0 5px;
+        width: 75px;
+      }
+
+      .visually-hidden {
+        border: 0;
+        clip-path: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+    }
+  }
+</style>
+
+<header>
+  <div class="logo">
+    <a href="/" aria-label="Ilios Home">
+      <img src="/media/ilios-logo.svg" alt="Ilios Logo" />
+      <span class="visually-hidden">Ilios</span>
+    </a>
+  </div>
+
+  <SiteSearch />
+</header>

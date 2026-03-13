@@ -1,0 +1,39 @@
+---
+import '../styles/base.css';
+import '../styles/colors.css';
+import '../styles/posts.css';
+import '../styles/typography.css';
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { description, title } = Astro.props;
+const baseTitle = `Ilios`;
+
+const pageTitle = title ? `${title} | ${baseTitle}` : baseTitle;
+const url = Astro.url.toString();
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <meta property="og:title" content=`${baseTitle} ${title}` />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={url} />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Ilios"
+      href={new URL('feed.xml', Astro.site)}
+    />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

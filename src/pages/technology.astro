@@ -1,0 +1,181 @@
+---
+import Content from '../layouts/Content.astro';
+---
+
+<style>
+  #browser-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em 2em;
+    padding-top: 1em;
+
+    & > div {
+      display: flex;
+      flex-direction: column;
+
+      span:first-of-type {
+        font-weight: bold;
+      }
+
+      img {
+        height: 48px;
+        width: 48px;
+      }
+    }
+  }
+</style>
+
+<Content
+  title="Technology"
+  description="Information on the technical requirements for running Ilios"
+>
+  <h1>Technology</h1>
+  <br />
+  <h2>Supported Browsers</h2>
+
+  <div id="browser-list">
+    <div class="browser chrome">
+      <span>Chrome</span>
+      <img
+        src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/chrome/chrome_48x48.png"
+        alt="Chrome"
+      />
+      <span>Latest ✔</span>
+    </div>
+    <div class="browser firefox">
+      <span>Firefox</span>
+      <img
+        src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/firefox/firefox_48x48.png"
+        alt="Firefox"
+      />
+      <span>Latest ✔</span>
+    </div>
+    <div class="browser edge">
+      <span>Edge</span>
+      <img
+        src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/edge/edge_48x48.png"
+        alt="Edge"
+      />
+      <span>Latest ✔</span>
+    </div>
+    <div class="browser safari">
+      <span>Safari</span>
+      <img
+        src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/safari/safari_48x48.png"
+        alt="Safari"
+      />
+      <span>Latest ✔</span>
+    </div>
+    <div class="browser safari-ios">
+      <span>Safari iOS</span>
+      <img
+        src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/42.6.0/safari-ios/safari-ios_48x48.png"
+        alt="Safari iOS"
+      />
+      <span>Latest ✔</span>
+    </div>
+  </div>
+
+  <p>
+    <strong
+      >Recommended Minimum System Requirements for Ilios 3 Installation (current as of 07/2024):</strong
+    >
+  </p>
+
+  <p>
+    Standard production-grade Linux or Windows server with at least 500GB of storage available (for
+    learning materials storage):
+  </p>
+
+  <p>
+    Ilios 3 uses a Symfony (PHP/SQL) backend to serve its API, so these tools and their required
+    dependencies need to be installed before you can install the application itself. Here at the
+    Ilios Project, we currently run and recommend running Ilios 3 using a &quot;LAMP&quot;
+    (Linux/Apache/MySQL/PHP) technology stack with the following software packages and versions:
+  </p>
+
+  <ul>
+    <li>
+      CentOS 7 - Any modern Linux should work, but we recommend Redhat (RHEL, CentOS, or Fedora) or
+      Ubuntu
+    </li>
+    <li>
+      MySQL using the InnoDB database engine (<em>v5.5 or later required</em>, 5.7+ recommended)
+    </li>
+    <li>
+      PHP - In order to ensure the best security and performance of the application overall, we have
+      adopted a policy of requiring the latest version of PHP for running Ilios (see <a
+        href="https://github.com/ilios/ilios/blob/master/docs/ilios_php_version_policy.md"
+        >PHP Version Policy</a
+      >)
+    </li>
+  </ul>
+
+  <p>
+    PHP should be configured with a <code>memory_limit</code> setting of at least 386MB and have the following
+    required packages/modules/extensions enabled:
+  </p>
+
+  <ul>
+    <li><code>php-mbstring</code> - UTF-8 support</li>
+    <li><code>php-ldap</code> - LDAP-connectivity support (when using LDAP)</li>
+    <li><code>php-xml</code> - MeSH imports and report exports</li>
+    <li><code>php-pecl-apcu</code> - caching</li>
+    <li><code>php-mysql</code> - DB connectivity</li>
+    <li><code>php-mysqlnd</code> - DB connectivity</li>
+    <li><code>php-pdo</code> - DB connectivity</li>
+    <li>
+      <code>php-zip</code> - native zip package [de]compression during the composer installation process
+    </li>
+  </ul>
+
+  <p>
+    CentOS, RedHat, and Fedora Linux distributions come with SELinux installed and enabled by
+    default. SELinux, aka &quot;Security-Enhanced Linux&quot;, greatly limits many actions typically
+    allowed out-of-the-box on most Linux distros. If you seem to be having issues with your Ilios
+    installation not working correctly and you have SELinux installed and enabled, we recommend you
+    review your SELinux settings and/or check out our <a
+      href="https://github.com/ilios/ilios/blob/master/docs/install.md#troubleshooting"
+      target="_blank">Troubleshooting</a
+    > section in the code documents.
+  </p>
+
+  <p>
+    You must enable URL-rewriting on your webserver. For those using Apache, this can be done by
+    installing and enabling the <code>mod_rewrite</code> module. In IIS, this is handled via the <a
+      href="https://www.iis.net/downloads/microsoft/url-rewrite"
+      target="_blank">Microsoft IIS URL Rewrite extension</a
+    >.
+  </p>
+
+  <p>
+    You will also need the Composer PHP package management tool. If you do not have it, you can
+    learn about it and download it at <a href="https://getcomposer.org" target="_blank"
+      >https://getcomposer.org</a
+    >.
+  </p>
+
+  <p>
+    Several institutions have successfully deployed Ilios using Microsoft IIS on Windows as their
+    webserver, but we do not recommend it as we do not have substantial experience with it
+    ourselves, and we've only ever supported Ilios on Linux systems. That being said, if you MUST
+    use IIS for Windows and are having trouble getting Ilios running properly, please contact the
+    Ilios Project Support Team at <a href="mailto:support@iliosproject.org" target="_blank"
+      >support@iliosproject.org</a
+    > if you have any problems and we might be able to help you out!
+  </p>
+
+  <p>
+    The current deployment of Ilios uses its own native authentication system as the default, but
+    may be switched via the configuration file to use shibboleth 2.4, CAS, or LDAP, if so desired.
+  </p>
+
+  <p>
+    For further information, please refer to the most recent readme, installation, and release notes
+    available with the code at our Ilios <a href="https://github.com/ilios/ilios" target="_blank"
+      >GitHub page</a
+    > and <a href="https://github.com/ilios/ilios/blob/master/docs/install.md" target="_blank"
+      >Installation Instructions</a
+    >.
+  </p>
+</Content>

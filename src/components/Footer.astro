@@ -1,0 +1,55 @@
+---
+import FaIcon from './FaIcon.astro';
+---
+
+<style>
+  footer {
+    border-top: 1px solid var(--orange);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 1rem 1rem;
+
+    div {
+      align-items: center;
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 0.25em 1em;
+      white-space: nowrap;
+    }
+    .acr {
+      width: 36px;
+      height: 36px;
+      color: var(--black);
+    }
+  }
+</style>
+<footer>
+  <div>
+    <span class="text">a product of</span>
+    <a href="https://medschool.ucsf.edu/" target="_blank"
+      ><img src="/media/ucsf-som-logo.png" alt="UCSF School of Medicine" /></a
+    >
+    <a href="https://www.medbiq.org/" target="_blank"
+      ><img src="/media/MEDBIQ-logo.png" alt="Medbiquitous Member" /></a
+    >
+  </div>
+  <a href="/acr" title="Universal Access, Accessibility Conformance Report">
+    <FaIcon iconName="universal-access" prefix="fas" class="acr" role="presentation" />
+  </a>
+  <a href="/feed.xml">
+    <img
+      src="/assets/rss-feed.svg"
+      width="24"
+      height="24"
+      title="Subscribe to Ilios News"
+      alt="Subscribe to Ilios News"
+    />
+  </a>
+  <a href="https://www.netlify.com" target="_blank">
+    <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Netlify" />
+  </a>
+</footer>

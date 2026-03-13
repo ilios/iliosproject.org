@@ -1,0 +1,50 @@
+---
+import { getCollection } from 'astro:content';
+import Content from '../layouts/Content.astro';
+import PostSummary from '../components/PostSummary.astro';
+
+const posts = (await getCollection('post')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
+);
+---
+
+<style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5rem 0;
+  }
+  nav ul {
+    list-style-type: square;
+    margin: 1em;
+  }
+</style>
+
+<Content title="Home" description="Curriculum Management for the Health Professions">
+  <h1>Ilios - Curriculum Management from UCSF</h1>
+  <p>The premier open source curriculum management platform for schools around the globe</p>
+  <nav aria-label="Primary">
+    <ul>
+      <li><a href="/hosting">Ilios Hosting <strong>Get Hosted!</strong></a></li>
+      <li>
+        <a href="https://www.github.com/ilios/ilios/releases/latest/" target="_blank"
+          >Ilios In House <strong>Get The Code!</strong></a
+        >
+      </li>
+      <li><a href="/subscribe">Join The Ilios Community - <em>Subscribe for Updates</em></a></li>
+      <li><a href="/demo">Demo Site Information</a></li>
+      <li>
+        <a href="https://iliosproject.gitbooks.io/ilios-user-guide/content/" target="_blank"
+          >Latest User Guide</a
+        >
+      </li>
+    </ul>
+  </nav>
+  <div>
+    <h2>Latest News</h2>
+    <ul>
+      <PostSummary post={posts[0]} home={true} readMore={true} />
+      <PostSummary post={posts[1]} home={true} readMore={true} />
+    </ul>
+  </div>
+</Content>

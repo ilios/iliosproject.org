@@ -1,0 +1,39 @@
+---
+import '@fortawesome/fontawesome-svg-core/styles.css';
+import { library, findIconDefinition, icon } from '@fortawesome/fontawesome-svg-core';
+import type { IconName, IconPrefix } from '@fortawesome/fontawesome-svg-core';
+import { faAnglesDown, faSearch, faUniversalAccess } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faAnglesDown, faSearch, faUniversalAccess);
+
+type BaseProps = {
+  iconName: IconName;
+  prefix: IconPrefix;
+  class?: string;
+};
+
+type StringAttributes = {
+  [key: string]: string;
+};
+
+export type Props = BaseProps & StringAttributes;
+
+const { iconName, prefix, class: classList, ...rest } = Astro.props;
+
+const classes = classList?.split(/\s+/) ?? undefined;
+
+const def = findIconDefinition({ prefix, iconName });
+
+if (!def) {
+  throw new Error(`Missing definition for Icon "${iconName}" in "${prefix}"`);
+}
+
+const i = icon(def, {
+  classes,
+  attributes: {
+    ...rest,
+  },
+});
+---
+
+<Fragment set:html={i.html} />

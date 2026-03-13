@@ -1,0 +1,16 @@
+---
+import Content from './Content.astro';
+
+interface Props {
+  frontmatter: {
+    title: string;
+    description: string;
+  };
+}
+const { frontmatter } = Astro.props;
+const { description, title } = frontmatter;
+---
+
+<Content title={title} description={description}>
+  <slot />
+</Content>

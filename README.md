@@ -1,4 +1,4 @@
-<!-- markdownlint-disable MD041 -->
+# Ilios Website
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c57a716e-4f40-4d77-8496-747a6eb50470/deploy-status)](https://app.netlify.com/sites/iliosproject/deploys)
 
@@ -6,62 +6,38 @@
 
 This is the codebase for the Ilios Project Website at [https://www.iliosproject.org](https://www.iliosproject.org).
 
-## Development
+## 🚀 Project Structure
 
-For developing locally, we recommend using Docker with the provided Dockerfile.
+Inside of your Astro project, you'll see the following folders and files:
 
-### Requirements
-
-To use Docker, you will need to have [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed on your system, and you will need to add the path to the iliosproject.org codebase (this folder!) to your docker configuration by visiting `Resources -> File Sharing` in your Docker Desktop Settings and adding the path there. See below for more info...
-
-### Get the code
-
-Clone the code from [https://github.com/ilios/iliosproject.org](https://github.com/ilios/iliosproject.org) - NOTE: you must have a Github username and password with proper permissions to clone code from this repository:
-
-```bash
-git clone git@github.com:/ilios/iliosproject.org
+```text
+/
+├── public/
+├── src/
+│   └── pages/
+│       └── index.astro
+└── package.json
 ```
 
-When the code is checked out, change into the newly-created `iliosproject.org` directory:
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-```bash
-cd iliosproject.org
-```
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-You are now in the codebase directory from where all of the rest of the following commands will be run.  To see the full path of the codebase directory you are in, run `pwd` to get the `Present Working Directory` path:
+Any static assets, like images, can be placed in the `public/` directory.
 
-```bash
-pwd
-```
+## 🧞 Commands
 
-This is your codebase directory path. Make sure that the path displayed here is added as a "Shared folder" in your Docker Desktop settings. Open your Docker Desktop settings and go to `Resources -> File Sharing` and select `Create Share +` and browse to and select your codebase folder.
+All commands are run from the root of the project, from a terminal:
 
-### Steps to run Docker
+| Command                | Action                                           |
+| :--------------------- | :----------------------------------------------- |
+| `pnpm install`         | Installs dependencies                            |
+| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
+| `pnpm build`           | Build your production site to `./dist/`          |
+| `pnpm preview`         | Preview your build locally, before deploying     |
+| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `pnpm astro -- --help` | Get help using the Astro CLI                     |
 
-```bash
-docker compose up
-```
+## 👀 Want to learn more?
 
-When the Docker container starts, it will build the iliosproject.org website locally, and will let you know when it is ready. Once the container is fully started, you can visit your local site in your browser by visiting [http://localhost:4000](http://localhost:4000).
-
-When you are done editing the code as-needed and would like to stop the iliosproject container, press `CTRL-C` in the same terminal window that is running the docker image. Once the container is completely stopped, you will see that the Jekyll process in your terminal window has now exited cleanly.
-
-When you are ready to work on the iliosproject.org codebase again, do a `git pull` and repeat the steps above.
-
-## Developing locally without using Docker
-
-To run the site locally using Jekyll, `ruby`, `gem` and `bundler` are assumed to be installed. If these packages already exist on your system, just do the following:
-
-First build the packages and dependencies:
-
-```bash
-bundle install
-```
-
-Then serve via Jekyll.
-
-```bash
-bundle exec jekyll serve
-```
-
-The site should now be available for viewing in your browser at [http://localhost:4000](http://localhost:4000).
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).

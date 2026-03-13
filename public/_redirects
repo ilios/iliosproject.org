@@ -1,0 +1,5 @@
+/updates/:year/:month/:day/:title /news/:year-:month-:day-:title 301
+/release/:year/:month/:day/:title /news/:year-:month-:day-:title 301
+/releases/:year/:month/:day/:title /news/:year-:month-:day-:title 301
+/news/:year/:month/:day/:title /news/:year-:month-:day-:title 301
+/status/:year/:month/:day/:title /news/:year-:month-:day-:title 301

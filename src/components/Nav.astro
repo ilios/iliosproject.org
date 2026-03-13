@@ -1,0 +1,157 @@
+<style>
+  nav {
+    display: flex;
+    justify-content: flex-end;
+
+    .link-container {
+      display: none;
+    }
+
+    @media screen and (min-width: 601px) {
+      .link-container {
+        display: block;
+      }
+    }
+
+    #menu-icon {
+      display: none;
+    }
+
+    @media screen and (max-width: 600px) {
+      background-color: var(--white);
+      border-radius: 5px;
+      flex-direction: column;
+      position: absolute;
+      right: 14px;
+      top: 6px;
+
+      #menu-icon {
+        align-self: flex-end;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        height: 32px;
+        line-height: 0;
+        width: 32px;
+      }
+    }
+
+    & ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      list-style-type: none;
+
+      @media screen and (max-width: 600px) {
+        display: block;
+        margin-left: 0;
+
+        li {
+          display: block;
+          padding: 5px 10px;
+          text-align: right;
+        }
+      }
+    }
+
+    & li {
+      display: flex;
+      padding-right: 1rem;
+
+      a {
+        color: var(--black);
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+
+        &.active {
+          color: var(--dark-orange);
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+</style>
+
+<nav aria-label="Primary">
+  <button role="button" aria-label="Menu" id="menu-icon">
+    <svg viewBox="0 0 18 15">
+      <path
+        fill="#424242"
+        d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"
+      ></path>
+      <path
+        fill="#424242"
+        d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"
+      ></path>
+      <path
+        fill="#424242"
+        d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"
+      ></path>
+    </svg>
+  </button>
+  <div class="link-container">
+    <ul>
+      <li>
+        <a class={Astro.url.pathname.includes('/about') ? 'active' : ''} href="/about">About</a>
+      </li>
+      <li>
+        <a class={Astro.url.pathname.includes('/contact-us') ? 'active' : ''} href="/contact-us"
+          >Contact Us</a
+        >
+      </li>
+      <li><a class={Astro.url.pathname.includes('/news') ? 'active' : ''} href="/news">News</a></li>
+      <li><a class={Astro.url.pathname.includes('/team') ? 'active' : ''} href="/team">Team</a></li>
+      <li>
+        <a class={Astro.url.pathname.includes('/technology') ? 'active' : ''} href="/technology"
+          >Technology</a
+        >
+      </li>
+      <li>
+        <a class={Astro.url.pathname.includes('/timeline') ? 'active' : ''} href="/timeline"
+          >Timeline</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://us3.campaign-archive2.com/home/?u=845c4ebabb5b5ae7a6372c715&id=1493e3df18"
+          target="_blank">Status Reports</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<script>
+  const mobileMenuIcon = document.querySelector('nav #menu-icon');
+
+  if (mobileMenuIcon) {
+    mobileMenuIcon.addEventListener('click', () => {
+      const mobileMenu = document.querySelector('nav .link-container') as HTMLElement;
+      if (mobileMenu) {
+        if (mobileMenu.style.display == 'block') {
+          mobileMenu.style.display = 'none';
+        } else {
+          mobileMenu.style.display = 'block';
+        }
+      }
+    });
+  }
+
+  window.addEventListener('resize', () => {
+    const navContainer = document.querySelector('nav .link-container') as HTMLElement;
+    if (navContainer) {
+      if (window.innerWidth > 600) {
+        navContainer.style.display = 'block';
+      } else {
+        navContainer.style.display = 'none';
+      }
+    }
+  });
+</script>
