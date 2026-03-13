@@ -1,0 +1,43 @@
+name: Update Transitive Dependencies
+
+on:
+  schedule:
+    - cron: '15 15 * * 4' # weekly, on THursday morning (UTC)
+  workflow_dispatch: null
+
+jobs:
+  update:
+    runs-on: macos-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v6
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - name: remove and re-create lock file
+        run: |
+          rm pnpm-lock.yaml
+          pnpm install --fix-lockfile --ignore-scripts
+          pnpm dedupe
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.ZORGBORT_TOKEN }}
+          commit-message: Update Transitive Dependencies
+          title: Update Transitive Dependencies
+          body: |
+            - Dependency updates
+          branch: auto-update-dependencies
+          labels: dependencies
+      - name: Approve Pull Request
+        run: gh pr review --approve -b "Auto Approved" ${{ steps.cpr.outputs.pull-request-number }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Enable Pull Request Automerge
+        if: steps.cpr.outputs.pull-request-operation == 'created'
+        run: gh pr merge --merge --auto ${{ steps.cpr.outputs.pull-request-number }}
+        env:
+          GH_TOKEN: ${{ secrets.ZORGBORT_TOKEN }}
