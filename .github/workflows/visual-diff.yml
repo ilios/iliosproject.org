@@ -53,7 +53,7 @@ jobs:
     needs: [baseline, candidate]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@v7
+      - uses: actions/download-artifact@v8
       - run: ls -lh baseline candidate
       - uses: actions/setup-node@v6
         with:
