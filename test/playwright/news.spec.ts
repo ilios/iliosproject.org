@@ -8,12 +8,12 @@ test.describe('News Page', () => {
 
     await expect(page).toHaveTitle('News | Ilios');
     await expect(page.getByRole('heading', { level: 1 })).toContainText('News');
-    const list = await page.locator('[data-news-list]');
+    const list = page.locator('[data-news-list]');
     await expect(list).not.toHaveClass('is-expanded');
     const posts = await list.locator('li:visible').count();
     expect(posts).toEqual(10);
 
-    const button = await page.locator('[data-load-more]');
+    const button = page.locator('[data-load-more]');
     expect(button).not.toHaveClass('hidden');
 
     await takeScreenshot(page, 'news');
@@ -32,9 +32,9 @@ test.describe('News Page', () => {
 
     await expect(page).toHaveTitle('News | Ilios');
     await expect(page.getByRole('heading', { level: 1 })).toContainText('News');
-    const list = await page.locator('[data-news-list]');
+    const list = page.locator('[data-news-list]');
 
-    const button = await page.locator('[data-load-more]');
+    const button = page.locator('[data-load-more]');
     await button.click();
     await expect(list).toHaveClass('is-expanded');
     expect(button).toHaveClass('hidden');
