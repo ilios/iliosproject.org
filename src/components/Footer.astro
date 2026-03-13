@@ -1,3 +1,7 @@
+---
+import FaIcon from './FaIcon.astro';
+---
+
 <style>
   footer {
     border-top: 1px solid var(--orange);
@@ -19,6 +23,7 @@
     .acr {
       width: 36px;
       height: 36px;
+      color: var(--black);
     }
   }
 </style>
@@ -32,12 +37,8 @@
       ><img src="/media/MEDBIQ-logo.png" alt="Medbiquitous Member" /></a
     >
   </div>
-  <a href="/acr">
-    <img
-      class="acr"
-      src="/media/universal-access-solid-full.svg"
-      alt="Universal Access, Accessibility Conformance Report"
-    />
+  <a href="/acr" title="Universal Access, Accessibility Conformance Report">
+    <FaIcon iconName="universal-access" prefix="fas" class="acr" role="presentation" />
   </a>
   <a href="/feed.xml">
     <img

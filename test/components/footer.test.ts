@@ -9,14 +9,16 @@ test('Footer', async () => {
 
   const dom = new JSDOM(htmlContent);
   const images = dom.window.document.querySelectorAll('img');
-  expect(images.length).toBe(5);
+  expect(images.length).toBe(4);
 
-  const altTexts = Array.from(images).map((img) => img.getAttribute('alt'));
-  expect(altTexts).toEqual([
+  const imgAltTexts = Array.from(images).map((img) => img.getAttribute('alt'));
+  expect(imgAltTexts).toEqual([
     'UCSF School of Medicine',
     'Medbiquitous Member',
-    'Universal Access, Accessibility Conformance Report',
     'Subscribe to Ilios News',
     'Netlify',
   ]);
+
+  const svgs = dom.window.document.querySelectorAll('svg');
+  expect(svgs.length).toBe(1);
 });

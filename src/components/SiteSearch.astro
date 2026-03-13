@@ -1,5 +1,6 @@
 ---
 import Search from 'astro-pagefind/components/Search';
+import FaIcon from './FaIcon.astro';
 ---
 
 <style>
@@ -75,14 +76,23 @@ import Search from 'astro-pagefind/components/Search';
 </style>
 
 <div class="icon">
-  <img src="/media/search.svg" class="search show" alt="Search" tabindex="0" />
+  <FaIcon
+    iconName="search"
+    prefix="fas"
+    class="search show"
+    alt="Search"
+    aria-label="Search"
+    tabindex="0"
+    aria-hidden="false"
+    data-search-icon
+  />
 </div>
 <div id="pagefind-container">
   <Search id="pagefind-search" className="pagefind-ui" uiOptions={{ showImages: false }} />
 </div>
 
 <script>
-  const searchIcon = document.querySelector('img.search') as HTMLElement;
+  const searchIcon = document.querySelector('[data-search-icon]') as HTMLElement;
   const searchWrapper = document.getElementById('pagefind-container') as HTMLElement;
   const searchUI = searchWrapper.querySelector('.pagefind-ui') as HTMLElement;
   const searchInput = searchUI.querySelector('.pagefind-ui__search-input') as HTMLElement;
