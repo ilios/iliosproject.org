@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Content from '../layouts/Content.astro';
 import PostSummary from '../components/PostSummary.astro';
+import FaIcon from '../components/FaIcon.astro';
 
 const posts = (await getCollection('post')).sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf(),
@@ -13,6 +14,12 @@ const posts = (await getCollection('post')).sort(
     list-style-type: none;
     margin: 0;
     padding: 0.5rem 0;
+
+    &:not(.is-expanded) {
+      li:nth-child(n + 11) {
+        display: none;
+      }
+    }
   }
 
   .subscribe-for-updates {
@@ -23,13 +30,44 @@ const posts = (await getCollection('post')).sort(
       text-decoration: underline;
     }
   }
+
+  button {
+    width: 90%;
+    text-align: center;
+    background: none;
+    border: 0;
+    color: var(--blue);
+    font-size: var(--fs-large);
+    cursor: pointer;
+
+    &.hidden {
+      display: none;
+    }
+  }
 </style>
 <Content title="News" description="What's new in Ilios?">
   <h1>News</h1>
   <div class="subscribe-for-updates">
     <a href="/subscribe">Subscribe for Updates</a>
   </div>
-  <ul>
+  <ul data-news-list>
     {posts.map((post) => <PostSummary post={post} home={false} readMore={false} />)}
   </ul>
+  <button data-load-more type="button">
+    <FaIcon iconName="angles-down" prefix="fas" />
+    Load More News Items
+    <FaIcon iconName="angles-down" prefix="fas" />
+  </button>
 </Content>
+
+<script>
+  const loadMoreButton = document.querySelector('[data-load-more]');
+  const newsList = document.querySelector('[data-news-list]');
+
+  if (loadMoreButton && newsList) {
+    loadMoreButton.addEventListener('click', () => {
+      newsList.classList.add('is-expanded');
+      loadMoreButton.classList.add('hidden');
+    });
+  }
+</script>
