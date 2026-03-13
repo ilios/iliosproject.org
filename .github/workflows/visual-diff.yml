@@ -31,7 +31,7 @@ jobs:
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v6
         with:
-          node-version: 22
+          node-version: 24
           cache: pnpm
       - name: Install Dependencies
         if: steps.screenshot-cache.outputs.cache-hit != 'true'
@@ -66,7 +66,7 @@ jobs:
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v6
         with:
-          node-version: 22
+          node-version: 24
           cache: pnpm
       - name: Install Dependencies
         if: steps.screenshot-cache.outputs.cache-hit != 'true'
@@ -103,7 +103,7 @@ jobs:
       - run: ls -lh baseline candidate 2>/dev/null || true
       - uses: actions/setup-node@v6
         with:
-          node-version: 22
+          node-version: 24
       - run: |
           mkdir -p ./results
           echo ${{ github.event.pull_request.number }} > ./results/pr_number
