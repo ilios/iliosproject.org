@@ -20,5 +20,5 @@ test('Footer', async () => {
   ]);
 
   const svgs = dom.window.document.querySelectorAll('svg');
-  expect(svgs.length).toBe(1);
+  expect(svgs.length).toBe(2);
 });
