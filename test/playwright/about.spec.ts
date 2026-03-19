@@ -14,7 +14,9 @@ test.describe('About Page', () => {
   test('should not have any a11y issues', async ({ page }) => {
     await page.goto('/about');
 
-    const accessibilityScanResults = await new AxeBuilder({ page }).exclude('iframe').analyze();
+    const accessibilityScanResults = await new AxeBuilder({ page })
+      .exclude('iframe[data-slideshow]')
+      .analyze();
 
     expect(accessibilityScanResults.violations).toEqual([]);
   });
