@@ -26,6 +26,9 @@ import FaIcon from './FaIcon.astro';
       height: 36px;
       color: var(--black);
     }
+    .fa-square-rss {
+      color: #d3622b;
+    }
   }
 </style>
 <footer>
@@ -41,14 +44,8 @@ import FaIcon from './FaIcon.astro';
   <a href="/acr" title="Universal Access, Accessibility Conformance Report">
     <FaIcon iconName="universal-access" prefix="fas" class="bigger-icon" role="presentation" />
   </a>
-  <a href="/feed.xml">
-    <img
-      src="/assets/rss-feed.svg"
-      width="24"
-      height="24"
-      title="Subscribe to Ilios News"
-      alt="Subscribe to Ilios News"
-    />
+  <a href="/feed.xml" title="Subscribe to Ilios News">
+    <FaIcon iconName="square-rss" prefix="fas" class="bigger-icon" role="presentation" />
   </a>
   <a href="https://github.com/ilios" target="_blank" title="Find our source code on GitHub.">
     <FaIcon iconName="github" prefix="fab" class="bigger-icon" role="presentation" />

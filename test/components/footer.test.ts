@@ -9,16 +9,11 @@ test('Footer', async () => {
 
   const dom = new JSDOM(htmlContent);
   const images = dom.window.document.querySelectorAll('img');
-  expect(images.length).toBe(4);
+  expect(images.length).toBe(3);
 
   const imgAltTexts = Array.from(images).map((img) => img.getAttribute('alt'));
-  expect(imgAltTexts).toEqual([
-    'UCSF School of Medicine',
-    'Medbiquitous Member',
-    'Subscribe to Ilios News',
-    'Netlify',
-  ]);
+  expect(imgAltTexts).toEqual(['UCSF School of Medicine', 'Medbiquitous Member', 'Netlify']);
 
   const svgs = dom.window.document.querySelectorAll('svg');
-  expect(svgs.length).toBe(2);
+  expect(svgs.length).toBe(3);
 });
