@@ -33,7 +33,7 @@
     "@axe-core/playwright": "^4.11.0",
     "@eslint/js": "^9.39.2",
     "@playwright/test": "^1.57.0",
-    "@types/jsdom": "^27.0.0",
+    "@types/jsdom": "^28.0.1",
     "@types/luxon": "^3.7.1",
     "@types/node": "^25.5.0",
     "astro-pagefind": "^1.8.5",
