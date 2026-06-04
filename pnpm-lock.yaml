@@ -18,8 +18,8 @@ importers:
         specifier: ^7.2.0
         version: 7.2.0
       astro:
-        specifier: ^6.1.8
-        version: 6.4.3(@types/node@25.9.1)(rollup@4.61.0)(yaml@2.9.0)
+        specifier: ^6.4.4
+        version: 6.4.4(@types/node@25.9.1)(rollup@4.61.0)(yaml@2.9.0)
     devDependencies:
       '@astrojs/check':
         specifier: ^0.9.9
@@ -47,7 +47,7 @@ importers:
         version: 25.9.1
       astro-pagefind:
         specifier: ^1.8.5
-        version: 1.8.6(astro@6.4.3(@types/node@25.9.1)(rollup@4.61.0)(yaml@2.9.0))
+        version: 1.8.6(astro@6.4.4(@types/node@25.9.1)(rollup@4.61.0)(yaml@2.9.0))
       eslint:
         specifier: ^10.0.3
         version: 10.4.1
@@ -1170,8 +1170,8 @@ packages:
     peerDependencies:
       astro: ^2.0.4 || ^3 || ^4 || ^5 || ^6
 
-  astro@6.4.3:
-    resolution: {integrity: sha512-heArIk8zLcxuoj1WgBH2zGdAD8zKSU1mEcBvS6hYMEHRPlbtvB+4Y8ri9Z27hzeryvGaFgrH32zjghEfV2y07g==}
+  astro@6.4.4:
+    resolution: {integrity: sha512-hVe8tq3lqt/Dr0UyB//yUmQSlHMTU8scTiF/vQddQVahLE4TTaSdH5H0nb7OvRcwo0UmlAO8DWYar4jNaS7H+A==}
     engines: {node: '>=22.12.0', npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -3986,14 +3986,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  astro-pagefind@1.8.6(astro@6.4.3(@types/node@25.9.1)(rollup@4.61.0)(yaml@2.9.0)):
+  astro-pagefind@1.8.6(astro@6.4.4(@types/node@25.9.1)(rollup@4.61.0)(yaml@2.9.0)):
     dependencies:
       '@pagefind/default-ui': 1.5.2
-      astro: 6.4.3(@types/node@25.9.1)(rollup@4.61.0)(yaml@2.9.0)
+      astro: 6.4.4(@types/node@25.9.1)(rollup@4.61.0)(yaml@2.9.0)
       pagefind: 1.5.2
       sirv: 3.0.2
 
-  astro@6.4.3(@types/node@25.9.1)(rollup@4.61.0)(yaml@2.9.0):
+  astro@6.4.4(@types/node@25.9.1)(rollup@4.61.0)(yaml@2.9.0):
     dependencies:
       '@astrojs/compiler': 4.0.0
       '@astrojs/internal-helpers': 0.10.0
