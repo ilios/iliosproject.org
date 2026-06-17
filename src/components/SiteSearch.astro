@@ -26,52 +26,6 @@ import FaIcon from './FaIcon.astro';
     &.show {
       display: flex;
     }
-
-    .pagefind-ui {
-      @media screen and (max-width: 600px) {
-        padding-right: 1.5rem;
-      }
-
-      .pagefind-ui__form::before {
-        height: calc(15px * var(--pagefind-ui-scale));
-        top: calc(10px * var(--pagefind-ui-scale));
-      }
-      .pagefind-ui__search-input {
-        font-size: calc(18px * var(--pagefind-ui-scale));
-        height: calc(40px * var(--pagefind-ui-scale));
-      }
-      .pagefind-ui__search-clear {
-        height: calc(28px * var(--pagefind-ui-scale));
-        top: calc(5px * var(--pagefind-ui-scale));
-      }
-      .pagefind-ui__drawer {
-        background-color: var(--white);
-        max-height: 90vh;
-        overflow-y: auto;
-        position: absolute;
-
-        .pagefind-ui__results-area {
-          .pagefind-ui__message {
-            margin-left: 0;
-            padding: 0 1.5rem 1rem 1.5rem;
-          }
-        }
-
-        .pagefind-ui__results {
-          .pagefind-ui__result {
-            padding: calc(20px * var(--pagefind-ui-scale)) 0 calc(30px * var(--pagefind-ui-scale));
-
-            .pagefind-ui__result-inner {
-              display: block;
-              & > * {
-                margin-left: 1.5rem;
-                padding-right: 1.5rem;
-              }
-            }
-          }
-        }
-      }
-    }
   }
 </style>
 
@@ -95,7 +49,7 @@ import FaIcon from './FaIcon.astro';
   const searchIcon = document.querySelector('[data-search-icon]') as HTMLElement;
   const searchWrapper = document.getElementById('pagefind-container') as HTMLElement;
   const searchUI = searchWrapper.querySelector('.pagefind-ui') as HTMLElement;
-  const searchInput = searchUI.querySelector('.pagefind-ui__search-input') as HTMLElement;
+  const searchInput = searchUI.querySelector('.pf-searchbox-input') as HTMLElement;
 
   // hide icon, show input, focus input
   function openSearch() {
