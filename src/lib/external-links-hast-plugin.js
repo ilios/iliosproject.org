@@ -1,6 +1,6 @@
 import { defineHastPlugin } from 'satteri';
 
-// Adds `target="_blank" attribute to all external links.
+// Adds `target="_blank"` attribute to all external links.
 // @see https://satteri.bruits.org/docs/plugins/#hast-plugins
 export default defineHastPlugin({
   name: 'external-links',
