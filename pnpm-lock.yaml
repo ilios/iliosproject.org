@@ -23,6 +23,9 @@ importers:
       astro:
         specifier: ^7.0.6
         version: 7.0.6(@astrojs/markdown-remark@7.2.1)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@25.9.4)(rollup@4.62.2)(yaml@2.9.0)
+      satteri:
+        specifier: ^0.9.4
+        version: 0.9.4
     devDependencies:
       '@astrojs/check':
         specifier: ^0.9.9
