@@ -53,7 +53,7 @@ jobs:
         if: steps.cpr.outputs.pull-request-operation == 'created'
         run: |
           gh pr edit --add-label "dependencies" ${{ steps.cpr.outputs.pull-request-number }}
-          gh pr merge --merge --auto ${{ steps.cpr.outputs.pull-request-number }}
+          gh pr merge --rebase --auto ${{ steps.cpr.outputs.pull-request-number }}
         env:
           GH_TOKEN: ${{ secrets.ZORGBORT_TOKEN }}
       - uses: act10ns/slack@v2
