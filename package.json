@@ -36,7 +36,7 @@
     "@playwright/test": "^1.61.0",
     "@types/jsdom": "^28.0.3",
     "@types/luxon": "^3.7.1",
-    "@types/node": "^25.9.3",
+    "@types/node": "^26.1.1",
     "astro-pagefind": "^2.0.0",
     "eslint": "^10.5.0",
     "eslint-config-prettier": "^10.1.8",
