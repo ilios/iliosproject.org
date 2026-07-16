@@ -22,7 +22,7 @@
     "test:playwright": "pnpm run build && playwright test"
   },
   "dependencies": {
-    "@astrojs/markdown-satteri": "^0.3.3",
+    "@astrojs/markdown-satteri": "^0.3.4",
     "@fortawesome/fontawesome-svg-core": "^7.3.0",
     "@fortawesome/free-brands-svg-icons": "^7.3.0",
     "@fortawesome/free-solid-svg-icons": "^7.3.0",
