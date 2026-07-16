@@ -32,7 +32,7 @@ jobs:
           path: build
           key: screenshots-${{ steps.ref.outputs.ref }}
       - uses: pnpm/action-setup@v6
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
           cache: pnpm
@@ -67,7 +67,7 @@ jobs:
           path: build
           key: screenshots-${{ steps.ref.outputs.ref }}-${{ matrix.name }}
       - uses: pnpm/action-setup@v6
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
           cache: pnpm
@@ -104,7 +104,7 @@ jobs:
       - uses: actions/download-artifact@v8
         if: steps.comparison-cache.outputs.cache-hit != 'true'
       - run: ls -lh baseline candidate 2>/dev/null || true
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
           node-version: 24
       - run: |
