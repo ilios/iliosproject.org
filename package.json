@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.9",
-    "@astrojs/rss": "4.0.18",
+    "@astrojs/rss": "4.0.19",
     "@axe-core/playwright": "^4.11.0",
     "@eslint/js": "^10.0.1",
     "@playwright/test": "^1.61.0",
