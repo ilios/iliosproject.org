@@ -1,0 +1,14 @@
+services:
+  astro:
+    build: .
+    ports:
+      - '4321:4321'
+    volumes:
+      - .:/app
+      - /app/node_modules
+    tmpfs:
+      - /app/.astro
+    environment:
+      - NODE_ENV=development
+    stdin_open: true
+    tty: true
