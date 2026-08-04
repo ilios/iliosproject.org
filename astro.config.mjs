@@ -13,14 +13,4 @@ export default defineConfig({
     }),
   },
   integrations: [pagefind()],
-  server: {
-    port: 4321,
-  },
-  vite: {
-    server: {
-      watch: {
-        usePolling: true,
-      },
-    },
-  },
 });
