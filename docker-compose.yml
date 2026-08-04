@@ -10,5 +10,3 @@ services:
       - /app/.astro
     environment:
       - NODE_ENV=development
-    stdin_open: true
-    tty: true
