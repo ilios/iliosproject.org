@@ -40,7 +40,7 @@
     "astro-pagefind": "^2.0.0",
     "eslint": "^10.8.0",
     "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-astro": "^3.0.1",
+    "eslint-plugin-astro": "^3.1.0",
     "husky": "^9.1.7",
     "jsdom": "^30.0.1",
     "luxon": "^3.7.2",
