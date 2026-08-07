@@ -40,7 +40,7 @@ All commands are run from the root of the project, from a terminal:
 
 ## 🐳 Docker Local Development
 
-If you don't want to worry about your system needing all required dependencies, you can use Docker instead. Just run the following command from the root of your project:
+If you don't want to worry about your system needing all required dependencies, you can use [Docker](https://docker.com) instead. Just make sure it is installed, and then run the following command from the root of your project:
 
 $ docker compose up
 
