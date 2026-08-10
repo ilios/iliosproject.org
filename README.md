@@ -40,11 +40,35 @@ All commands are run from the root of the project, from a terminal:
 
 ## 🐳 Docker Local Development
 
-If you don't want to worry about your system needing all required dependencies, you can use [Docker](https://docker.com) instead. Just make sure it is installed, and then run the following command from the root of your project:
+If you don't want to worry about your system needing all required dependencies, you can use [Docker](https://docker.com) instead.
 
-$ docker compose up
+### Install Docker
 
-Open up a browser to `http://localhost:4321`, make any code changes, and your browser will reload, just like using `pnpm dev`.
+You will need Docker and Docker compose:
+
+- [MacOS](https://www.docker.com/docker-mac)
+- [Windows](https://www.docker.com/docker-windows)
+- [Ubuntu](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
+
+### Running a local development server
+
+From your root directory run:
+
+```bash
+docker compose up
+```
+
+### Accessing Ilios Website
+
+You should now be able to access your newly-Dockerized instance by visiting [http://localhost:4321](http://localhost:4321) in your browser. Make any code changes, and your browser will reload, just like using `pnpm dev`.
+
+### Shutting down the development server
+
+From your root directory, press `Ctrl-C` to end the Docker instance.
+
+### Errors when running Docker Compose
+
+If an error appears on the command line after bringing up the Docker instance, it may need to be rebuilt. Press `Ctrl-C` to stop the currently running instance, `docker compose build --no-cache` to rebuild the Docker image, and then `docker compose up` again to restart the instance.
 
 ## 👀 Want to learn more?
 
