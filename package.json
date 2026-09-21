@@ -48,7 +48,7 @@
     "prettier": "^3.8.0",
     "prettier-plugin-astro": "^0.14.1",
     "sanitize-html": "^2.17.5",
-    "satteri": "^0.9.4",
+    "satteri": "^0.10.5",
     "stylelint": "^17.14.1",
     "stylelint-config-standard": "^40.0.0",
     "typescript": "^6.0.3",
