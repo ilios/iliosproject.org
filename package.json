@@ -46,7 +46,7 @@
     "luxon": "^3.7.2",
     "markdown-it": "^15.0.0",
     "prettier": "^3.9.8",
-    "prettier-plugin-astro": "^0.14.1",
+    "prettier-plugin-astro": "^1.0.1",
     "sanitize-html": "^2.17.5",
     "satteri": "^0.10.5",
     "stylelint": "^17.14.1",
