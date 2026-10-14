@@ -62,7 +62,9 @@ const postLink = `/news/${id}`;
 <li>
   {formattedDate && <span class="post-meta">{formattedDate}</span>}
   <HeaderType>
-    <a class="post-link" href={postLink}>{title}</a>
+    <a class="post-link" href={postLink}>
+      {title}
+    </a>
   </HeaderType>
   <Fragment set:html={content} />
   {readMore ? <a href={postLink}>...read more</a> : ''}
