@@ -51,7 +51,9 @@ const posts = (await getCollection('post')).sort(
     <a href="/subscribe">Subscribe for Updates</a>
   </div>
   <ul data-news-list>
-    {posts.map((post) => <PostSummary post={post} home={false} readMore={false} />)}
+    {posts.map((post) => (
+      <PostSummary post={post} home={false} readMore={false} />
+    ))}
   </ul>
   <button data-load-more type="button">
     <FaIcon iconName="angles-down" prefix="fas" />
