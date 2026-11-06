@@ -180,7 +180,7 @@ importers:
         version: 7.3.1
       astro:
         specifier: ^7.2.0
-        version: 7.4.2(@types/node@26.6.5)(yaml@2.9.1)
+        version: 7.4.2(@types/node@26.6.6)(yaml@2.9.1)
     devDependencies:
       '@astrojs/check':
         specifier: ^0.9.10
@@ -204,11 +204,11 @@ importers:
         specifier: ^3.7.3
         version: 3.7.6
       '@types/node':
-        specifier: ^26.6.2
-        version: 26.6.5
+        specifier: ^26.6.6
+        version: 26.6.6
       astro-pagefind:
         specifier: ^2.0.0
-        version: 2.0.1(astro@7.4.2(@types/node@26.6.5)(yaml@2.9.1))
+        version: 2.0.1(astro@7.4.2(@types/node@26.6.6)(yaml@2.9.1))
       eslint:
         specifier: ^10.14.0
         version: 10.14.0(supports-color@10.2.2)
@@ -256,7 +256,7 @@ importers:
         version: 8.72.1(eslint@10.14.0(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3)
       vitest:
         specifier: ^5.0.5
-        version: 5.0.5(@types/node@26.6.5)(jsdom@30.1.3)(vite@8.3.5(@types/node@26.6.5)(yaml@2.9.1))
+        version: 5.0.5(@types/node@26.6.6)(jsdom@30.1.3)(vite@8.3.5(@types/node@26.6.6)(yaml@2.9.1))
 
 packages:
 
@@ -1261,8 +1261,8 @@ packages:
   '@types/nlcst@2.0.3':
     resolution: {integrity: sha512-vSYNSDe6Ix3q+6Z7ri9lyWqgGhJTmzRjZRqyq15N0Z/1/UnVsno9G/N40NBijoYx2seFDIl0+B2mgAb9mezUCA==}
 
-  '@types/node@26.6.5':
-    resolution: {integrity: sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg==}
+  '@types/node@26.6.6':
+    resolution: {integrity: sha512-MzQj+8Kx3XI40OmUAE6Qoh58ZMNstNNMwn2nfd3qWsfe7nDNSqJNzes4njhz6AHwrSHOffSLwXU6yb474Q4aog==}
 
   '@types/tough-cookie@4.0.5':
     resolution: {integrity: sha512-/Ad8+nIOV7Rl++6f1BdKxFSMgmoqEoYbHRpPcx3JEfv8VRsQe9Z4mCXeJBzxs7mbHY/XOZZuXlRNfhpVPbs6ZA==}
@@ -3991,7 +3991,7 @@ snapshots:
 
   '@types/jsdom@30.0.0':
     dependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       '@types/tough-cookie': 4.0.5
       parse5: 8.0.1
       undici-types: 8.12.3
@@ -4008,7 +4008,7 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
-  '@types/node@26.6.5':
+  '@types/node@26.6.6':
     dependencies:
       undici-types: 8.9.0
 
@@ -4121,14 +4121,14 @@ snapshots:
 
   '@ungap/structured-clone@1.4.0': {}
 
-  '@vitest/mocker@5.0.5(vite@8.3.5(@types/node@26.6.5)(yaml@2.9.1))':
+  '@vitest/mocker@5.0.5(vite@8.3.5(@types/node@26.6.6)(yaml@2.9.1))':
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       '@vitest/spy': 5.0.5
       estree-walker: 3.0.3
       magic-string: 1.4.3
     optionalDependencies:
-      vite: 8.3.5(@types/node@26.6.5)(yaml@2.9.1)
+      vite: 8.3.5(@types/node@26.6.6)(yaml@2.9.1)
 
   '@vitest/spy@5.0.5': {}
 
@@ -4263,14 +4263,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  astro-pagefind@2.0.1(astro@7.4.2(@types/node@26.6.5)(yaml@2.9.1)):
+  astro-pagefind@2.0.1(astro@7.4.2(@types/node@26.6.6)(yaml@2.9.1)):
     dependencies:
       '@pagefind/component-ui': 1.5.2
-      astro: 7.4.2(@types/node@26.6.5)(yaml@2.9.1)
+      astro: 7.4.2(@types/node@26.6.6)(yaml@2.9.1)
       pagefind: 1.5.2
       sirv: 3.0.2
 
-  astro@7.4.2(@types/node@26.6.5)(yaml@2.9.1):
+  astro@7.4.2(@types/node@26.6.6)(yaml@2.9.1):
     dependencies:
       '@astrojs/compiler-rs': 0.5.2
       '@astrojs/internal-helpers': 0.13.0
@@ -4319,13 +4319,13 @@ snapshots:
       unifont: 1.0.3
       unstorage: 1.17.6
       verkit: 0.5.0
-      vite: 8.3.5(@types/node@26.6.5)(yaml@2.9.1)
-      vitefu: 1.1.3(vite@8.3.5(@types/node@26.6.5)(yaml@2.9.1))
+      vite: 8.3.5(@types/node@26.6.6)(yaml@2.9.1)
+      vitefu: 1.1.3(vite@8.3.5(@types/node@26.6.6)(yaml@2.9.1))
       xxhash-wasm: 1.1.0
       yargs-parser: 22.0.0
       zod: 4.6.7
     optionalDependencies:
-      sharp: 0.35.5(@types/node@26.6.5)
+      sharp: 0.35.5(@types/node@26.6.6)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -5419,7 +5419,7 @@ snapshots:
 
   semver@7.8.5: {}
 
-  sharp@0.35.5(@types/node@26.6.5):
+  sharp@0.35.5(@types/node@26.6.6):
     dependencies:
       '@img/colour': 1.1.0
       detect-libc: 2.1.2
@@ -5450,7 +5450,7 @@ snapshots:
       '@img/sharp-win32-arm64': 0.35.5
       '@img/sharp-win32-ia32': 0.35.5
       '@img/sharp-win32-x64': 0.35.5
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
     optional: true
 
   shebang-command@2.0.0:
@@ -5768,7 +5768,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.3
 
-  vite@8.3.5(@types/node@26.6.5)(yaml@2.9.1):
+  vite@8.3.5(@types/node@26.6.6)(yaml@2.9.1):
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
@@ -5776,18 +5776,18 @@ snapshots:
       rolldown: 1.2.14
       tinyglobby: 0.2.17
     optionalDependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       fsevents: 2.3.3
       yaml: 2.9.1
 
-  vitefu@1.1.3(vite@8.3.5(@types/node@26.6.5)(yaml@2.9.1)):
+  vitefu@1.1.3(vite@8.3.5(@types/node@26.6.6)(yaml@2.9.1)):
     optionalDependencies:
-      vite: 8.3.5(@types/node@26.6.5)(yaml@2.9.1)
+      vite: 8.3.5(@types/node@26.6.6)(yaml@2.9.1)
 
-  vitest@5.0.5(@types/node@26.6.5)(jsdom@30.1.3)(vite@8.3.5(@types/node@26.6.5)(yaml@2.9.1)):
+  vitest@5.0.5(@types/node@26.6.6)(jsdom@30.1.3)(vite@8.3.5(@types/node@26.6.6)(yaml@2.9.1)):
     dependencies:
       '@types/chai': 5.2.3
-      '@vitest/mocker': 5.0.5(vite@8.3.5(@types/node@26.6.5)(yaml@2.9.1))
+      '@vitest/mocker': 5.0.5(vite@8.3.5(@types/node@26.6.6)(yaml@2.9.1))
       chai: 6.3.0
       es-module-lexer: 2.3.2
       expect-type: 1.4.0
@@ -5798,10 +5798,10 @@ snapshots:
       tinybench: 6.2.2
       tinyexec: 1.3.1
       tinyglobby: 0.2.17
-      vite: 8.3.5(@types/node@26.6.5)(yaml@2.9.1)
+      vite: 8.3.5(@types/node@26.6.6)(yaml@2.9.1)
       why-is-node-running: 3.2.1
     optionalDependencies:
-      '@types/node': 26.6.5
+      '@types/node': 26.6.6
       jsdom: 30.1.3
     transitivePeerDependencies:
       - msw
